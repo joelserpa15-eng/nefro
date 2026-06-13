@@ -26,10 +26,6 @@ from urllib.parse import urlencode
 from urllib.error import URLError, HTTPError
 import xml.etree.ElementTree as ET
 
-# ────────────────────────────────────────────────────────────────────────────
-# Configuration
-# ────────────────────────────────────────────────────────────────────────────
-
 NCBI_EMAIL   = os.environ.get("NCBI_EMAIL", "briefing.nefrologico@noreply.com")
 NCBI_API_KEY = os.environ.get("NCBI_API_KEY", "")
 
@@ -37,29 +33,19 @@ ESEARCH_URL  = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 EFETCH_URL   = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
 EPMC_URL     = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 
-# Rate limiting delay (seconds between NCBI calls)
 NCBI_DELAY   = 0.12 if NCBI_API_KEY else 0.36
 
-# ────────────────────────────────────────────────────────────────────────────
-# Top nephrology journals — ordered by impact factor (approximate 2024/25)
-# Each entry: NLM abbreviation used by PubMed | display name | impact factor | rank
-# ────────────────────────────────────────────────────────────────────────────
 JOURNALS = [
-    # General high-impact (routinely publish landmark nephrology trials)
     {"nlm": "N Engl J Med",               "display": "New England Journal of Medicine",                "if": 176, "rank": 1},
     {"nlm": "Lancet",                      "display": "The Lancet",                                     "if": 168, "rank": 2},
     {"nlm": "JAMA",                        "display": "JAMA",                                           "if": 120, "rank": 3},
     {"nlm": "BMJ",                         "display": "BMJ",                                            "if": 105, "rank": 4},
     {"nlm": "Nat Med",                     "display": "Nature Medicine",                                "if": 82,  "rank": 5},
-    # Dedicated nephrology reviews — top tier
     {"nlm": "Nat Rev Nephrol",            "display": "Nature Reviews Nephrology",                      "if": 40,  "rank": 6},
     {"nlm": "Ann Intern Med",             "display": "Annals of Internal Medicine",                    "if": 35,  "rank": 7},
-    # Dedicated nephrology — top tier
     {"nlm": "Kidney Int",                 "display": "Kidney International",                           "if": 14,  "rank": 8},
     {"nlm": "J Am Soc Nephrol",           "display": "Journal of the American Society of Nephrology",  "if": 13,  "rank": 9},
-    # Transplant journals
     {"nlm": "Am J Transplant",            "display": "American Journal of Transplantation",            "if": 9,   "rank": 10},
-    # Specialty nephrology journals
     {"nlm": "Am J Kidney Dis",            "display": "American Journal of Kidney Diseases",            "if": 9,   "rank": 11},
     {"nlm": "Clin J Am Soc Nephrol",      "display": "Clinical Journal of the American Society of Nephrology", "if": 8, "rank": 12},
     {"nlm": "Transplantation",            "display": "Transplantation",                                "if": 6,   "rank": 13},
@@ -75,10 +61,6 @@ JOURNALS = [
 NLM_TO_RANK    = {j["nlm"]: j["rank"] for j in JOURNALS}
 NLM_TO_DISPLAY = {j["nlm"]: j["display"] for j in JOURNALS}
 
-# ────────────────────────────────────────────────────────────────────────────
-# Evidence level mapping  (PubMed publication type → rank)
-# Lower rank number = higher evidence
-# ────────────────────────────────────────────────────────────────────────────
 EVIDENCE_LEVELS = [
     (1, "Meta-análisis",                  ["meta-analysis"]),
     (2, "Revisión Sistemática",           ["systematic review"]),
@@ -100,11 +82,6 @@ def get_evidence(pub_types):
             return rank, label
     return 7, "Artículo Original"
 
-# ────────────────────────────────────────────────────────────────────────────
-# Subspecialty definitions
-# Each keyword match in the title scores 2 pts; in abstract 1 pt.
-# Each MeSH match scores 3 pts. Highest score wins.
-# ────────────────────────────────────────────────────────────────────────────
 SUBSPECIALTIES = [
     {
         "id": "erca",
@@ -322,10 +299,6 @@ SUBSPECIALTIES = [
 SUB_INDEX = {s["id"]: s for s in SUBSPECIALTIES}
 
 
-# ────────────────────────────────────────────────────────────────────────────
-# HTTP helpers
-# ────────────────────────────────────────────────────────────────────────────
-
 def http_get(url, params=None, timeout=30):
     full_url = url + ("?" + urlencode(params) if params else "")
     req = Request(full_url, headers={
@@ -340,7 +313,6 @@ def http_get(url, params=None, timeout=30):
 
 
 def ncbi_get(url, params):
-    """NCBI E-utilities call with mandatory email + optional API key."""
     params = dict(params)
     params["email"] = NCBI_EMAIL
     params["tool"]  = "BriefingNefrologico"
@@ -350,10 +322,6 @@ def ncbi_get(url, params):
     time.sleep(NCBI_DELAY)
     return result
 
-
-# ────────────────────────────────────────────────────────────────────────────
-# PubMed search
-# ────────────────────────────────────────────────────────────────────────────
 
 def build_pubmed_query(date_start, date_end):
     journal_clause = " OR ".join(f'"{j["nlm"]}"[Journal]' for j in JOURNALS)
@@ -416,7 +384,6 @@ def parse_pubmed_xml(xml_text):
     except ET.ParseError as exc:
         print(f"  [WARN] XML parse error: {exc}", file=sys.stderr)
         return []
-
     for pa in root.findall(".//PubmedArticle"):
         art = _parse_one(pa)
         if art:
@@ -428,32 +395,20 @@ def _parse_one(pa):
     medline = pa.find("MedlineCitation")
     if medline is None:
         return None
-
     pmid_el = medline.find("PMID")
     pmid = pmid_el.text.strip() if pmid_el is not None else ""
-
     article = medline.find("Article")
     if article is None:
         return None
-
-    # ── Title ──
     title_el = article.find("ArticleTitle")
     title = re.sub(r'\s+', ' ', "".join(title_el.itertext())).strip().rstrip('.') if title_el is not None else ""
     if not title:
         return None
-
-    # ── Abstract ──
     abstract = _extract_abstract(article)
     if not abstract:
-        return None  # Articles without abstract are skipped
-
-    # ── Authors ──
+        return None
     author_str = _extract_authors(article)
-
-    # ── Journal & year ──
     journal_abbr, journal_display, year = _extract_journal(article)
-
-    # ── DOI / URL ──
     doi = ""
     for id_el in pa.findall(".//ArticleId"):
         if id_el.get("IdType") == "doi":
@@ -461,18 +416,11 @@ def _parse_one(pa):
             break
     url = f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
     doi_display = doi if doi else f"PMID:{pmid}"
-
-    # ── Evidence level ──
     pub_types = [pt.text for pt in article.findall("PublicationTypeList/PublicationType") if pt.text]
     ev_rank, ev_label = get_evidence(pub_types)
-
-    # ── MeSH + keywords ──
     mesh = [mh.findtext("DescriptorName", "") for mh in medline.findall("MeshHeadingList/MeshHeading")]
     kws  = [kw.text for kw in medline.findall("KeywordList/Keyword") if kw.text]
-
-    # ── Journal rank ──
     j_rank = _journal_rank(journal_abbr, journal_display)
-
     return {
         "pmid":            pmid,
         "title":           title,
@@ -531,7 +479,6 @@ def _extract_journal(article):
     abbr    = (j_el.findtext("ISOAbbreviation") or "").strip()
     full    = (j_el.findtext("Title") or abbr).strip()
     display = NLM_TO_DISPLAY.get(abbr, full)
-    # Year
     pub = j_el.find("JournalIssue/PubDate")
     year = datetime.now().year
     if pub is not None:
@@ -560,18 +507,12 @@ def _journal_rank(abbr, full_name):
     return 99
 
 
-# ────────────────────────────────────────────────────────────────────────────
-# Europe PMC secondary search
-# ────────────────────────────────────────────────────────────────────────────
-
 def epmc_search(date_start, date_end, existing_dois):
-    """Fetch additional articles from Europe PMC not already in PubMed results."""
-    journal_q = " OR ".join(f'JOURNAL:"{j["nlm"]}"' for j in JOURNALS[:12])  # Top 12 only
+    journal_q = " OR ".join(f'JOURNAL:"{j["nlm"]}"' for j in JOURNALS[:12])
     date_q    = f'FIRST_PDATE:[{date_start.replace("/","-")} TO {date_end.replace("/","-")}]'
     pub_q     = ('PUB_TYPE:"meta-analysis" OR PUB_TYPE:"systematic-review" OR '
                  'PUB_TYPE:"research-article" OR PUB_TYPE:"randomized-controlled-trial"')
     query = f'({journal_q}) AND ({pub_q}) AND ({date_q})'
-
     params = {
         "query":      query,
         "format":     "json",
@@ -582,42 +523,33 @@ def epmc_search(date_start, date_end, existing_dois):
     raw = http_get(EPMC_URL, params)
     if not raw:
         return []
-
     try:
         data = json.loads(raw)
     except json.JSONDecodeError:
         return []
-
     articles = []
     for r in data.get("resultList", {}).get("result", []):
         doi = r.get("doi", "")
         if doi and doi in existing_dois:
-            continue  # Already have this article from PubMed
-
+            continue
         title    = r.get("title", "").rstrip('.')
         abstract = r.get("abstractText", "")
         if not title or not abstract:
             continue
-
         authors_raw = r.get("authorString", "")
         authors = authors_raw[:100] + ("…" if len(authors_raw) > 100 else "")
-
         journal_abbr = r.get("journalAbbreviation", r.get("journalTitle", ""))
         journal_full = r.get("journalTitle", journal_abbr)
         j_rank       = _journal_rank(journal_abbr, journal_full)
-
         year_str = r.get("pubYear", str(datetime.now().year))
         try:
             year = int(year_str)
         except ValueError:
             year = datetime.now().year
-
         pub_types = [pt.get("pubType", "") for pt in r.get("pubTypeList", {}).get("pubType", [])]
         ev_rank, ev_label = get_evidence(pub_types)
-
         url = f"https://doi.org/{doi}" if doi else r.get("fullTextUrlList", {}).get("fullTextUrl", [{}])[0].get("url", "#")
         doi_display = doi if doi else f"PMID:{r.get('pmid','')}"
-
         articles.append({
             "pmid":          r.get("pmid", ""),
             "title":         title,
@@ -636,22 +568,16 @@ def epmc_search(date_start, date_end, existing_dois):
             "keyFindings":   "",
             "source":        "EuropePMC",
         })
-
     time.sleep(0.5)
     print(f"  Europe PMC: {len(articles)} additional articles found")
     return articles
 
-
-# ────────────────────────────────────────────────────────────────────────────
-# Subspecialty classification
-# ────────────────────────────────────────────────────────────────────────────
 
 def classify(article):
     title    = article.get("title", "").lower()
     abstract = article.get("abstract", "").lower()
     mesh_set = {m.lower() for m in article.get("meshTerms", [])}
     kw_set   = {k.lower() for k in article.get("keywords", [])}
-
     scores = {}
     for sub in SUBSPECIALTIES:
         score = 0
@@ -664,19 +590,13 @@ def classify(article):
         for mesh in sub["mesh"]:
             if mesh.lower() in mesh_set:
                 score += 3
-        # keyword list bonus
         for kw in sub["keywords"]:
             if kw.lower() in kw_set:
                 score += 1
         scores[sub["id"]] = score
-
     best = max(scores, key=lambda k: scores[k])
     return best if scores[best] > 0 else None
 
-
-# ────────────────────────────────────────────────────────────────────────────
-# Key findings extraction
-# ────────────────────────────────────────────────────────────────────────────
 
 CONCLUSION_MARKERS = [
     "conclusion", "conclusions", "in conclusion", "in summary",
@@ -688,7 +608,6 @@ CONCLUSION_MARKERS = [
 
 
 def extract_key_finding(abstract):
-    # Try to find a CONCLUSIONS section (structured abstract)
     m = re.search(
         r'(?:CONCLUSIONS?|INTERPRETATION|SIGNIFICANCE)[:\s]+(.+?)(?=\s+[A-Z]{3,}:|$)',
         abstract,
@@ -698,8 +617,6 @@ def extract_key_finding(abstract):
         text = m.group(1).strip()[:500]
         if len(text) > 30:
             return text
-
-    # Fallback: last sentence that contains a conclusion marker
     sentences = re.split(r'(?<=[.!?])\s+', abstract)
     for sentence in reversed(sentences):
         sl = sentence.lower()
@@ -707,30 +624,19 @@ def extract_key_finding(abstract):
             s = sentence.strip()
             if 30 < len(s) < 500:
                 return s
-
-    # Last resort: last non-trivial sentence
     for sentence in reversed(sentences):
         s = sentence.strip()
         if 40 < len(s) < 500:
             return s
-
     return abstract[:300] + "…"
 
-
-# ────────────────────────────────────────────────────────────────────────────
-# Clinical impact scoring
-# ────────────────────────────────────────────────────────────────────────────
 
 JOURNAL_IF_MAP = {j["display"].lower(): j["if"] for j in JOURNALS}
 JOURNAL_IF_MAP.update({j["nlm"].lower(): j["if"] for j in JOURNALS})
 
 def compute_clinical_impact(article):
-    """Estimate probability (0–100) of influencing clinical practice."""
-    # Base score by evidence level
     base = {1: 75, 2: 55, 3: 60, 4: 30, 5: 20, 6: 10, 7: 5}
     score = base.get(article.get("evidenceRank", 7), 5)
-
-    # Journal IF modifier
     jname = article.get("journal", "").lower()
     jabbr = article.get("journalAbbr", "").lower()
     journal_if = 0
@@ -744,23 +650,15 @@ def compute_clinical_impact(article):
         score += 8
     elif journal_if >= 7:
         score += 4
-
-    # Analyse abstract + keyFindings for signals
     text = (article.get("abstract", "") + " " + article.get("keyFindings", "")).lower()
-
-    # Positive endpoint signals → practice change more likely
     if any(p in text for p in ["p<0.0", "p=0.0", "redujo", "reduci", "superior",
                                 "non-inferior", "no inferior", "significantly reduced",
                                 "significativamente"]):
         score += 8
-
-    # Underpowered / inconclusive penalty
     if any(p in text for p in ["infra-potenciad", "infraestimad", "underpowered",
                                 "no alcanzó significación", "no fue significativ",
                                 "not significant", "did not reach significance"]):
         score -= 15
-
-    # Large sample bonus
     for pat in ["n=", "(n ="]:
         idx = text.find(pat)
         if idx >= 0:
@@ -783,17 +681,13 @@ def compute_clinical_impact(article):
             except ValueError:
                 pass
             break
-
     score = max(0, min(100, score))
-
     if score >= 70:
         label = "Alta"
     elif score >= 40:
         label = "Moderada"
     else:
         label = "Baja"
-
-    # Build short rationale
     ev_names = {1: "Meta-análisis", 2: "Revisión sistemática", 3: "RCT",
                 4: "Estudio de cohorte", 5: "Caso-control", 6: "Serie de casos", 7: "Estudio"}
     ev_str = ev_names.get(article.get("evidenceRank", 7), "Estudio")
@@ -807,13 +701,8 @@ def compute_clinical_impact(article):
     else:
         rationale = (f"{ev_str} con evidencia limitada o resultado no concluyente "
                      f"— impacto inmediato en práctica clínica nefrológica reducido.")
-
     return {"score": score, "label": label, "rationale": rationale}
 
-
-# ────────────────────────────────────────────────────────────────────────────
-# Utility: week label in Spanish
-# ────────────────────────────────────────────────────────────────────────────
 
 MONTHS_ES = [
     "", "enero", "febrero", "marzo", "abril", "mayo", "junio",
@@ -833,10 +722,6 @@ def week_info(today=None):
     week_id = f"{today.year}-W{today.strftime('%W').zfill(2)}"
     return week_id, label
 
-
-# ────────────────────────────────────────────────────────────────────────────
-# Main
-# ────────────────────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(description="Fetch weekly nephrology articles")
@@ -858,7 +743,6 @@ def main():
     print(f"  API   : {'YES' if NCBI_API_KEY else 'no (3 req/s limit)'}")
     print()
 
-    # ── 1. PubMed ──────────────────────────────────────────────────────────
     print("[1/4] Searching PubMed…")
     pmids = pubmed_search(date_start, date_end)
     if not pmids:
@@ -869,14 +753,12 @@ def main():
     raw = pubmed_fetch(pmids)
     print(f"  Parsed: {len(raw)} articles with abstracts")
 
-    # ── 2. Europe PMC (secondary) ───────────────────────────────────────────
     print("\n[3/4] Querying Europe PMC for additional articles…")
     existing_dois = {a["doi"] for a in raw if not a["doi"].startswith("PMID")}
     epmc_articles = epmc_search(date_start, date_end, existing_dois)
     raw.extend(epmc_articles)
     print(f"  Total pool: {len(raw)} articles")
 
-    # ── 3. Classify ────────────────────────────────────────────────────────
     print("\n[4/4] Classifying and ranking articles…")
     buckets = {s["id"]: [] for s in SUBSPECIALTIES}
 
@@ -903,14 +785,11 @@ def main():
         }
         buckets[sub_id].append(clean)
 
-    # ── 4. Build output ────────────────────────────────────────────────────
     output_subs = []
     total = 0
     for sub in SUBSPECIALTIES:
         arts = buckets[sub["id"]]
-        # Sort: evidence rank ASC, then journal rank ASC, then year DESC
         arts.sort(key=lambda a: (a["evidenceRank"], a["journalRank"], -a["year"]))
-        # Remove internal sort key
         for a in arts:
             a.pop("journalRank", None)
         if arts:
@@ -943,18 +822,15 @@ def main():
     data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
     os.makedirs(data_dir, exist_ok=True)
 
-    # ── Save current week (main file, always up to date)
     out_path = os.path.join(data_dir, "articles.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    # ── Save archive copy for this week
     archive_name = f"articles-{week_id.replace('/', '-')}.json"
     archive_path = os.path.join(data_dir, archive_name)
     with open(archive_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    # ── Update index.json (keep last 4 weeks)
     index_path = os.path.join(data_dir, "index.json")
     try:
         with open(index_path, "r", encoding="utf-8") as f:
@@ -966,9 +842,8 @@ def main():
     existing_ids = [w["id"] for w in idx_data.get("weeks", [])]
     if week_id not in existing_ids:
         idx_data["weeks"].insert(0, new_entry)
-        idx_data["weeks"] = idx_data["weeks"][:4]  # keep max 4 weeks
+        idx_data["weeks"] = idx_data["weeks"][:4]
     else:
-        # Update entry in case label changed
         for w in idx_data["weeks"]:
             if w["id"] == week_id:
                 w.update(new_entry)

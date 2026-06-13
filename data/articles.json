@@ -24,13 +24,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/36351458/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico doble ciego (n=6.609) que evaluó empagliflozina 10 mg/día frente a placebo en pacientes con ERC (TFGe 20–45 ml/min/1,73 m² o TFGe 45–90 con UACR ≥200 mg/g), con o sin diabetes tipo 2. El objetivo primario compuesto (progresión de la ERC — caída ≥40% de TFGe, ERCT, muerte renal o CV) se redujo un 28% con empagliflozina (HR 0,72; IC 95% 0,64–0,82; p<0,001). El beneficio fue consistente independientemente de la presencia de diabetes (55% vs 45% sin DM2) y del estadio de ERC. El ensayo fue detenido antes de tiempo por eficacia. No se observó aumento significativo de cetoacidosis diabética.",
-          "keyFindings": "Empagliflozina reduce un 28% el riesgo de progresión renal o muerte cardiovascular en ERC con o sin diabetes tipo 2, independientemente del estadio o causa de la enfermedad renal.",
+          "abstract": "Ensayo multicéntrico doble ciego (n=6.609) que evaluó empagliflozina 10 mg/día frente a placebo en pacientes con ERC (TFGe 20–45 ml/min/1,73 m² o TFGe 45–90 con UACR ≥200 mg/g), con o sin diabetes tipo 2.",
+          "keyFindings": "Empagliflozina reduce un 28% el riesgo de progresión renal o muerte cardiovascular en ERC con o sin diabetes tipo 2.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 96,
             "label": "Alta",
-            "rationale": "RCT en NEJM (n=6.609) que amplía el beneficio de empagliflozina a todo el espectro de ERC albuminúrica con o sin DM2 — consolida los iSGLT2 como pilar universal de la renoprotección en las guías KDIGO 2024."
+            "rationale": "RCT en NEJM (n=6.609) que amplía el beneficio de empagliflozina a todo el espectro de ERC albunimúrica con o sin DM2."
           }
         },
         {
@@ -43,13 +43,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/32970396/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo doble ciego (n=4.304; ERC estadio G2–G4 con UACR 200–5.000 mg/g) que comparó dapagliflozina 10 mg/día frente a placebo. El objetivo primario compuesto (caída sostenida ≥50% de TFGe, ERCT, muerte renal o cardiovascular) se redujo un 39% (HR 0,61; IC 95% 0,51–0,72; p<0,001). El ensayo se detuvo prematuramente por eficacia. El beneficio fue consistente en pacientes con y sin diabetes tipo 2 (36% de la cohorte sin DM2). La reducción de la mortalidad por todas las causas fue del 31% (HR 0,69; IC 95% 0,53–0,88).",
-          "keyFindings": "Dapagliflozina reduce un 39% el objetivo renal primario en ERC con albuminuria, con beneficio tanto en pacientes diabéticos como no diabéticos, estableciendo el primer iSGLT2 aprobado para ERC independientemente de la diabetes.",
+          "abstract": "Ensayo doble ciego (n=4.304; ERC estadio G2–G4 con UACR 200–5.000 mg/g) que comparó dapagliflozina 10 mg/día frente a placebo.",
+          "keyFindings": "Dapagliflozina reduce un 39% el objetivo renal primario en ERC con albuminuria, estableciendo el primer iSGLT2 aprobado para ERC independientemente de la diabetes.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 97,
             "label": "Alta",
-            "rationale": "Ensayo pivotal publicado en NEJM (n=4.304) que cambió las guías KDIGO y las indicaciones de ficha técnica de dapagliflozina — primera demostración de eficacia de un iSGLT2 en ERC no diabética, con impacto transformador en la práctica nefrológica."
+            "rationale": "Ensayo pivotal publicado en NEJM (n=4.304) que cambió las guías KDIGO."
           }
         }
       ]
@@ -69,13 +69,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/32668114/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico (n=3.019; 168 UCI en 15 países) que aleatorizó pacientes con LRA grave a inicio acelerado de TRR (mediana 6 h) frente a estrategia estándar (mediana 31 h). No hubo diferencia en el objetivo primario de mortalidad a 90 días (43,9% inicio acelerado vs 43,7% estándar; RR 1,00; IC 95% 0,93–1,09; p=0,92). Los pacientes del grupo de inicio acelerado recibieron TRR más frecuentemente (97,4% vs 61,8%). La dependencia de TRR a 90 días fue mayor en el grupo acelerado (10,4% vs 6,0%; p=0,01). No hubo diferencias en hipotensión intradialítica ni complicaciones.",
-          "keyFindings": "El inicio acelerado de TRR en LRA grave no reduce la mortalidad a 90 días frente a la estrategia estándar y se asocia a mayor dependencia de diálisis al alta — la espera vigilada es la estrategia recomendada en ausencia de indicaciones absolutas urgentes.",
+          "abstract": "Ensayo multicéntrico (n=3.019) que aleatorizó pacientes con LRA grave a inicio acelerado de TRR frente a estrategia estándar.",
+          "keyFindings": "El inicio acelerado de TRR en LRA grave no reduce la mortalidad a 90 días y se asocia a mayor dependencia de diálisis.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 95,
             "label": "Alta",
-            "rationale": "RCT definitivo en NEJM (n=3.019, 15 países) que consolidó la estrategia estándar/espera en LRA grave — impacto directo en los protocolos de UCI y en la reducción de TRR innecesarias en pacientes críticos."
+            "rationale": "RCT definitivo en NEJM (n=3.019, 15 países)."
           }
         },
         {
@@ -88,13 +88,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/33788359/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo aleatorizado (n=278; UCI francesa) que comparó dos estrategias de inicio diferido de TRR en LRA estadio KDIGO 3: diferida clásica (inicio ante criterio estándar) frente a más diferida aún (inicio sólo ante fallo de órgano inminente). No hubo diferencia en la mortalidad a 60 días (objetivo primario). La estrategia más diferida resultó en mayor número de días vivos sin TRR hasta el día 28 (12,0 vs 9,4 días; p=0,018) y en una mayor proporción de pacientes que no llegaron a precisar TRR (38% vs 54%). Las tasas de complicaciones como hiperkalemia o acidosis severa fueron similares entre grupos.",
-          "keyFindings": "Una estrategia de inicio de TRR aún más diferida que la estándar no aumenta la mortalidad y favorece la recuperación renal espontánea en un mayor porcentaje de pacientes con LRA estadio 3 en UCI.",
+          "abstract": "Ensayo aleatorizado (n=278) que comparó dos estrategias de inicio diferido de TRR en LRA estadio KDIGO 3.",
+          "keyFindings": "Una estrategia de inicio de TRR aún más diferida favorece la recuperación renal espontánea en más pacientes.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 84,
             "label": "Alta",
-            "rationale": "RCT en The Lancet que refuerza la estrategia de máxima espera en LRA crítica — apoya protocolos restrictivos de inicio de TRR en UCI para preservar la recuperación renal espontánea."
+            "rationale": "RCT en The Lancet que refuerza la estrategia de máxima espera en LRA crítica."
           }
         }
       ]
@@ -114,13 +114,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/37870936/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico doble ciego fase 3 (n=371; 2 años) que comparó esparsantán (antagonista dual del receptor de endotelina tipo A y angiotensina II) frente a irbesartán en GSFS primaria con TFGe ≥30 y proteinuria ≥1 g/g. En el objetivo primario de eficacia renal a 108 semanas (compuesto de caída ≥40% de TFGe, ERCT o muerte renal), esparsantán redujo el riesgo un 44% (HR 0,56; IC 95% 0,37–0,84; p=0,005). La reducción adicional de proteinuria con esparsantán frente a irbesartán fue del 42% a las 36 semanas (objetivo secundario coprimario; p<0,001). El beneficio fue consistente en todos los subtipos histológicos de GSFS.",
-          "keyFindings": "Esparsantán reduce un 44% los eventos renales graves y un 42% adicional la proteinuria frente a irbesartán en GSFS primaria — primer fármaco con eficacia demostrada más allá del bloqueo simple del SRAA en esta glomerulopatía.",
+          "abstract": "Ensayo multicéntrico doble ciego fase 3 (n=371) que comparó esparsantán frente a irbesartán en GSFS primaria.",
+          "keyFindings": "Esparsantán reduce un 44% los eventos renales graves en GSFS primaria.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 95,
             "label": "Alta",
-            "rationale": "Primer RCT positivo en GSFS primaria publicado en NEJM (n=371) con objetivo renal duro — alta probabilidad de modificar las guías KDIGO de glomerulopatías y establecer esparsantán como nuevo estándar de tratamiento en GSFS."
+            "rationale": "Primer RCT positivo en GSFS primaria publicado en NEJM."
           }
         },
         {
@@ -133,13 +133,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/36931289/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico doble ciego fase 3 (n=404; nefropatía IgA con TFGe ≥30 y UACR ≥500 mg/g) que comparó esparsantán frente a irbesartán durante 110 semanas. En el objetivo de eficacia renal a 110 semanas (caída ≥40% de TFGe, ERCT o muerte renal), el grupo de esparsantán mostró un beneficio significativo (HR 0,65; IC 95% 0,44–0,96; p=0,032). La reducción de UACR a las 36 semanas fue del 49,8% con esparsantán frente al 15,1% con irbesartán (p<0,0001). La tolerabilidad fue similar entre grupos, con mayor retención de sodio e hipertensión con esparsantán, manejables con ajuste diurético.",
-          "keyFindings": "Esparsantán reduce un 35% los eventos renales graves y un 50% la proteinuria en nefropatía IgA — primer antagonista dual ET-A/ARA-II con eficacia renal demostrada a 2 años en NIgA.",
+          "abstract": "Ensayo multicéntrico doble ciego fase 3 (n=404; nefropatía IgA) que comparó esparsantán frente a irbesartán.",
+          "keyFindings": "Esparsantán reduce un 35% los eventos renales y un 50% la proteinuria en nefropatía IgA.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 93,
             "label": "Alta",
-            "rationale": "RCT en The Lancet (n=404) que establece esparsantán como nueva opción terapéutica en NIgA con proteinuria significativa — apoya cambios en las guías KDIGO junto con la ya disponible budesonida ileal."
+            "rationale": "RCT en The Lancet (n=404) que establece esparsantán en NIgA."
           }
         },
         {
@@ -152,13 +152,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/33781402/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico doble ciego (n=357; nefritis lúpica clase III, IV o V) que comparó voclosporín + micofenolato mofetilo + corticoides de dosis reducida frente a placebo + micofenolato + corticoides estándar durante 52 semanas. La respuesta renal completa (UACR <0,5 mg/mg con TFGe estable) fue significativamente mayor con voclosporín (40,8% vs 22,5%; OR 2,65; IC 95% 1,64–4,27; p<0,0001). Las tasas de infección grave e hipertensión fueron similares. El perfil de nefrotoxicidad fue manejable sin deterioro significativo de la TFGe en el seguimiento.",
-          "keyFindings": "Voclosporín añadido a micofenolato y corticoides casi duplica la tasa de respuesta renal completa en nefritis lúpica clase III/IV/V a 52 semanas — establece la triple terapia como nuevo estándar en el tratamiento de inducción.",
+          "abstract": "Ensayo multicéntrico doble ciego (n=357; nefritis lúpica clase III, IV o V).",
+          "keyFindings": "Voclosporin añadido a micofenolato casi duplica la tasa de respuesta renal completa en nefritis lúpica.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 92,
             "label": "Alta",
-            "rationale": "RCT en The Lancet (n=357) que establece voclosporín + MMF como nuevo estándar de inducción en nefritis lúpica — con alta probabilidad de modificar las guías EULAR/ACR/KDIGO de lupus, ya incorporado en la práctica clínica en muchos centros."
+            "rationale": "RCT en The Lancet (n=357) que establece voclosporin + MMF como nuevo estándar."
           }
         }
       ]
@@ -178,13 +178,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/38785209/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Primer ensayo aleatorizado con objetivo renal primario de un agonista del receptor de GLP-1 (n=3.533; DM2 con ERC estadio G2–G4 y UACR ≥300 mg/g, o G3–G4 con UACR 100–300 mg/g, en tratamiento optimizado con iSGLT2 o IECA/ARA-II). Semaglutida 1,0 mg/semana subcutánea frente a placebo redujo el objetivo primario compuesto renal y cardiovascular (caída ≥50% de TFGe, ERCT, muerte renal o CV) un 24% (HR 0,76; IC 95% 0,66–0,88; p=0,0003). La UACR se redujo un 34% más con semaglutida. El ensayo fue detenido prematuramente por eficacia. Los beneficios se observaron sobre un fondo elevado de uso de iSGLT2 (32%) y finerenona (4%).",
-          "keyFindings": "Semaglutida reduce un 24% el objetivo renal primario en nefropatía diabética — primer GLP-1 RA con beneficio renal primario demostrado, estableciendo la triple terapia (iSGLT2 + GLP-1 RA + finerenona) como objetivo en nefropatía diabética de alto riesgo.",
+          "abstract": "Primer ensayo aleatorizado con objetivo renal primario de un GLP-1 RA (n=3.533; DM2 con ERC).",
+          "keyFindings": "Semaglutida reduce un 24% el objetivo renal primario en nefropatía diabética.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 98,
             "label": "Alta",
-            "rationale": "RCT pivotal en NEJM (n=3.533) que añade semaglutida al arsenal renoprotector de la nefropatía diabética — máxima probabilidad de modificar las guías KDIGO/ADA/EASD y redefinir el tratamiento estándar de la nefropatía diabética de alto riesgo."
+            "rationale": "RCT pivotal en NEJM (n=3.533) que añade semaglutida al arsenal renoprotector."
           }
         },
         {
@@ -197,13 +197,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/32972751/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo doble ciego (n=5.734; DM2 con ERC estadio G3–G4 y UACR ≥300 mg/g o estadio G2 con UACR ≥300 mg/g y TFGe ≥60) que evaluó finerenona frente a placebo añadido al tratamiento estándar con IECA/ARA-II. El objetivo primario renal compuesto (caída sostenida ≥40% de TFGe, ERCT, muerte renal) se redujo un 18% (HR 0,82; IC 95% 0,73–0,93; p=0,001). El objetivo CV secundario compuesto se redujo un 14% (HR 0,86; IC 95% 0,75–0,99; p=0,034). La hiperpotasemia que condujo a discontinuación ocurrió en el 2,3% de los pacientes con finerenona.",
-          "keyFindings": "Finerenona reduce un 18% los eventos renales graves y un 14% los cardiovasculares en nefropatía diabética avanzada — primer ARM no esteroideo con beneficio renal y cardiovascular demostrado en DKD.",
+          "abstract": "Ensayo doble ciego (n=5.734; DM2 con ERC) que evaluó finerenona frente a placebo.",
+          "keyFindings": "Finerenona reduce un 18% los eventos renales graves en nefropatía diabética avanzada.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 96,
             "label": "Alta",
-            "rationale": "RCT pivotal en NEJM (n=5.734) que estableció finerenona como tercer pilar del tratamiento de la nefropatía diabética junto a iSGLT2 e IECA/ARA-II — ya incorporado en las guías KDIGO, ADA y ESC."
+            "rationale": "RCT pivotal en NEJM (n=5.734) que estableció finerenona como tercer pilar del tratamiento."
           }
         },
         {
@@ -216,13 +216,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/34449181/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo doble ciego (n=7.437; DM2 con ERC estadio G2–G4 con UACR ≥30 mg/g o estadio G1–G2 con UACR ≥300 mg/g) que evaluó finerenona frente a placebo. El objetivo primario cardiovascular compuesto (muerte CV, IAM, ictus u hospitalización por IC) se redujo un 13% (HR 0,87; IC 95% 0,76–0,98; p=0,026). El objetivo renal secundario (caída sostenida ≥40% de TFGe, ERCT, muerte renal) se redujo un 23% (HR 0,77; IC 95% 0,60–0,99; p=0,042). El análisis conjunto con FIDELIO-DKD (FIDELITY; n=13.026) confirmó la reducción del 23% del objetivo renal y del 14% del cardiovascular.",
-          "keyFindings": "Finerenona reduce los eventos cardiovasculares mayores un 13% y los eventos renales un 23% en nefropatía diabética en un espectro más amplio de albuminuria que FIDELIO — el beneficio combinado de clase se confirma en el análisis FIDELITY pooled.",
+          "abstract": "Ensayo doble ciego (n=7.437; DM2 con ERC estadio G2–G4) que evaluó finerenona frente a placebo.",
+          "keyFindings": "Finerenona reduce los eventos cardiovasculares un 13% y los renales un 23% en nefropatía diabética.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 90,
             "label": "Alta",
-            "rationale": "Complementario a FIDELIO-DKD, publicado en NEJM (n=7.437) — amplía la indicación de finerenona a estadios de ERC diabética con menor grado de albuminuria y consolida el beneficio cardiovascular como argumento adicional para su uso en DKD."
+            "rationale": "Complementario a FIDELIO-DKD, publicado en NEJM (n=7.437)."
           }
         }
       ]
@@ -242,13 +242,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/37098088/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico aleatorizado (n=338 pares de riñones de donante fallecido) que comparó perfusión normotérmica ex vivo (PNM, 60 minutos antes del implante) frente a almacenamiento en frío estándar, utilizando cada donante como su propio control pareado. La PNM redujo la incidencia de función retrasada del injerto (FRI) del 31,8% al 23,0% (diferencia ajustada −9,6 pp; p=0,003). La TFGe estimada a 12 meses fue significativamente mayor en el grupo de PNM (+5,0 ml/min/1,73 m²; p=0,03). La evaluación de la viabilidad mediante PNM permitió el trasplante de injertos que de otro modo habrían sido desechados, sin diferencias en la supervivencia del injerto a 1 año.",
-          "keyFindings": "La perfusión normotérmica de 60 minutos antes del implante reduce la función retrasada del injerto un 28% relativo y mejora la TFGe a 12 meses en trasplante renal de donante fallecido.",
+          "abstract": "Ensayo multicéntrico aleatorizado (n=338 pares de riñones) que comparó perfusión normotérmica frente a almacenamiento en frío estándar.",
+          "keyFindings": "La perfusión normotérmica reduce la función retrasada del injerto un 28% relativo.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 88,
             "label": "Alta",
-            "rationale": "RCT en NEJM con diseño pareado (n=338) que establece la PNM como herramienta de evaluación y mejora de la calidad del injerto — apoya la inversión en tecnología de perfusión normotérmica en unidades de trasplante renal de alto volumen."
+            "rationale": "RCT en NEJM con diseño pareado (n=338)."
           }
         },
         {
@@ -261,13 +261,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/27626519/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Seguimiento a 7 años del ensayo BENEFIT (n=666; trasplante renal de donante vivo o fallecido con criterios estándar) que comparó belatacept intensivo (BI), belatacept menos intensivo (BM) y ciclosporina. A 7 años, la TFGe media fue significativamente mayor con ambas pautas de belatacept frente a ciclosporina (BI +21 ml/min/1,73 m²; BM +18 ml/min/1,73 m²; p<0,001 para ambas comparaciones). La supervivencia del paciente y del injerto fue similar. La incidencia acumulada de trastorno linfoproliferativo postrasplante (PTLD) fue superior con belatacept (1,4% vs 0,5%), principalmente en receptores EBV negativos, que deben evitar belatacept.",
-          "keyFindings": "Belatacept preserva una función renal 18–21 ml/min/1,73 m² superior a ciclosporina a 7 años postrasplante — su uso debe restringirse a receptores EBV positivos por el riesgo aumentado de PTLD en seronegativos.",
+          "abstract": "Seguimiento a 7 años del ensayo BENEFIT (n=666) que comparó belatacept frente a ciclosporina.",
+          "keyFindings": "Belatacept preserva una función renal 18–21 ml/min/1,73 m² superior a ciclosporina a 7 años postrasplante.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 83,
             "label": "Alta",
-            "rationale": "Seguimiento de 7 años en NEJM que confirma la superioridad funcional renal sostenida de belatacept — con impacto en la selección de inmunosupresión en receptores EBV positivos con riesgo de nefrotoxicidad por inhibidores de calcineurina."
+            "rationale": "Seguimiento de 7 años en NEJM que confirma la superioridad funcional renal sostenida de belatacept."
           }
         }
       ]
@@ -279,7 +279,7 @@
       "articles": [
         {
           "id": "hta-sprint-ckd-2015",
-          "title": "A Randomized Trial of Intensive versus Standard Blood-Pressure Control (SPRINT) — Análisis en subgrupo ERC",
+          "title": "A Randomized Trial of Intensive versus Standard Blood-Pressure Control (SPRINT)",
           "journal": "New England Journal of Medicine",
           "authors": "SPRINT Research Group; Wright JT Jr, Williamson JD, Whelton PK, et al.",
           "year": 2015,
@@ -287,13 +287,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/26551272/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico (n=9.361; adultos ≥50 años con riesgo CV elevado y PA sistólica 130–180 mmHg) que comparó objetivo de PAS <120 mmHg (intensivo) frente a <140 mmHg (estándar). En el subgrupo preespecificado de ERC (TFGe 20–59; n=2.646; 28% de la cohorte), el objetivo intensivo redujo la mortalidad CV un 43% y el objetivo primario compuesto (IAM, SCA, ictus, IC, muerte CV) un 23% (HR 0,77; p<0,001), consistente con el beneficio de la cohorte total. La caída aguda de TFGe ≥30% fue más frecuente con tratamiento intensivo en ERC (3,5% vs 1,0%), sin evidencia de daño renal irreversible en el seguimiento. El ensayo fue detenido prematuramente por beneficio.",
-          "keyFindings": "El control intensivo de PA (PAS <120 mmHg) reduce los eventos cardiovasculares mayores y la mortalidad cardiovascular en pacientes con ERC, con una caída transitoria de TFGe sin impacto en la función renal a largo plazo.",
+          "abstract": "Ensayo multicéntrico (n=9.361) que comparó objetivo de PAS <120 mmHg frente a <140 mmHg.",
+          "keyFindings": "El control intensivo de PA reduce los eventos cardiovasculares mayores en pacientes con ERC.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 88,
             "label": "Alta",
-            "rationale": "RCT en NEJM (n=9.361, subgrupo ERC n=2.646) que respalda el objetivo de PAS <120–130 mmHg en ERC de riesgo CV elevado — base de evidencia central de las guías KDIGO 2024 de PA en ERC."
+            "rationale": "RCT en NEJM (n=9.361) base de las guías KDIGO 2024 de PA en ERC."
           }
         }
       ]
@@ -313,13 +313,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/37220291/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico aleatorizado (n=1.360; 61 centros en 8 países europeos; seguimiento mediano 30 meses) que comparó hemodiafiltración en línea de alto volumen (HDF-OL, objetivo ≥23 L/sesión de sustitución) frente a hemodiálisis de alto flujo. La HDF-OL redujo la mortalidad por todas las causas un 23% (HR 0,77; IC 95% 0,65–0,93; p=0,005), con reducción similar de la mortalidad cardiovascular (HR 0,71; IC 95% 0,55–0,92; p=0,009). El beneficio fue más marcado en pacientes que alcanzaron un volumen de sustitución >25 L/sesión. La tasa de infecciones del acceso vascular fue comparable entre grupos.",
-          "keyFindings": "La HDF en línea de alto volumen reduce la mortalidad total un 23% y la mortalidad cardiovascular un 29% frente a la hemodiálisis de alto flujo — el volumen de sustitución ≥23–25 L/sesión es el determinante clave del beneficio.",
+          "abstract": "Ensayo multicéntrico aleatorizado (n=1.360) que comparó HDF en línea de alto volumen frente a hemodiálisis de alto flujo.",
+          "keyFindings": "La HDF en línea de alto volumen reduce la mortalidad total un 23% y la cardiovascular un 29%.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 95,
             "label": "Alta",
-            "rationale": "RCT definitivo en NEJM (n=1.360, 61 centros) que confirma la superioridad de la HDF-OL de alto volumen en supervivencia — con alta probabilidad de modificar las guías de la EDTNA/ERCA y la ERA y de impulsar la adopción de HDF de alto volumen en unidades de diálisis europeas."
+            "rationale": "RCT definitivo en NEJM (n=1.360, 61 centros)."
           }
         }
       ]
@@ -331,7 +331,7 @@
       "articles": [
         {
           "id": "nefrolit-prevention-sr-2013",
-          "title": "Medical Management to Prevent Recurrent Nephrolithiasis in Adults: A Systematic Review for an American College of Physicians Clinical Practice Guideline",
+          "title": "Medical Management to Prevent Recurrent Nephrolithiasis in Adults",
           "journal": "Annals of Internal Medicine",
           "authors": "Fink HA, Wilt TJ, Eidman KE, et al.",
           "year": 2013,
@@ -339,13 +339,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/23778908/",
           "evidenceLevel": "Revisión Sistemática",
           "evidenceRank": 2,
-          "abstract": "Revisión sistemática de 28 ensayos aleatorizados (n=4.462) para la guía de práctica clínica del ACP sobre prevención secundaria de nefrolitiasis en adultos. Las tiazidas, el citrato potásico y el alopurinol redujeron la recurrencia sintomática de litiasis frente a placebo (RR 0,45–0,65). La ingesta aumentada de líquidos (objetivo diuresis >2 L/día) redujo las recurrencias en todos los subtipos de cálculos. Las tiazidas fueron más eficaces en hipercalciuria; el citrato potásico en hipocitraturia y cálculos de ácido úrico; el alopurinol en hiperuricosuria. La evidencia apoya la farmacoterapia seleccionada según el perfil metabólico urinario del paciente.",
-          "keyFindings": "Las tiazidas, el citrato potásico y el alopurinol reducen la recurrencia de nefrolitiasis un 35–55% frente a placebo — la selección del tratamiento debe individualizarse según el análisis metabólico del cálculo y el perfil metabólico urinario.",
+          "abstract": "Revisión sistemática de 28 ensayos aleatorizados (n=4.462) sobre prevención secundaria de nefrolitiasis.",
+          "keyFindings": "Las tiazidas, el citrato potásico y el alopurinol reducen la recurrencia de nefrolitiasis un 35–55%.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 76,
             "label": "Alta",
-            "rationale": "Revisión sistemática fundacional para las guías ACP de nefrolitiasis recurrente (28 ECAs, n=4.462) — base de evidencia para la prescripción farmacológica individualizada en prevención secundaria de litiasis en nefrología y urología."
+            "rationale": "Revisión sistemática fundacional para las guías ACP de nefrolitiasis recurrente."
           }
         }
       ]
@@ -365,13 +365,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/28922638/",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo doble ciego (n=1.370; PQRAD estadio avanzado, TFGe 25–65 ml/min/1,73 m²) que evaluó tolvaptán frente a placebo durante 12 meses seguido de un período de extensión. La tolvaptán redujo significativamente la caída de la TFGe durante el período tratado (diferencia de pendiente de TFGe: +1,27 ml/min/1,73 m²/año; IC 95% 0,86–1,68; p<0,001). La hepatotoxicidad, monitorizada mensualmente, requirió discontinuación en el 1,8% (frente al 0,6% con placebo). Este ensayo complementa al TEMPO 3:4 (TFGe 60–89) extendiendo la evidencia al estadio más avanzado de PQRAD con mayor riesgo de progresión rápida.",
-          "keyFindings": "Tolvaptán ralentiza la caída de TFGe en PQRAD estadio avanzado (TFGe 25–65) con una diferencia de 1,27 ml/min/1,73 m²/año frente a placebo — el beneficio es consistente también en estadios más avanzados de la enfermedad.",
+          "abstract": "Ensayo doble ciego (n=1.370; PQRAD estadio avanzado, TFGe 25–65) que evaluó tolvaptan frente a placebo.",
+          "keyFindings": "Tolvaptan ralentiza la caída de TFGe en PQRAD estadio avanzado con una diferencia de 1,27 ml/min/1,73 m²/año.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 86,
             "label": "Alta",
-            "rationale": "Ensayo en NEJM (n=1.370) que amplió la indicación de tolvaptán a PQRAD en estadio más avanzado (TFGe 25–65) — base de la aprobación regulatoria actual y de las guías ERA/KDIGO de PQRAD en pacientes de alto riesgo de progresión."
+            "rationale": "Ensayo en NEJM (n=1.370) que amplió la indicación de tolvaptan a PQRAD estadio más avanzado."
           }
         },
         {
@@ -384,13 +384,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/30586318/",
           "evidenceLevel": "Estudio de Cohorte",
           "evidenceRank": 4,
-          "abstract": "Estudio multicéntrico prospectivo (n=3.315 individuos con ERC de diversa etiología) que evaluó el rendimiento diagnóstico de la secuenciación de exoma completo (WES). El WES estableció diagnóstico genético definitivo o probable en el 9,3% de los participantes globales y en el 17,1% de los pacientes con ERC de causa no aclarada tras evaluación clínica estándar. Los diagnósticos más frecuentes incluyeron síndrome de Alport (22% de los diagnósticos genéticos), podocitopatías (15%), nefropatías mitocondriales (8%) y PQRAD atípica (6%). El diagnóstico genético modificó el tratamiento o el consejo reproductivo en el 67% de los casos diagnosticados.",
-          "keyFindings": "El WES establece diagnóstico genético en el 17% de adultos con ERC de causa no aclarada, modificando la gestión clínica en dos tercios de los casos — la nefrogenética diagnóstica se convierte en herramienta esencial en la evaluación de ERC inexplicada.",
+          "abstract": "Estudio multicéntrico prospectivo (n=3.315) que evaluó el rendimiento diagnóstico de la secuenciación de exoma completo en ERC.",
+          "keyFindings": "El WES establece diagnóstico genético en el 17% de adultos con ERC de causa no aclarada.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 80,
             "label": "Alta",
-            "rationale": "Estudio pivotal en NEJM (n=3.315) que demuestra el alto rendimiento diagnóstico y terapéutico del WES en ERC inexplicada — base para la incorporación sistemática del diagnóstico genético en las guías de ERC y en la práctica de nefrología de tercer nivel."
+            "rationale": "Estudio pivotal en NEJM (n=3.315) base para la incorporación del diagnóstico genético en ERC."
           }
         }
       ]
@@ -410,13 +410,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/32303608/",
           "evidenceLevel": "Estudio de Cohorte",
           "evidenceRank": 4,
-          "abstract": "Estudio multicéntrico retrospectivo (n=429 casos de LRA asociada a ICIs; 39 centros norteamericanos y europeos) que describió las características clínicas y anatomopatológicas de la nefrotoxicidad por inhibidores de puntos de control inmunológico. La nefritis intersticial aguda (NIA) fue el diagnóstico histológico más frecuente (93% de las biopsias). La incidencia de LRA por ICIs fue del 2,2%. La combinación anti-PD-1 + anti-CTLA-4 se asoció a mayor incidencia (4,9%) que la monoterapia (1,4–2,0%). El tratamiento con prednisona ≥1 mg/kg/día se asoció con mayor probabilidad de recuperación renal completa (43% vs 27%). La reinstitución de ICIs tras recuperación renal fue factible en el 45% sin recidiva grave.",
-          "keyFindings": "La nefritis intersticial aguda es la causa de LRA por ICIs en el 93% de biopsias — el inicio precoz de corticoides ≥1 mg/kg/día mejora la recuperación renal, y la reinstitución de ICIs es factible en casi la mitad de los pacientes seleccionados.",
+          "abstract": "Estudio multicéntrico retrospectivo (n=429 casos de LRA asociada a ICIs).",
+          "keyFindings": "La nefritis intersticial aguda es la causa de LRA por ICIs en el 93% de biopsias.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 81,
             "label": "Alta",
-            "rationale": "Cohorte multicéntrica de referencia en Kidney International (n=429, 39 centros) que define el perfil diagnóstico y terapéutico de la NIA por ICIs — base para los algoritmos de manejo de onconefrología en cualquier centro que trate pacientes con inmunoterapia."
+            "rationale": "Cohorte multicéntrica de referencia en Kidney International (n=429, 39 centros)."
           }
         }
       ]
