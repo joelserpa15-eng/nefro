@@ -1,0 +1,96 @@
+name: Weekly Nephrology Briefing Update
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'   # Every Monday at 07:00 UTC
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Days to look back (default: 14)'
+        required: false
+        default: '14'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  # ── 1. Fetch articles & update JSON ──────────────────────────────────────
+  fetch:
+    name: Fetch Articles
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch articles from PubMed & Europe PMC
+        env:
+          NCBI_EMAIL:   ${{ secrets.NCBI_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: |
+          python scripts/fetch_articles.py --days "${{ github.event.inputs.days || '14' }}"
+
+      - name: Commit & push updated articles
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet data/articles.json; then
+            echo "No changes — skipping commit."
+          else
+            WEEK=$(python -c "
+          from datetime import datetime, timedelta
+          t = datetime.utcnow()
+          s = t - timedelta(days=t.weekday())
+          e = s + timedelta(days=6)
+          m = ['','enero','febrero','marzo','abril','mayo','junio',
+               'julio','agosto','septiembre','octubre','noviembre','diciembre']
+          print(f'{s.day}–{e.day} {m[s.month]} {e.year}' if s.month==e.month
+                else f'{s.day} {m[s.month]}–{e.day} {m[e.month]} {e.year}')
+            ")
+            git add data/articles.json data/index.json data/articles-*.json
+            git commit -m "data: briefing nefrológico semanal ${WEEK}"
+            git push origin HEAD
+          fi
+
+  # ── 2. Deploy to GitHub Pages ─────────────────────────────────────────────
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: fetch
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout (with latest data)
+        uses: actions/checkout@v4
+        with:
+          ref: claude/serene-babbage-196ofl
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Print URL
+        run: |
+          echo ""
+          echo "======================================================"
+          echo "  Briefing Nefrológico publicado en:"
+          echo "  ${{ steps.deployment.outputs.page_url }}"
+          echo "======================================================"
