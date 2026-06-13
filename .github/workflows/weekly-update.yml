@@ -16,7 +16,6 @@ permissions:
   id-token: write
 
 jobs:
-  # ── 1. Fetch articles & update JSON ──────────────────────────────────────
   fetch:
     name: Fetch Articles
     runs-on: ubuntu-latest
@@ -46,21 +45,20 @@ jobs:
             echo "No changes — skipping commit."
           else
             WEEK=$(python -c "
-          from datetime import datetime, timedelta
-          t = datetime.utcnow()
-          s = t - timedelta(days=t.weekday())
-          e = s + timedelta(days=6)
-          m = ['','enero','febrero','marzo','abril','mayo','junio',
-               'julio','agosto','septiembre','octubre','noviembre','diciembre']
-          print(f'{s.day}–{e.day} {m[s.month]} {e.year}' if s.month==e.month
-                else f'{s.day} {m[s.month]}–{e.day} {m[e.month]} {e.year}')
+from datetime import datetime, timedelta
+t = datetime.utcnow()
+s = t - timedelta(days=t.weekday())
+e = s + timedelta(days=6)
+m = ['','enero','febrero','marzo','abril','mayo','junio',
+     'julio','agosto','septiembre','octubre','noviembre','diciembre']
+print(f'{s.day}–{e.day} {m[s.month]} {e.year}' if s.month==e.month
+      else f'{s.day} {m[s.month]}–{e.day} {m[e.month]} {e.year}')
             ")
             git add data/articles.json data/index.json data/articles-*.json
             git commit -m "data: briefing nefrológico semanal ${WEEK}"
             git push origin HEAD
           fi
 
-  # ── 2. Deploy to GitHub Pages ─────────────────────────────────────────────
   deploy:
     name: Deploy to GitHub Pages
     needs: fetch
@@ -72,8 +70,6 @@ jobs:
     steps:
       - name: Checkout (with latest data)
         uses: actions/checkout@v4
-        with:
-          ref: claude/serene-babbage-196ofl
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

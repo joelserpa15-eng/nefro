@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-      - claude/serene-babbage-196ofl
-  # Also redeploy whenever the weekly update finishes
   workflow_run:
     workflows: ["Weekly Nephrology Briefing Update"]
     types: [completed]
@@ -31,8 +29,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          ref: claude/serene-babbage-196ofl
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -40,7 +36,6 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload the entire repo root (index.html + data/ folder)
           path: '.'
 
       - name: Deploy to GitHub Pages

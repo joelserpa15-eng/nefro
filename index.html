@@ -30,7 +30,6 @@
       min-height: 100vh;
     }
 
-    /* ── HEADER ── */
     .header {
       background: #fff;
       border-bottom: 1px solid var(--border);
@@ -83,7 +82,6 @@
       align-items: center;
       gap: 10px;
     }
-    /* ── WEEK NAVIGATION ── */
     .week-nav {
       display: flex;
       align-items: center;
@@ -109,9 +107,7 @@
     }
     .week-nav-btn:hover:not(:disabled) { background: #e0e7ff; border-color: #818cf8; }
     .week-nav-btn:disabled { opacity: .3; cursor: default; }
-
     .week-dropdown-wrap { position: relative; }
-
     .week-badge {
       background: #f0f4ff;
       border: 1.5px solid #c7d2fe;
@@ -134,7 +130,6 @@
       flex-shrink: 0;
     }
     .week-dropdown-wrap.open .week-badge svg { transform: rotate(180deg); }
-
     .week-dropdown {
       display: none;
       position: absolute;
@@ -188,8 +183,6 @@
       color: var(--text-muted);
       font-size: .88rem;
     }
-
-    /* ── HERO ── */
     .hero {
       background: linear-gradient(135deg, #0D2137 0%, #0D47A1 100%);
       color: #fff;
@@ -234,8 +227,6 @@
       letter-spacing: .5px;
       margin-top: 4px;
     }
-
-    /* ── FILTER BAR ── */
     .filter-bar {
       background: #fff;
       border-bottom: 1px solid var(--border);
@@ -288,15 +279,11 @@
       transition: var(--transition);
     }
     .btn-expand-all:hover { border-color: var(--text); color: var(--text); }
-
-    /* ── MAIN ── */
     .main {
       max-width: 1100px;
       margin: 0 auto;
       padding: 28px 20px 60px;
     }
-
-    /* ── SUBSPECIALTY CARD ── */
     .subspecialty {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -307,7 +294,6 @@
       transition: box-shadow var(--transition);
     }
     .subspecialty:hover { box-shadow: var(--shadow-md); }
-
     .subspecialty-header {
       display: flex;
       align-items: center;
@@ -317,7 +303,6 @@
       transition: background var(--transition);
     }
     .subspecialty-header:hover { background: rgba(0,0,0,.015); }
-
     .color-stripe {
       width: 6px;
       align-self: stretch;
@@ -366,22 +351,17 @@
       flex-shrink: 0;
     }
     .subspecialty.open .chevron { transform: rotate(180deg); }
-
-    /* ── ARTICLES PANEL ── */
     .articles-panel {
       display: none;
       border-top: 1px solid var(--border);
     }
     .subspecialty.open .articles-panel { display: block; }
-
     .articles-list {
       padding: 16px 20px 20px;
       display: flex;
       flex-direction: column;
       gap: 14px;
     }
-
-    /* ── ARTICLE CARD ── */
     .article-card {
       border: 1px solid var(--border);
       border-radius: 10px;
@@ -393,14 +373,8 @@
       transform: translateY(-1px);
     }
     .article-card.hidden { display: none; }
-
-    .article-top-stripe {
-      height: 3px;
-    }
-
-    .article-body {
-      padding: 16px 18px 14px;
-    }
+    .article-top-stripe { height: 3px; }
+    .article-body { padding: 16px 18px 14px; }
     .article-meta-row {
       display: flex;
       align-items: center;
@@ -423,7 +397,6 @@
     .ev-5 { background: #f3f4f6; color: #374151; border: 1px solid #d1d5db; }
     .ev-6 { background: #fdf4ff; color: #6b21a8; border: 1px solid #e9d5ff; }
     .ev-7 { background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; }
-
     .journal-tag {
       font-size: .72rem;
       color: var(--text-muted);
@@ -441,8 +414,6 @@
       color: var(--text-muted);
       margin-bottom: 12px;
     }
-
-    /* Abstract accordion */
     .abstract-toggle {
       display: flex;
       align-items: center;
@@ -464,13 +435,11 @@
       flex-shrink: 0;
     }
     .article-card.abstract-open .abstract-toggle svg { transform: rotate(180deg); }
-
     .abstract-body {
       display: none;
       padding: 12px 0 4px;
     }
     .article-card.abstract-open .abstract-body { display: block; }
-
     .abstract-text {
       font-size: .84rem;
       color: #4a5568;
@@ -494,8 +463,6 @@
       display: block;
       margin-bottom: 3px;
     }
-
-    /* ── CLINICAL IMPACT ── */
     .impact-indicator {
       display: inline-flex;
       align-items: center;
@@ -510,7 +477,6 @@
     .impact-alta    { background: #dcfce7; color: #15803d; border: 1px solid #86efac; }
     .impact-moderada { background: #fef9c3; color: #92400e; border: 1px solid #fde68a; }
     .impact-baja    { background: #f3f4f6; color: #6b7280; border: 1px solid #d1d5db; }
-
     .impact-dots { display: flex; gap: 2px; align-items: center; }
     .impact-dot {
       width: 5px; height: 5px;
@@ -519,7 +485,6 @@
       opacity: 0.25;
     }
     .impact-dot.on { opacity: 1; }
-
     .impact-rationale {
       margin-top: 8px;
       padding: 8px 12px;
@@ -538,7 +503,6 @@
       margin-bottom: 3px;
       opacity: .8;
     }
-
     .article-footer {
       display: flex;
       align-items: center;
@@ -576,8 +540,6 @@
     }
     .read-btn:hover { opacity: .88; transform: translateX(2px); }
     .read-btn svg { width: 13px; height: 13px; }
-
-    /* ── NO RESULTS ── */
     .no-results {
       text-align: center;
       padding: 40px 20px;
@@ -586,8 +548,6 @@
       display: none;
     }
     .no-results.visible { display: block; }
-
-    /* ── FOOTER ── */
     .footer {
       background: #0D2137;
       color: #718096;
@@ -597,8 +557,6 @@
       line-height: 1.8;
     }
     .footer strong { color: #90CAF9; }
-
-    /* ── RESPONSIVE ── */
     @media (max-width: 600px) {
       .hero h2 { font-size: 1.35rem; }
       .stats-row { gap: 12px; }
@@ -611,12 +569,10 @@
 </head>
 <body>
 
-<!-- HEADER -->
 <header class="header">
   <div class="header-inner">
     <a class="logo" href="#">
       <div class="logo-icon">
-        <!-- Kidney icon SVG -->
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path d="M8.5 2C5.46 2 3 4.46 3 7.5c0 2.1.98 3.97 2.5 5.2.82.66 1.5 1.55 1.5 2.8v4a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-4c0-1.25.68-2.14 1.5-2.8C16.02 11.47 17 9.6 17 7.5 17 4.46 14.54 2 11.5 2h-3zm7 1c-.55 0-1 .45-1 1s.45 1 1 1c1.1 0 2 .9 2 2s-.9 2-2 2c-.55 0-1 .45-1 1s.45 1 1 1c2.21 0 4-1.79 4-4s-1.79-4-4-4z"/>
         </svg>
@@ -645,7 +601,6 @@
   </div>
 </header>
 
-<!-- HERO -->
 <section class="hero">
   <h2>Resumen Semanal de Literatura Nefrológica</h2>
   <p>Los artículos de mayor impacto de las principales revistas de nefrología, clasificados por nivel de evidencia y subespecialidad.</p>
@@ -669,7 +624,6 @@
   </div>
 </section>
 
-<!-- FILTER BAR -->
 <div class="filter-bar">
   <div class="filter-inner">
     <span class="filter-label">Filtrar por evidencia:</span>
@@ -684,12 +638,10 @@
   </div>
 </div>
 
-<!-- MAIN -->
 <main class="main" id="mainContent">
   <div class="no-results" id="noResults">No hay artículos para el filtro seleccionado en esta subespecialidad.</div>
 </main>
 
-<!-- FOOTER -->
 <footer class="footer">
   <strong>Briefing Nefrológico Semanal</strong><br>
   Artículos recuperados automáticamente de <strong style="color:#90CAF9">PubMed (NCBI)</strong> y <strong style="color:#90CAF9">Europe PMC</strong> cada lunes.<br>
@@ -710,7 +662,6 @@
 </footer>
 
 <script>
-  // ── Evidence rank → CSS class & label map
   const evMeta = {
     1: { cls: 'ev-1', label: 'Meta-análisis' },
     2: { cls: 'ev-2', label: 'Revisión Sistemática' },
@@ -828,19 +779,13 @@
 
   function applyFilter(rank) {
     currentFilter = rank;
-
-    // Update button states
     document.querySelectorAll('.ev-btn').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.rank === String(rank));
     });
-
-    // Show/hide articles
     document.querySelectorAll('.article-card').forEach(card => {
       const match = rank === 'all' || String(card.dataset.rank) === String(rank);
       card.classList.toggle('hidden', !match);
     });
-
-    // Open sections that have visible articles; collapse empty ones
     document.querySelectorAll('.subspecialty').forEach(sub => {
       const visibleCount = sub.querySelectorAll('.article-card:not(.hidden)').length;
       if (rank !== 'all') {
@@ -869,9 +814,8 @@
     });
   }
 
-  // ── Week navigation state
   let indexData  = null;
-  let currentIdx = 0;  // 0 = most recent week
+  let currentIdx = 0;
 
   function updateStats(data) {
     const allArticles = data.subspecialties.flatMap(s => s.articles);
@@ -891,7 +835,6 @@
     }
   }
 
-  // ── Load a specific week's JSON file
   async function loadWeekData(idx, file) {
     currentIdx      = idx;
     const main      = document.getElementById('mainContent');
@@ -919,7 +862,6 @@
     closeWeekDropdown();
   }
 
-  // ── Navigate ±1 week (delta: +1 = older, -1 = newer)
   function navigateWeek(delta) {
     if (!indexData) return;
     const next = currentIdx + delta;
@@ -928,7 +870,6 @@
     loadWeekData(next, 'data/' + w.file);
   }
 
-  // ── Build / refresh the dropdown list
   function buildWeekDropdown() {
     const menu   = document.getElementById('weekDropdown');
     const header = '<div class="week-dropdown-header">Archivo — últimas semanas</div>';
@@ -950,14 +891,12 @@
     loadWeekData(idx, 'data/' + w.file);
   }
 
-  // ── Enable/disable nav arrows
   function updateNavButtons() {
     const total = indexData ? indexData.weeks.length : 1;
     document.getElementById('btnPrevWeek').disabled = currentIdx >= total - 1;
     document.getElementById('btnNextWeek').disabled = currentIdx <= 0;
   }
 
-  // ── Dropdown open/close
   function toggleWeekDropdown() {
     document.getElementById('weekDropdownWrap').classList.toggle('open');
   }
@@ -969,15 +908,12 @@
     if (wrap && !wrap.contains(e.target)) closeWeekDropdown();
   });
 
-  // ── Bootstrap
   async function init() {
-    // Try to load the week index
     try {
       const r = await fetch('data/index.json?v=' + Date.now());
       if (r.ok) indexData = await r.json();
     } catch (_) {}
 
-    // Load current (most recent) week
     let firstFile = 'data/articles.json';
     if (indexData && indexData.weeks.length > 0) {
       firstFile = 'data/' + indexData.weeks[0].file;
