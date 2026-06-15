@@ -191,27 +191,7 @@
       "id": "aki",
       "name": "Lesión Renal Aguda",
       "color": "#C62828",
-      "articles": [
-        {
-          "id": "aki-41554341",
-          "title": "Exhausted/senescent CD4+ T cells as predictors of vaccine failure and severe coronavirus disease 2019 in solid organ transplant recipients",
-          "journal": "American Journal of Transplantation",
-          "authors": "Donadeu L, Casanova-Ferrer F, Gomez-Olles S, Lopez-Meseguer M, et al.",
-          "year": 2026,
-          "doi": "10.1016/j.ajt.2026.01.011",
-          "url": "https://doi.org/10.1016/j.ajt.2026.01.011",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "Despite booster vaccinations, solid organ transplant (SOT) recipients develop suboptimal immunity and remain at risk of severe coronavirus disease 2019 (COVID-19). Chronic immunosuppression and repeated antigen exposure favor T cell exhaustion/senescence, potentially challenging the development of protective immunity. In a prospective multicenter study including 80 naïve SOT patients receiving 5 severe acute respiratory syndrome coronavirus 2 mRNA-based vaccine doses, exhausted/senescent T cell phenotypes were longitudinally profiled at distinct time points, and their impact on antigen-specific immune responses was assessed by antibodies, memory B cells, cytokine-producing T cells, and activation-induced markers on CD4 and CD8 T cells. We observed wide heterogeneity of vaccine-induced adaptive immunity across compartments. T cell exhaustion/senescence did not change after 3 vaccine doses. Notably, high percentages of CD57+, CD57+PD1+, programmed cell death protein 1 (PD1)+, and CD57+TIM3+ exhausted/senescent CD4 T cells at baseline independently predicted poor adaptive functional immune responses despite multiple boosters, regardless of SOT type and immunosuppressive regimen (area under the curve 0.89, 95% confidence interval 0.81-0.97, sensitivity 0.79, specificity 0.92). Such phenotypes were predominantly observed among tacrolimus/mycophenolate-based regimens. Moreover, SOT recipients with high percentages of CD57+, CD57+PD1+, and CD57+TIM3+ exhausted/senescent CD4 T cells at baseline predicted severe COVID-19 (area under the curve 0.88, P < .01). Our study adds preliminary new insight in the field and has clinical implications for risk-stratification against COVID-19 and other viral infections, ultimately guiding decision-making for establishing preventive strategies in SOT patients.",
-          "keyFindings": "Our study adds preliminary new insight in the field and has clinical implications for risk-stratification against COVID-19 and other viral infections, ultimately guiding decision-making for establishing preventive strategies in SOT patients.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 34,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        }
-      ]
+      "articles": []
     },
     {
       "id": "glomerulopatias",
@@ -375,6 +355,25 @@
             "score": 60,
             "label": "Moderada",
             "rationale": "RCT en Journal of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "tx-41554341",
+          "title": "Exhausted/senescent CD4+ T cells as predictors of vaccine failure and severe coronavirus disease 2019 in solid organ transplant recipients",
+          "journal": "American Journal of Transplantation",
+          "authors": "Donadeu L, Casanova-Ferrer F, Gomez-Olles S, Lopez-Meseguer M, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.ajt.2026.01.011",
+          "url": "https://doi.org/10.1016/j.ajt.2026.01.011",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "Despite booster vaccinations, solid organ transplant (SOT) recipients develop suboptimal immunity and remain at risk of severe coronavirus disease 2019 (COVID-19). Chronic immunosuppression and repeated antigen exposure favor T cell exhaustion/senescence, potentially challenging the development of protective immunity. In a prospective multicenter study including 80 naïve SOT patients receiving 5 severe acute respiratory syndrome coronavirus 2 mRNA-based vaccine doses, exhausted/senescent T cell phenotypes were longitudinally profiled at distinct time points, and their impact on antigen-specific immune responses was assessed by antibodies, memory B cells, cytokine-producing T cells, and activation-induced markers on CD4 and CD8 T cells. We observed wide heterogeneity of vaccine-induced adaptive immunity across compartments. T cell exhaustion/senescence did not change after 3 vaccine doses. Notably, high percentages of CD57+, CD57+PD1+, programmed cell death protein 1 (PD1)+, and CD57+TIM3+ exhausted/senescent CD4 T cells at baseline independently predicted poor adaptive functional immune responses despite multiple boosters, regardless of SOT type and immunosuppressive regimen (area under the curve 0.89, 95% confidence interval 0.81-0.97, sensitivity 0.79, specificity 0.92). Such phenotypes were predominantly observed among tacrolimus/mycophenolate-based regimens. Moreover, SOT recipients with high percentages of CD57+, CD57+PD1+, and CD57+TIM3+ exhausted/senescent CD4 T cells at baseline predicted severe COVID-19 (area under the curve 0.88, P < .01). Our study adds preliminary new insight in the field and has clinical implications for risk-stratification against COVID-19 and other viral infections, ultimately guiding decision-making for establishing preventive strategies in SOT patients.",
+          "keyFindings": "Our study adds preliminary new insight in the field and has clinical implications for risk-stratification against COVID-19 and other viral infections, ultimately guiding decision-making for establishing preventive strategies in SOT patients.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
           }
         }
       ]
