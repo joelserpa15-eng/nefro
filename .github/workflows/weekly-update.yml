@@ -12,8 +12,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   fetch:
@@ -41,52 +39,10 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet data/articles.json; then
-            echo "No changes — skipping commit."
+          if git diff --quiet data/; then
+            echo "No changes - skipping commit."
           else
-            WEEK=$(python -c "
-from datetime import datetime, timedelta
-t = datetime.utcnow()
-s = t - timedelta(days=t.weekday())
-e = s + timedelta(days=6)
-m = ['','enero','febrero','marzo','abril','mayo','junio',
-     'julio','agosto','septiembre','octubre','noviembre','diciembre']
-print(f'{s.day}–{e.day} {m[s.month]} {e.year}' if s.month==e.month
-      else f'{s.day} {m[s.month]}–{e.day} {m[e.month]} {e.year}')
-            ")
             git add data/articles.json data/index.json data/articles-*.json
-            git commit -m "data: briefing nefrológico semanal ${WEEK}"
+            git commit -m "data: briefing nefrologico semanal $(date -u '+%Y-%m-%d')"
             git push origin HEAD
           fi
-
-  deploy:
-    name: Deploy to GitHub Pages
-    needs: fetch
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: Checkout (with latest data)
-        uses: actions/checkout@v4
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
-
-      - name: Print URL
-        run: |
-          echo ""
-          echo "======================================================"
-          echo "  Briefing Nefrológico publicado en:"
-          echo "  ${{ steps.deployment.outputs.page_url }}"
-          echo "======================================================"
