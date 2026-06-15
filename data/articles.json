@@ -1,12 +1,12 @@
 {
   "week": "2026-W24",
-  "weekLabel": "8 – 14 de junio, 2026",
-  "lastUpdated": "2026-06-13T16:00:00Z",
+  "weekLabel": "15 – 21 de junio, 2026",
+  "lastUpdated": "2026-06-15T11:03:07Z",
   "stats": {
-    "total": 18,
-    "metaAnalysis": 2,
+    "total": 26,
+    "metaAnalysis": 3,
     "systematicReview": 2,
-    "rct": 13
+    "rct": 8
   },
   "subspecialties": [
     {
@@ -15,41 +15,174 @@
       "color": "#1565C0",
       "articles": [
         {
-          "id": "erca-empa-kidney-2023",
-          "title": "Empagliflozin in Patients with Chronic Kidney Disease",
-          "journal": "New England Journal of Medicine",
-          "authors": "The EMPA-KIDNEY Collaborative Group (Herrington WG, Staplin N, Wanner C, et al.)",
-          "year": 2023,
-          "doi": "10.1056/NEJMoa2204233",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36351458/",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico doble ciego (n=6.609) que evaluó empagliflozina 10 mg/día frente a placebo en pacientes con ERC (TFGe 20–45 ml/min/1,73 m² o TFGe 45–90 con UACR ≥200 mg/g), con o sin diabetes tipo 2.",
-          "keyFindings": "Empagliflozina reduce un 28% el riesgo de progresión renal o muerte cardiovascular en ERC con o sin diabetes tipo 2.",
+          "id": "erca-42248158",
+          "title": "Efficacy and safety of finerenone in patients with chronic kidney disease: an individual participant data pooled analysis (INFINITY)",
+          "journal": "The Lancet",
+          "authors": "Neuen BL, Heerspink HJL, Perkovic V, Cherney DZI, et al.",
+          "year": 2026,
+          "doi": "10.1016/S0140-6736(26)01009-3",
+          "url": "https://doi.org/10.1016/S0140-6736(26)01009-3",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Overactivation of the mineralocorticoid receptor is a common pathway for chronic kidney disease (CKD) progression across multiple disease aetiologies. Finerenone, a non-steroidal mineralocorticoid receptor antagonist, has shown kidney and cardiovascular benefits in CKD due to type 2 diabetes, but its efficacy and safety across disease aetiologies, and levels of glycaemia, estimated glomerular filtration rate (eGFR), and albuminuria have not been evaluated. The aim of this study was to evaluate the efficacy and safety of finerenone across the spectrum of CKD. METHODS: We conducted an individual participant data meta-analysis of three randomised, double-blind, placebo-controlled trials of finerenone in patients with CKD: FIDELIO-DKD (NCT02540993; Sept 17, 2015, to April 14, 2020), FIGARO-DKD (NCT02545049; Sept 17, 2015, to Feb 2, 2021), and FIND-CKD (NCT05047263; Sept 21, 2021, to Feb 2, 2026). We used Cox regression models to evaluate relative effects on kidney and cardiovascular outcomes. The main kidney outcome was kidney failure or sustained 57% or more decline in eGFR; the main cardiovascular outcome was hospitalisation for heart failure or cardiovascular death. This study was registered with PROSPERO, CRD420251269149. FINDINGS: Across the three trials enrolling 14 574 participants, the mean age was 63·7 years (SD 10·6), 4467 (30·7%) were female, 10 107 (69·3%) were male, mean eGFR was 56·4 mL/min per 1·73 m2 (SD 21·4), and median urinary albumin-to-creatinine ratio was 567·4 mg/g (IQR 233·6-1164·7). Finerenone reduced the risk of the composite kidney outcome by 24% versus placebo (22·3 vs 28·8 events per 1000 patient-years; hazard ratio 0·76 [95% CI 0·68-0·86]) and kidney failure alone (0·85 [0·74-0·99]). Finerenone reduced the risk of the composite cardiovascular outcome versus placebo (19·1 vs 23·9 events per 1000 patient-years; 0·80 [0·70-0·91]), including heart failure hospitalisation (0·78 [0·66-0·92]) and cardiovascular death (0·82 [0·67-0·999]). Finerenone also reduced the risk of all-cause death (0·88 [0·79-0·99]). Treatment effects on the composite kidney outcome were consistent irrespective of glycaemic status, CKD aetiology, baseline eGFR, albuminuria, and use of sodium-glucose co-transporter-2 inhibitors. Hyperkalaemia occurred more frequently with finerenone than with placebo, but the absolute incidence of hyperkalaemia leading to hospitalisation was low. INTERPRETATION: In the studied populations with CKD, finerenone reduced the risk of CKD progression, including kidney failure alone, and reduced heart failure hospitalisation, cardiovascular death, and all-cause death. These findings support finerenone as a foundational therapy for CKD across a broad range of disease aetiologies and levels of glycaemia, eGFR, and albuminuria. FUNDING: Bayer.",
+          "keyFindings": "In the studied populations with CKD, finerenone reduced the risk of CKD progression, including kidney failure alone, and reduced heart failure hospitalisation, cardiovascular death, and all-cause death. These findings support finerenone as a foundational therapy for CKD across a broad range of disease aetiologies and levels of glycaemia, eGFR, and albuminuria.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 96,
+            "score": 90,
             "label": "Alta",
-            "rationale": "RCT en NEJM (n=6.609) que amplía el beneficio de empagliflozina a todo el espectro de ERC albunimúrica con o sin DM2."
+            "rationale": "Meta-análisis publicado en The Lancet con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
           }
         },
         {
-          "id": "erca-dapa-ckd-2020",
-          "title": "Dapagliflozin in Patients with Chronic Kidney Disease",
-          "journal": "New England Journal of Medicine",
-          "authors": "Heerspink HJL, Stefánsson BV, Correa-Rotter R, et al.",
-          "year": 2020,
-          "doi": "10.1056/NEJMoa2024816",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32970396/",
+          "id": "erca-42242268",
+          "title": "Atrasentan in patients with IgA nephropathy (ALIGN): final 2·5-year results from a randomised, double-blind, placebo-controlled, phase 3 trial",
+          "journal": "The Lancet",
+          "authors": "Heerspink HJL, Jardine MJ, Kohan DE, Lafayette R, et al.",
+          "year": 2026,
+          "doi": "10.1016/S0140-6736(26)00960-8",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00960-8",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo doble ciego (n=4.304; ERC estadio G2–G4 con UACR 200–5.000 mg/g) que comparó dapagliflozina 10 mg/día frente a placebo.",
-          "keyFindings": "Dapagliflozina reduce un 39% el objetivo renal primario en ERC con albuminuria, estableciendo el primer iSGLT2 aprobado para ERC independientemente de la diabetes.",
+          "abstract": "BACKGROUND: Atrasentan, a selective endothelin A receptor antagonist, reduced proteinuria in the prespecified interim analysis (week 36) of the ALIGN trial in adults with IgA nephropathy. We assessed whether atrasentan slowed estimated glomerular filtration rate (eGFR) decline after 2·5 years' treatment. METHODS: We performed a randomised, double-blind, placebo-controlled, phase 3 trial (133 sites, 20 countries). Adults with biopsy-proven IgA nephropathy, eGFR of at least 30 mL/min per 1·73 m2, and urinary protein excretion of at least 1·0 g/day while receiving renin-angiotensin system inhibition were enrolled (main stratum). An exploratory stratum enrolled participants also receiving an SGLT2 inhibitor. Participants were randomly assigned (1:1) to oral atrasentan 0·75 mg once daily or placebo for 132 weeks, followed by a 4-week off-treatment follow-up. The key secondary endpoint was change from baseline to week 136 in eGFR in the main stratum, assessed in all randomised patients (excluding data after intercurrent events, defined as initiation of restricted or alternative IgA nephropathy medications or kidney replacement therapy). Safety was assessed in all randomised patients who received at least one dose of study treatment. ALIGN is registered with ClinicalTrials.gov, NCT04573478; the double-blind section is complete, and the open-label extension is ongoing. FINDINGS: Between March 15, 2021, and April 28, 2023, 404 participants were randomly assigned (main stratum: 340; SGLT2 inhibitor stratum: 64). In the main stratum, change from baseline in eGFR at week 136 was -7·5 mL/min per 1·73 m2 (95% CI -9·2 to -5·8) with atrasentan and -9·9 mL/min per 1·73 m2 (-11·7 to -8·1) with placebo (between-group difference 2·4 mL/min per 1·73 m2; 95% CI -0·1 to 4·8; p=0·057). The between-group difference in eGFR change from baseline at end of treatment (week 132) was 2·6 mL/min per 1·73 m2 (95% CI 0·1-5·0), and the difference in total eGFR slope (baseline to week 136) was 1·4 mL/min per 1·73 m2 per year (95% CI 0·5-2·3). In the SGLT2 inhibitor stratum, the difference in eGFR change from baseline at week 136 between atrasentan and placebo was 9·1 mL/min per 1·73 m2 (95% CI 3·0-15·2). Treatment-emergent adverse events were well balanced between atrasentan and placebo, with no new safety signals. In the main stratum, fluid retention adverse events occurred in 24 (14%) of 169 patients receiving atrasentan and 20 (12%) of 170 receiving placebo. INTERPRETATION: Atrasentan reduced proteinuria and preserved kidney function after 2·5 years. This effect was present with or without concomitant SGLT2 inhibitor use. Atrasentan was well tolerated. FUNDING: Novartis.",
+          "keyFindings": "Atrasentan reduced proteinuria and preserved kidney function after 2·5 years. This effect was present with or without concomitant SGLT2 inhibitor use. Atrasentan was well tolerated.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 97,
+            "score": 75,
             "label": "Alta",
-            "rationale": "Ensayo pivotal publicado en NEJM (n=4.304) que cambió las guías KDIGO."
+            "rationale": "RCT publicado en The Lancet con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+          }
+        },
+        {
+          "id": "erca-41866124",
+          "title": "A double-blind, randomized, placebo-controlled, phase 2 trial examined the efficacy and safety of monlunabant in adults with diabetic kidney disease",
+          "journal": "Kidney International",
+          "authors": "Cherney DZI, Bonefeld K, Crater G, Dwyer JP, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.kint.2026.02.023",
+          "url": "https://doi.org/10.1016/j.kint.2026.02.023",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "INTRODUCTION: Diabetic kidney disease (DKD) is a significant complication of diabetes, and an unmet need remains for new therapeutic options. Here, we investigated the efficacy and safety of monlunabant, a second-generation cannabinoid receptor 1 inverse agonist, in individuals with DKD. METHODS: This phase 2, randomized, double-blind, placebo-controlled, multicenter study, enrolled adults with DKD. Participants were randomized (1:1:1) to receive oral tablets of monlunabant 10 mg or 25 mg, or placebo once daily for 16 weeks. The primary endpoint was the change in urine albumin-to-creatinine ratio (UACR) from baseline to week 16. Secondary endpoints included changes in urine protein-to-creatinine ratio (UPCR) and estimated glomerular filtration rate (eGFR). RESULTS: In total, 254 participants formed the full analysis set (85, 86, and 83 in the 10 mg, 25 mg, and placebo groups, respectively). At week 16, the estimated geometric least squares mean ratios to baseline for UACR were 0.58, 0.51, and 0.71 in the 10 mg, 25 mg, and placebo groups, respectively. Monlunabant 25 mg did not show statistically significant differences compared to placebo (estimated treatment ratio [ETR] 0.72, 95% confidence interval (0.46 to 1.14)). Therefore, formal testing was not performed for 10 mg compared to placebo (ETR 0.82 (0.53 to 1.27)). Secondary endpoints showed similar trends, with no differences in UPCR or eGFR, when compared to placebo. The most frequently reported adverse events were mild to moderate gastrointestinal disorders, driven by nausea, vomiting, and diarrhea. Participant withdrawals increased with monlunabant dose. CONCLUSIONS: Our study failed to establish proof of concept of monlunabant in DKD, as the effect on UACR at week 16 was not significantly different from placebo. However, greater than anticipated variability and a large placebo response affect interpretation. TRIAL REGISTRATION: Registered at ClinicalTrials.gov with study number NCT05514548.",
+          "keyFindings": "Our study failed to establish proof of concept of monlunabant in DKD, as the effect on UACR at week 16 was not significantly different from placebo. However, greater than anticipated variability and a large placebo response affect interpretation. TRIAL",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 49,
+            "label": "Moderada",
+            "rationale": "RCT en Kidney International — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "erca-41881379",
+          "title": "Association of the Timing of Acute Declines in Kidney Function in Acute Heart Failure With Cardiovascular and Kidney Outcomes",
+          "journal": "American Journal of Kidney Diseases",
+          "authors": "McCallum W, Tighiouart H, Tuttle M, Oka T, et al.",
+          "year": 2026,
+          "doi": "10.1053/j.ajkd.2025.12.005",
+          "url": "https://doi.org/10.1053/j.ajkd.2025.12.005",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "RATIONALE & OBJECTIVE: Inconsistencies in the association of acute declines in kidney function with longer-term cardiovascular (CV) and kidney outcomes in patients with acute heart failure (AHF) may be due to different approaches to assessing the timing of the decline. This study examined the influence of the timing of acute kidney function decline among patients with AHF on the associations of these declines with mortality, CV outcomes, and long-term kidney function. STUDY DESIGN: Observational analysis of clinical trial data. SETTING & PARTICIPANTS: Participants in the Efficacy of Vasopressin Antagonism in Heart Failure Outcome Study With Tolvaptan (EVEREST) trial hospitalized for AHF. EXPOSURE: Kidney function decline (defined by creatinine increase by ≥0.3 mg/dL, creatinine increase by >50%, and percentage of creatinine change) at 3 different time points (3, 7, and 14 days after randomization). OUTCOME: Mortality, a composite of CV mortality or heart failure (HF) hospitalization, incident estimated glomerular filtration rate (eGFR) < 30 mL/min/1.73 m2, and a >40% eGFR decline. ANALYTICAL APPROACH: Analytical Approach: Multivariable cause-specific proportional hazards regression models. RESULTS: Among 3,931 patients over a median follow-up of 9.9 months, acute kidney function decline at 3 days was not associated with mortality (HR, 0.98 [95% CI, 0.88-1.09] per 30% creatinine increase) or with the composite outcome of CV mortality and HF hospitalization (HR, 0.96 [95% CI, 0.89-1.05]). By contrast, acute kidney function decline at 7 days after randomization was associated with a higher risk of mortality (HR, 1.19 [95% CI, 1.10-1.30] per 30% creatinine increase) and the composite outcome (HR, 1.10 [95% CI, 1.03-1.18]). Acute kidney function decline at 14 days after randomization also was associated with a higher risk of mortality (HR, 1.27 [95% CI, 1.16-1.38] per 30% creatinine increase) and the composite outcome (HR, 1.15 [95% CI, 1.08-1.23]). Acute kidney function declines at 3, 7, and 14 days after randomization were all associated with significantly higher risk of incident eGFR < 30 mL/min/1.73 m2 and >40% eGFR decline. LIMITATIONS: Limited generalizability from the study of clinical trial participants. CONCLUSIONS: Among patients hospitalized for AHF, incorporating the timing of acute kidney function declines may inform prognostic assessment of CV end points. Acute declines in kidney function at all studied time points were associated with worse longer term kidney function. PLAIN-LANGUAGE SUMMARY: Acute declines in kidney function are frequently encountered among patients admitted for acute heart failure. Using data from the Efficacy of Vasopressin Antagonism in Heart Failure Outcome Study With Tolvaptan (EVEREST) trial, we evaluated whether the timing of an acute decline in kidney function may inform the relationship of those declines with the risk of death and other adverse cardiovascular outcomes. We found that early declines in kidney function 3 days after randomization were not associated with death or cardiovascular outcomes. However, declines occurring at 14 days and as early as 7 days were associated with higher risks. Declines at any of these times were associated with worse kidney function over time.",
+          "keyFindings": "Among patients hospitalized for AHF, incorporating the timing of acute kidney function declines may inform prognostic assessment of CV end points. Acute declines in kidney function at all studied time points were associated with worse longer term kidney function. PLAIN-LANGUAGE",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en American Journal of Kidney Diseases — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "erca-41881383",
+          "title": "Experiences and Management of People With a Failing Kidney Transplant: Findings From the IN-FAKT Study",
+          "journal": "American Journal of Kidney Diseases",
+          "authors": "Venter B, Noyes J, Selman LE, Exley C, et al.",
+          "year": 2026,
+          "doi": "10.1053/j.ajkd.2026.01.009",
+          "url": "https://doi.org/10.1053/j.ajkd.2026.01.009",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "RATIONALE & OBJECTIVE: Transplant failure is associated with a morbidity burden, increased mortality, and poor quality of life. We have a limited understanding of how patients prepare for transplant failure, when they do so, and what experiences and priorities are relevant to clinical management decisions when transplants are failing. This study investigated the experiences of living with and managing kidney transplant failure among patients, families and friends, and health care professionals (HCPs). STUDY DESIGN: Qualitative semistructured interview study. SETTING & PARTICIPANTS: Three groups of adults sampled from 3 UK hospitals: (1) people with a failing kidney transplant or one that had failed in the last year; (2) family/friends of group 1; (3) kidney transplant HCPs. ANALYTICAL APPROACH: Inductive analysis based in constructivist grounded theory. RESULTS: We interviewed 41 participants (15 people with failing/failed transplants, 9 family/friends, 17 HCPs). We identified 8 theoretical categories under 3 headings. First, the experience of waiting: (1) a constant threat: anticipation of failure; (2) lack of preparedness; (3) liminality: an indeterminate and in-between state. Second, shaping conversations about failing transplants: (4) navigating uncertainty; (5) responsibility and control; (6) failing to acknowledge failure: the elephant in the room. Third, the focus on the failing transplant: (7) maximizing mileage and missed opportunities; (8) the ripple effect of failure and family suffering. \"Duality\" emerged as the core category to describe findings that appeared to be in opposition but were experienced or delivered simultaneously. Patients experienced failure as both an inevitability and a surprise, and they felt both responsible for and as having no control over the transplant outcome. HCPs identified a need for parallel planning: simultaneously prolonging transplant survival and planning posttransplant treatment. LIMITATIONS: Adult participants only. CONCLUSIONS: Our study identified targets for improving the experiences of people with transplant failure, related to explicit communication, navigating uncertainty, and parallel planning. PLAIN-LANGUAGE SUMMARY: We interviewed people who were experiencing or had experienced kidney transplant failure, their family and friends, and health care professionals (HCPs) about their experiences of living with and managing this failure. Patients described transplant failure as a constant threat, but they did not feel prepared for it. Patients and their families have many questions including: When will the transplant fail? How will it happen? Why did it fail? HCPs are unable to fully answer these questions, and patients feel responsible for what happens to their transplant. Our research shows that talking about transplant failure is difficult for patients and HCPs and that there are missed opportunities to prepare and support people.",
+          "keyFindings": "Our study identified targets for improving the experiences of people with transplant failure, related to explicit communication, navigating uncertainty, and parallel planning. PLAIN-LANGUAGE",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
+          "id": "erca-41881385",
+          "title": "National All-Cause Mortality Trends Among Adults With and Without CKD in the United States, 1999-2019",
+          "journal": "American Journal of Kidney Diseases",
+          "authors": "Choi D, Xu F, Zaganjor I, Onufrak S, et al.",
+          "year": 2026,
+          "doi": "10.1053/j.ajkd.2026.01.010",
+          "url": "https://doi.org/10.1053/j.ajkd.2026.01.010",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "RATIONALE & OBJECTIVE: Chronic kidney disease (CKD) is one of the most highly prevalent chronic conditions in the United States and associated with a high risk of premature death, particularly from cardiovascular disease. However, contemporary national trends in all-cause mortality among adults with CKD in the United States remain unclear. This study examined trends in all-cause mortality among US adults with CKD from 1999 to 2019. STUDY DESIGN: Observational cohort study. SETTING & PARTICIPANTS: Adults aged ≥20 years who participated in the 1999-2016 National Health and Nutrition Examination Survey (NHANES), with mortality follow-up through December 2019. EXPOSURE: CKD defined by an estimated glomerular filtration rate < 60 mL/min/1.73 m2 or a urinary albumin-creatinine ratio ≥ 30 mg/g. OUTCOME: All-cause mortality. ANALYTICAL APPROACH: Age-standardized all-cause mortality rates were estimated for 3 survey periods: 1999-2004, 2005-2010, and 2011-2016. Average percent change (APC) in age-standardized mortality and adjusted relative risk (RR) of CKD-associated mortality for each survey period were estimated. RESULTS: Age-standardized mortality rate was 23.0 deaths/1,000 person-years (95% CI, 19.8-26.2) among adults with CKD surveyed 1999-2004 and 21.8 deaths/1,000 person-years (95% CI, 18.8-24.9) for those surveyed 2011-2016 (APC, -0.4% [95% CI, -1.4 to 0.5]). In contrast to men whose mortality declined (APC, -3.0 [95% CI, -3.5 to -2.6]), mortality rates increased among women with CKD (APC, 2.3 [95% CI, 1.7-3.0]). Adjusted RRs for CKD-associated mortality remained approximately 2-fold higher compared with adults without CKD across all time periods. LIMITATIONS: The cross-sectional design of NHANES precludes analysis of CKD progression or incident CKD during follow-up. CONCLUSIONS: All-cause mortality remained stable among adults with CKD and was about 2 times higher than for those without CKD. However, increasing mortality trends in specific demographic subpopulations may indicate the need for focused public health strategies and further research to address and reduce mortality disparities.",
+          "keyFindings": "All-cause mortality remained stable among adults with CKD and was about 2 times higher than for those without CKD. However, increasing mortality trends in specific demographic subpopulations may indicate the need for focused public health strategies and further research to address and reduce mortality disparities.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
+          "id": "erca-41881381",
+          "title": "Cancer Incidence in People With Glomerular Disease: A Population-Level Study",
+          "journal": "American Journal of Kidney Diseases",
+          "authors": "Han J, Canney M, Zhao Y, Atiquzzaman M, et al.",
+          "year": 2026,
+          "doi": "10.1053/j.ajkd.2025.11.014",
+          "url": "https://doi.org/10.1053/j.ajkd.2025.11.014",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "RATIONAL & OBJECTIVE: People with glomerulonephritis (GN) may be at an increased risk of cancer, but existing studies have not accurately clarified the cancer risk in patients with GN. A better understanding of these risks may inform cancer screening strategies and identify potentially modifiable risk factors. This study identified risk factors for cancer among Canadian patients with GN. STUDY DESIGN: Retrospective observational cohort study. SETTING & PARTICIPANTS: Adults with diagnosed GN (n = 4,039) identified using a centralized pathology registry in British Columbia, Canada, between 2000 and 2020. EXPOSURE: Known cancer risk factors, including age, sex, ethnicity, smoking, alcohol abuse, obesity, diabetes, dyslipidemia, hypertension, and cardiovascular disease as well as GN-related potential risk factors, including GN disease type, estimated glomerular filtration rate (eGFR), and level of proteinuria. OUTCOME: All-cause cancer, excluding non-melanoma skin cancer. ANALYTICAL APPROACH: Standardized incidence ratios (SIRs) were calculated using an age- and sex-matched general population. The time to the first cancer event was modeled using a cause-specific hazards model, with death considered as a competing event. RESULTS: The mean age of the cohort was 51 years, and 52% of the participants were male. During a median of 7.8 years of follow-up, 384 patients (9.5%) developed de novo cancer. The 20-year cancer risk was 23%, with an incidence rate 30% higher than the general population (SIR, 1.3 [95% CI, 1.2-1.4]). The risk was most pronounced in patients younger than 40, almost 3-fold higher than in the general population (SIR, 2.9 [95% CI, 1.6-4.6]). Significant increases in cancer incidence were observed for lymphoma (SIR, 3.5), kidney (SIR, 2.6), colorectal (SIR, 2.4), and lung cancers (SIR, 1.5). Elevated risk was observed both before and after the onset of end-stage kidney disease. Age, male sex, baseline eGFR, and GN disease type were independently associated with cancer risk. LIMITATIONS: The lack of immunosuppression data. CONCLUSIONS: Patients with GN have a substantially increased risk of cancer compared with the general population, particularly younger patients who are typically excluded from current screening programs. These findings suggest the need to raise awareness of the cancer risk among people with GN and may inform the further development of tailored cancer screening and prevention strategies, especially among younger adults with GN. PLAIN-LANGUAGE SUMMARY: People with glomerulonephritis (GN) are thought to be at an increased risk of cancer, but previous studies had limitations that limited the accuracy of the cancer risk estimates in this population. This study of 4,039 patients with GN found the incidence of cancer to be 30% higher than in the general population. Among patients under 40 years of age, the risk was nearly 3-fold. The types of cancers at increased risk were colorectal, lung, kidney, and lymphoma. These findings highlight the need to raise awareness of cancer risk in patients with GN and may inform further development of targeted screening and prevention strategies, particularly among younger adults.",
+          "keyFindings": "Patients with GN have a substantially increased risk of cancer compared with the general population, particularly younger patients who are typically excluded from current screening programs. These findings suggest the need to raise awareness of the cancer risk among people with GN and may inform the further development of tailored cancer screening and prevention strategies, especially among younger adults with GN. PLAIN-LANGUAGE",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
+          "id": "erca-41920957",
+          "title": "Chronic kidney disease stage 4 and 5: comparison of therapeutic projects before kidney replacement therapy between men and women in Brittany",
+          "journal": "Journal of Nephrology",
+          "authors": "Gary-Bobo P, Bayat S, Naveiro D, Siebert M, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajaf001",
+          "url": "https://doi.org/10.1093/joneph/aajaf001",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: In patients with stage 4 and 5 chronic kidney disease (CKD), the reduction of kidney function prompts decisions regarding kidney replacement therapy (KRT): dialysis, transplantation or an alternative to KRT, ie conservative kidney management. The international literature reports that a majority of patients living with CKD (regardless of stage) are female, whilst more males undergo KRT. The objective of this study was to compare sex differences in terms of clinical trajectories and treatment decision making, taking into account clinico-biological characteristics. METHODS: A registry-based observational cohort study that included adult patients in Brittany, France enrolling CKD stages 4 and 5 between 2019 and 2021. Descriptive statistics were reported using frequencies and percentages, means and standard deviations. Variables included in the multivariate regression models (linear or logistic) were selected based on clinical relevance and statistical significance (P value <0.2 in univariate regression). RESULTS: We included 1623 patients. At inclusion, 1048 patients (64%) had stage 4 CKD, including 627 males. Estimated GFR and age did not differ significantly between males and females. In terms of comorbidities, males had more cardiovascular disease (55% (n = 338)) than females (37% (n = 154), P < 0.001) and were more likely to have KRT planned than females (24% (n = 149) vs 16% (n = 65), P < 0.001). In multivariate logistic regression analysis, female sex was associated with a significantly lower probability of having a KRT plan, as well as a shorter duration of nephrology follow-up (less than one year), older age (>75 years), heart failure, living in a residential care facility or an institution, and having an underlying kidney disease defined as \"other\", compared with chronic glomerulonephritis. The presence of a stable eGFR explained the majority of the \"not discussed\" or \"undecided\" treatment plans for males and females (88% (n = 222) vs 90% (n = 306)). CONCLUSIONS: This study does not support the hypothesis that females with CKD are more likely to choose conservative kidney management than males, but it does suggest females are less likely to have a plan for KRT, which was in turn linked to stable kidney function in both sexes. The data showed no statistical difference in kidney function decline between females and males, however a larger study is needed to confirm this finding. Future research including other markers of kidney function decline could also help test this hypothesis.",
+          "keyFindings": "(P value <0.2 in univariate regression).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 30,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
+          "id": "erca-41837800",
+          "title": "Risk stratification for renal outcomes in ANCA-associated vasculitides using established scores and histopathological criteria",
+          "journal": "Journal of Nephrology",
+          "authors": "Krämer S, Vogt K, Busch M, Schmitt T, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajaf019",
+          "url": "https://doi.org/10.1093/joneph/aajaf019",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Glomerulonephritis is a common, organ-threatening manifestation in ANCA-associated vasculitis (AAV). Various clinico-histological scores have been developed assessing the risk of kidney failure, including the simplified ANCA kidney risk score (AKRiS). METHODS: This retrospective study included 220 patients with biopsy-confirmed kidney involvement of granulomatosis with polyangiitis (GPA) or microscopic polyangiitis (MPA) recruited from four tertiary European referral centers. We collected biometric and clinical baseline data, disease activity parameters, AKRiS classes and histomorphological features. We examined the occurrence of a composite endpoint (ie all-cause mortality or kidney failure defined as persistent estimated glomerular filtration rate [eGFR] decline <15 mL/min/1.73 m² or kidney replacement therapy after ≥6 months, respectively) within individual AKRiS and precursor risk classes. RESULTS: GPA and MPA patients exhibited largely comparable baseline characteristics and treatment regimens. Histological analysis revealed that MPA biopsies showed significantly more sclerosis, interstitial fibrosis and tubular atrophy (IFTA) than their GPA counterparts. Histologically, most patients fell into focal and mixed classes, which mainly transitioned into low- and medium-risk AKRiS categories. Higher risk classifications predominantly derived from crescentic and sclerotic classes. Patients categorized as medium risk in the precursor score most frequently transitioned to lower AKRiS scores. AKRiS stratification was superior to the ANCA Renal Risk Score (ARRS) in the prediction of adverse outcomes over the entire period (AUC 0.76, C-Index 0.899). CONCLUSIONS: The AKRiS score was found to be effective in predicting kidney failure and a strong composite kidney endpoint in a large European AAV cohort, despite slight differences in histological and event patterns between GPA and MPA under comparable treatment regimens.",
+          "keyFindings": "The AKRiS score was found to be effective in predicting kidney failure and a strong composite kidney endpoint in a large European AAV cohort, despite slight differences in histological and event patterns between GPA and MPA under comparable treatment regimens.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 38,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
           }
         }
       ]
@@ -60,41 +193,22 @@
       "color": "#C62828",
       "articles": [
         {
-          "id": "aki-starrt-2020",
-          "title": "Timing of Initiation of Renal-Replacement Therapy in Acute Kidney Injury",
-          "journal": "New England Journal of Medicine",
-          "authors": "STARRT-AKI Investigators; Bagshaw SM, Wald R, Adhikari NKJ, et al.",
-          "year": 2020,
-          "doi": "10.1056/NEJMoa2000741",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32668114/",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico (n=3.019) que aleatorizó pacientes con LRA grave a inicio acelerado de TRR frente a estrategia estándar.",
-          "keyFindings": "El inicio acelerado de TRR en LRA grave no reduce la mortalidad a 90 días y se asocia a mayor dependencia de diálisis.",
+          "id": "aki-41554341",
+          "title": "Exhausted/senescent CD4+ T cells as predictors of vaccine failure and severe coronavirus disease 2019 in solid organ transplant recipients",
+          "journal": "American Journal of Transplantation",
+          "authors": "Donadeu L, Casanova-Ferrer F, Gomez-Olles S, Lopez-Meseguer M, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.ajt.2026.01.011",
+          "url": "https://doi.org/10.1016/j.ajt.2026.01.011",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "Despite booster vaccinations, solid organ transplant (SOT) recipients develop suboptimal immunity and remain at risk of severe coronavirus disease 2019 (COVID-19). Chronic immunosuppression and repeated antigen exposure favor T cell exhaustion/senescence, potentially challenging the development of protective immunity. In a prospective multicenter study including 80 naïve SOT patients receiving 5 severe acute respiratory syndrome coronavirus 2 mRNA-based vaccine doses, exhausted/senescent T cell phenotypes were longitudinally profiled at distinct time points, and their impact on antigen-specific immune responses was assessed by antibodies, memory B cells, cytokine-producing T cells, and activation-induced markers on CD4 and CD8 T cells. We observed wide heterogeneity of vaccine-induced adaptive immunity across compartments. T cell exhaustion/senescence did not change after 3 vaccine doses. Notably, high percentages of CD57+, CD57+PD1+, programmed cell death protein 1 (PD1)+, and CD57+TIM3+ exhausted/senescent CD4 T cells at baseline independently predicted poor adaptive functional immune responses despite multiple boosters, regardless of SOT type and immunosuppressive regimen (area under the curve 0.89, 95% confidence interval 0.81-0.97, sensitivity 0.79, specificity 0.92). Such phenotypes were predominantly observed among tacrolimus/mycophenolate-based regimens. Moreover, SOT recipients with high percentages of CD57+, CD57+PD1+, and CD57+TIM3+ exhausted/senescent CD4 T cells at baseline predicted severe COVID-19 (area under the curve 0.88, P < .01). Our study adds preliminary new insight in the field and has clinical implications for risk-stratification against COVID-19 and other viral infections, ultimately guiding decision-making for establishing preventive strategies in SOT patients.",
+          "keyFindings": "Our study adds preliminary new insight in the field and has clinical implications for risk-stratification against COVID-19 and other viral infections, ultimately guiding decision-making for establishing preventive strategies in SOT patients.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 95,
-            "label": "Alta",
-            "rationale": "RCT definitivo en NEJM (n=3.019, 15 países)."
-          }
-        },
-        {
-          "id": "aki-akiki2-2021",
-          "title": "Comparison of Two Delayed Strategies for Renal Replacement Therapy Initiation for Severe Acute Kidney Injury (AKIKI-2)",
-          "journal": "The Lancet",
-          "authors": "Gaudry S, Hajage D, Martin-Lefevre L, et al.",
-          "year": 2021,
-          "doi": "10.1016/S0140-6736(21)00350-0",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33788359/",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "Ensayo aleatorizado (n=278) que comparó dos estrategias de inicio diferido de TRR en LRA estadio KDIGO 3.",
-          "keyFindings": "Una estrategia de inicio de TRR aún más diferida favorece la recuperación renal espontánea en más pacientes.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 84,
-            "label": "Alta",
-            "rationale": "RCT en The Lancet que refuerza la estrategia de máxima espera en LRA crítica."
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
           }
         }
       ]
@@ -105,124 +219,79 @@
       "color": "#6A1B9A",
       "articles": [
         {
-          "id": "glom-duplex-fsgs-2023",
-          "title": "Sparsentan versus Irbesartan in Focal Segmental Glomerulosclerosis (DUPLEX Trial)",
-          "journal": "New England Journal of Medicine",
-          "authors": "Rheault MN, Bhatt DL, Heerspink HJL, et al.",
-          "year": 2023,
-          "doi": "10.1056/NEJMoa2305662",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37870936/",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico doble ciego fase 3 (n=371) que comparó esparsantán frente a irbesartán en GSFS primaria.",
-          "keyFindings": "Esparsantán reduce un 44% los eventos renales graves en GSFS primaria.",
+          "id": "glomerulopatias-42014363",
+          "title": "Efficacy, safety, and biomarker changes of B-cell activating factor and A proliferation-inducing ligand-targeted therapies in IgA nephropathy: a systematic review and meta-analysis of randomized controlled trials",
+          "journal": "Journal of Nephrology",
+          "authors": "Dos Santos Borges R, Lara Santos R, Haikal de Paula L, Borges Martins JM, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajaf002",
+          "url": "https://doi.org/10.1093/joneph/aajaf002",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: IgA nephropathy (IgAN) is the most common primary glomerular disease worldwide. B-cell activating factor (BAFF) and A proliferation-inducing ligand (APRIL) are cytokines involved in B-cell activation and survival, contributing to the pathogenesis of IgAN. This meta-analysis aimed to evaluate the efficacy, safety, and biomarkers of BAFF- or APRIL-targeted therapies in patients with IgAN. METHODS: We searched PubMed, Scopus, and the Cochrane Library for randomized controlled trials (RCTs) comparing BAFF- or APRIL-targeted drugs with placebo in adults with IgAN, published up to December 2024 and written in English. Efficacy outcomes were the mean percent change in the 24-hour urine protein-to-creatinine ratio (UPCR) and the mean change in the estimated glomerular filtration rate (eGFR) from baseline. Safety included the incidence of adverse events. The biomarkers we used were changes in serum Gd-IgA1, IgG, IgA, and IgM from baseline. The risk of bias and the certainty of evidence were assessed using RoB v2.0 and the Grading of Recommendations, Assessment, Development, and Evaluations (GRADE). We used the R software version 4.2.1 for statistics. RESULTS: Four Phase II RCTs, including 331 patients, were included, with three studies having a low risk of bias, while there were some concerns regarding one study. Compared to placebo, BAFF- or APRIL-targeted drugs significantly reduced 24-hour UPCR (mean difference [MD] -38.94%; 95% confidence interval [CI] -58.98 to -18.90; P = 0.0001; I² = 0%) and significantly improved the eGFR (MD 7.05 mL/min/1.73 m²; 95% CI 3.83 to 10.27; P < 0.0001; I² = 0%). Adverse events did not significantly differ between the study groups. BAFF- or APRIL-targeted drugs significantly decreased serum Gd-IgA1, IgG, IgA, and IgM compared with placebo, indicating lower immune complex formation and response to treatment. CONCLUSION: BAFF- or APRIL-targeted therapies appear to be effective and safe in reducing proteinuria in patients with IgAN. PROSPERO REGISTRATION ID: CRD42024598157.",
+          "keyFindings": "BAFF- or APRIL-targeted therapies appear to be effective and safe in reducing proteinuria in patients with IgAN. PROSPERO REGISTRATION ID: CRD42024598157.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 95,
-            "label": "Alta",
-            "rationale": "Primer RCT positivo en GSFS primaria publicado en NEJM."
+            "score": 68,
+            "label": "Moderada",
+            "rationale": "Meta-análisis en Journal of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
           }
         },
         {
-          "id": "glom-protect-igan-2023",
-          "title": "Sparsentan in IgA Nephropathy (PROTECT Trial)",
-          "journal": "The Lancet",
-          "authors": "Rovin BH, Barratt J, Heerspink HJL, et al.",
-          "year": 2023,
-          "doi": "10.1016/S0140-6736(23)00303-8",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/36931289/",
+          "id": "glomerulopatias-41905593",
+          "title": "A randomized controlled non-inferiority trial examined lower dose prednisolone and activated vitamin D in adult minimal change podocytopathy",
+          "journal": "Kidney International",
+          "authors": "Kristensen T, Tougaard B, Thuesen AD, Peters CD, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.kint.2026.02.035",
+          "url": "https://doi.org/10.1016/j.kint.2026.02.035",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico doble ciego fase 3 (n=404; nefropatía IgA) que comparó esparsantán frente a irbesartán.",
-          "keyFindings": "Esparsantán reduce un 35% los eventos renales y un 50% la proteinuria en nefropatía IgA.",
+          "abstract": "INTRODUCTION: Minimal change disease (MCD) is a frequent cause of nephrotic syndrome in adults. Standard treatment consists of high-dose prednisolone (1 mg/kg/d), which induces remission in over 80% of patients but is associated with considerable glucocorticoid toxicity. Here, in the ADAPT trial, we investigated whether a lower dose of prednisolone combined with activated vitamin D (alfacalcidol) could be non-inferior to the standard high-dose regimen in achieving remission. METHODS: In this randomized, open-label, non-inferiority, multicenter trial, 67 adults with MCD were assigned to either lower-dose prednisolone with alfacalcidol or standard high-dose prednisolone. The primary endpoint was remission rate. Secondary endpoints included time to remission, relapse rate, time to relapse, incidence of serious adverse events and glucocorticoid-related toxicity. RESULTS: Although statistical non-inferiority was not established, rates, time to remission and relapse were comparable between groups. Remission was achieved in 88% (95% confidence interval: 74-96) of patients in the lower-dose prednisolone/alfacalcidol group and in 91% (78-98) of those receiving high-dose prednisolone. Median time to remission was 28 days [interquartile range 14-54] versus 23 days [13-47], respectively. Relapses occurred in 35% and 32% of patients, with median times to relapse of 195 days [100-275] and 179 days [161-206], respectively. The total cumulative doses of prednisolone were significantly less 3.7 g vs 8.0 g, respectively. The number of serious adverse events were less and glucocorticoid-related toxicities (46 [11-77] vs. 74 [30-119]) were significantly less in the lower-dose/ alfacalcidol group than the high-dose group, respectively. CONCLUSIONS: Non-inferiority was not reached for the combined intervention with lower dose prednisolone and alfacalcidol compared to standard prednisolone treatment. But the combined treatment offers a safer alternative to high-dose prednisolone for treatment of MCD, with similar efficacy but fewer serious adverse events and reduced glucocorticoid toxicity. TRIAL REGISTRATION: Registered at ClinicalTrials.gov with study number NCT03210688.",
+          "keyFindings": "Non-inferiority was not reached for the combined intervention with lower dose prednisolone and alfacalcidol compared to standard prednisolone treatment. But the combined treatment offers a safer alternative to high-dose prednisolone for treatment of MCD, with similar efficacy but fewer serious adverse events and reduced glucocorticoid toxicity. TRIAL",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 93,
+            "score": 72,
             "label": "Alta",
-            "rationale": "RCT en The Lancet (n=404) que establece esparsantán en NIgA."
+            "rationale": "RCT publicado en Kidney International con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
           }
         },
         {
-          "id": "glom-aurora-voclosporin-2021",
-          "title": "Voclosporin for Lupus Nephritis (AURORA 1 Trial)",
-          "journal": "The Lancet",
-          "authors": "Rovin BH, Teng YKO, Ginzler EM, et al.",
-          "year": 2021,
-          "doi": "10.1016/S0140-6736(21)00578-X",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/33781402/",
+          "id": "glomerulopatias-41563292",
+          "title": "Genetic Determinants of Steroid Responsiveness in IgA Nephropathy",
+          "journal": "Journal of the American Society of Nephrology",
+          "authors": "Xu LL, Zhou XJ, Bi W, Zhang P, et al.",
+          "year": 2026,
+          "doi": "10.1681/ASN.0000000977",
+          "url": "https://doi.org/10.1681/ASN.0000000977",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico doble ciego (n=357; nefritis lúpica clase III, IV o V).",
-          "keyFindings": "Voclosporin añadido a micofenolato casi duplica la tasa de respuesta renal completa en nefritis lúpica.",
+          "abstract": "KEY POINTS: Genetic variant rs477155 near cytidine deaminase identified IgA nephropathy patients with enhanced glucocorticoid response. rs477155 may regulate cytidine deaminase via glucocorticoid receptor, linking genomic variation to steroid sensitivity and individualized treatment optimization. BACKGROUND: Glucocorticoid therapy improves outcomes in high-risk IgA nephropathy but shows variable efficacy and adverse effects, potentially influenced by genetic factors. METHODS: We conducted a genome-wide pharmacogenomic analysis in 260 biopsy-confirmed patients with IgA nephropathy from the Chinese The Therapeutic Evaluation of Steroids in IgA Nephropathy Global (TESTING) study cohort (134 received methylprednisolone and 126 received placebo), assessing the percentage reduction in 24-hour proteinuria at 6 months via genotype-by-treatment interaction models. Replication was performed in an independent cohort of 211 high-risk patients receiving glucocorticoid monotherapy. Functional annotation, expression quantitative trait loci mapping, regulatory analyses, and dual-luciferase reporter assays elucidated the biologic relevance of candidate loci. RESULTS: Genome-wide analysis identified three loci with suggestive genotype-by-treatment interaction ( P < 5.00×10 -6 ), of which rs477155 (chromosome 1, intronic to cytidine deaminase [ CDA ]) was replicated in the independent cohort (discovery P = 2.70×10 -6 , replication P = 0.01). In the TESTING study cohort, carriers of the rs477155 GG genotype had significantly higher rates of complete proteinuria remission (odds ratio, 2.5; 95% confidence interval, 1.3 to 4.9; P = 5.00×10 -3 ) and composite clinical remission (odds ratio, 2.8; 95% confidence interval, 1.6 to 4.9; P = 3.13×10 -4 ) at 6 months. Functional analyses revealed that rs477155 acts as a Cis -expression quantitative trait locus for CDA in blood and immune cells and is located within an enhancer region marked by H3K4Me1/H3K27Ac and a glucocorticoid receptor (nuclear receptor subfamily 3 group C member 1 [NR3C1])-binding site. Bioinformatics, dual-luciferase reporter assay, and RNA-seq analyses indicated that NR3C1 may directly regulate CDA expression, with rapid upregulation of CDA observed in blood after dexamethasone stimulation (9.84±0.52 versus 10.50±0.55, P = 7.41×10 -23 ). Phenome-wide association studies further linked rs477155 and CDA to a spectrum of immune and kidney traits, including acute tubulointerstitial nephritis ( P = 7.4×10 -11 ), nephritic syndrome ( P = 2.7×10 -8 ), asthma ( P = 2.5×10 -21 ), and rheumatoid arthritis ( P = 2.1×10 -12 ). CONCLUSIONS: In this study, rs477155 was suggestively associated with glucocorticoid responsiveness in IgA nephropathy, potentially via a suggested NR3C1-regulated CDA pathway.",
+          "keyFindings": "In this study, rs477155 was suggestively associated with glucocorticoid responsiveness in IgA nephropathy, potentially via a suggested NR3C1-regulated CDA pathway.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 92,
-            "label": "Alta",
-            "rationale": "RCT en The Lancet (n=357) que establece voclosporin + MMF como nuevo estándar."
-          }
-        }
-      ]
-    },
-    {
-      "id": "nefro-diabetica",
-      "name": "Nefropatía Diabética",
-      "color": "#2E7D32",
-      "articles": [
-        {
-          "id": "dkd-flow-semaglutide-2024",
-          "title": "Semaglutide in Patients with Type 2 Diabetes and Chronic Kidney Disease (FLOW Trial)",
-          "journal": "New England Journal of Medicine",
-          "authors": "Perkovic V, Tuttle KR, Rossing P, et al.",
-          "year": 2024,
-          "doi": "10.1056/NEJMoa2400993",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38785209/",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "Primer ensayo aleatorizado con objetivo renal primario de un GLP-1 RA (n=3.533; DM2 con ERC).",
-          "keyFindings": "Semaglutida reduce un 24% el objetivo renal primario en nefropatía diabética.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 98,
-            "label": "Alta",
-            "rationale": "RCT pivotal en NEJM (n=3.533) que añade semaglutida al arsenal renoprotector."
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of the American Society of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
           }
         },
         {
-          "id": "dkd-fidelio-2020",
-          "title": "Finerenone in Reducing Kidney Failure and Disease Progression in Diabetic Kidney Disease (FIDELIO-DKD Trial)",
-          "journal": "New England Journal of Medicine",
-          "authors": "Bakris GL, Agarwal R, Anker SD, et al.",
-          "year": 2020,
-          "doi": "10.1056/NEJMoa2025845",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32972751/",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "Ensayo doble ciego (n=5.734; DM2 con ERC) que evaluó finerenona frente a placebo.",
-          "keyFindings": "Finerenona reduce un 18% los eventos renales graves en nefropatía diabética avanzada.",
+          "id": "glomerulopatias-41833637",
+          "title": "Evidence from multicenter clinical studies and humanized mouse models indicates that glomerular mesangial IgA2 deposition contributes to the pathogenesis of IgA nephropathy",
+          "journal": "Kidney International",
+          "authors": "Li R, Ma Y, Xie X, Qin A, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.kint.2026.02.018",
+          "url": "https://doi.org/10.1016/j.kint.2026.02.018",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "INTRODUCTION: While IgA1 is well established as pathogenic in IgA nephropathy (IgAN), IgA2's role remains controversial. The most notable difference between IgA1 and IgA2 lies in the hinge region: IgA2 lacks a 13-amino acid segment unique in IgA1, which contains nine serine and threonine residues that can be O-glycosylated. Here, we investigated the role of IgA2 in the development of IgAN. METHODS: To characterize glomerular IgA2 deposition in IgAN, we performed laser capture microdissection coupled with mass spectrometry (LCM/MS) on kidney biopsies from 14 patients with IgAN and 10 healthy donors. Additionally, multicenter immunofluorescence analysis was conducted using validated subclass-specific antibodies on 161 biopsy-proven IgAN cases from three Chinese clinical centers. To establish IgA2's pathogenicity, we generated humanized IgA1/IgA2 mouse models and induced IgAN via intraperitoneal administration of Lactobacillus casei cell wall extract with complete Freund's adjuvant. RESULTS: LCM/MS detected both IgA2(m1) and IgA2(m2) in IgAN glomeruli, confirming IgA2 deposition despite lower abundance than IgA1. Multicenter kidney immunofluorescence staining revealed mesangial IgA2 in over 98% of IgAN cases, with significant intensity correlating with chronic lesions (Oxford T lesion: ρ of 0.237) and significant kidney dysfunction (eGFR: r of -0.272). The humanized IgA2 model exhibited IgA2 mesangial deposition and developed tubular atrophy (16%-22% area), absent in humanized IgA1 mice. IgA2 mice also exhibited stronger glomerular complement C3 activation and interstitial macrophage infiltration compared with IgA1 mice. CONCLUSIONS: Our study highlights the role of IgA2 in IgAN development, demonstrating its capacity for glomerular deposition, complement activation, and induction of distinct histopathological injury patterns. These findings extend the IgA1-centric paradigm, indicating that IgA2 should be incorporated into future investigations of IgAN.",
+          "keyFindings": "Our study highlights the role of IgA2 in IgAN development, demonstrating its capacity for glomerular deposition, complement activation, and induction of distinct histopathological injury patterns. These findings extend the IgA1-centric paradigm, indicating that IgA2 should be incorporated into future investigations of IgAN.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 96,
-            "label": "Alta",
-            "rationale": "RCT pivotal en NEJM (n=5.734) que estableció finerenona como tercer pilar del tratamiento."
-          }
-        },
-        {
-          "id": "dkd-figaro-2021",
-          "title": "Finerenone in Reducing Cardiovascular Mortality and Morbidity in Diabetic Kidney Disease (FIGARO-DKD Trial)",
-          "journal": "New England Journal of Medicine",
-          "authors": "Pitt B, Filippatos G, Agarwal R, et al.",
-          "year": 2021,
-          "doi": "10.1056/NEJMoa2110956",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34449181/",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "Ensayo doble ciego (n=7.437; DM2 con ERC estadio G2–G4) que evaluó finerenona frente a placebo.",
-          "keyFindings": "Finerenona reduce los eventos cardiovasculares un 13% y los renales un 23% en nefropatía diabética.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 90,
-            "label": "Alta",
-            "rationale": "Complementario a FIDELIO-DKD, publicado en NEJM (n=7.437)."
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
           }
         }
       ]
@@ -233,67 +302,79 @@
       "color": "#00695C",
       "articles": [
         {
-          "id": "tx-nmp-nefro-2023",
-          "title": "Normothermic Machine Perfusion versus Static Cold Storage in Deceased Donor Kidney Transplantation",
-          "journal": "New England Journal of Medicine",
-          "authors": "Hosgood SA, Callaghan CJ, Wilson CH, et al.",
-          "year": 2023,
-          "doi": "10.1056/NEJMoa2212618",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37098088/",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico aleatorizado (n=338 pares de riñones) que comparó perfusión normotérmica frente a almacenamiento en frío estándar.",
-          "keyFindings": "La perfusión normotérmica reduce la función retrasada del injerto un 28% relativo.",
+          "id": "trasplante-41774596",
+          "title": "The impact of pre-transplant atherosclerosis and coronary artery disease on cardiovascular and graft outcomes in kidney transplant recipients: a systematic review and meta-analysis",
+          "journal": "Journal of Nephrology",
+          "authors": "Abdel-Rahman SM, Mizrak B, Narin AE, Guldan M, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajaf015",
+          "url": "https://doi.org/10.1093/joneph/aajaf015",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: Kidney transplant recipients with pre-existing atherosclerosis or coronary artery disease (CAD) have an increased risk of adverse post-transplant outcomes. However, the extent to which pre-transplant CAD influences mortality, cardiovascular events, and graft function remains unclear. This systematic review and meta-analysis aims to evaluate the impact of pre-existing CAD on all-cause mortality, post-transplant cardiovascular events, and graft failure in kidney transplant recipients. METHODS: A systematic literature search was conducted using PubMed, Scopus, Web of Science, Cochrane Library, and Ovid MEDLINE. Studies reporting outcomes in kidney transplant recipients with and without pre-existing CAD were included. The primary outcomes were all-cause mortality, major cardiovascular events, and graft failure post-transplantation. Risk estimates were pooled using a random-effects model, with heterogeneity assessed using the I² statistic. The study protocol was registered with PROSPERO (CRD42024600751). RESULTS: A total of 16 studies involving 112,416 kidney transplant recipients were included. Patients with pre-transplant CAD had a significantly higher risk of all-cause mortality compared to those without CAD (hazard ratio [HR] = 1.68, 95% confidence Interval [CI]: 1.38-2.06, P < .01), with high heterogeneity (I² = 60.0%). The risk of post-transplant cardiovascular events was also significantly increased in patients with CAD (HR = 2.78, 95% CI: 2.00-3.86, P < .01), with moderate heterogeneity (I² = 36.1%). Graft failure was more common in recipients with pre-transplant CAD, although the effect size was smaller (HR = 1.09, 95% CI: 1.03-1.16, P < .01), with no observed heterogeneity (I² = 0%). CONCLUSIONS: Pre-existing CAD in kidney transplant recipients is associated with a significantly increased risk of all-cause mortality and post-transplant cardiovascular events, as well as a modestly but significantly increased risk of graft failure. These findings stress the need for enhanced cardiovascular risk assessment and management strategies in transplant candidates with CAD to improve long-term outcomes.",
+          "keyFindings": "Pre-existing CAD in kidney transplant recipients is associated with a significantly increased risk of all-cause mortality and post-transplant cardiovascular events, as well as a modestly but significantly increased risk of graft failure. These findings stress the need for enhanced cardiovascular risk assessment and management strategies in transplant candidates with CAD to improve long-term outcomes.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 88,
+            "score": 75,
             "label": "Alta",
-            "rationale": "RCT en NEJM con diseño pareado (n=338)."
+            "rationale": "Meta-análisis publicado en Journal of Nephrology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
           }
         },
         {
-          "id": "tx-belatacept-7yr-2016",
-          "title": "Belatacept and Long-Term Outcomes in Kidney Transplantation (BENEFIT 7-Year Follow-Up)",
+          "id": "trasplante-42235014",
+          "title": "Kidney Transplantation in Two Highly Sensitized Candidates after CAR T-Cell Therapy",
           "journal": "New England Journal of Medicine",
-          "authors": "Vincenti F, Rostaing L, Grinyo J, et al.",
-          "year": 2016,
-          "doi": "10.1056/NEJMoa1602086",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/27626519/",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "authors": "Bhoj VG, Kaminski M, Zhao H, Jackson K, et al.",
+          "year": 2026,
+          "doi": "10.1056/NEJMoa2513428",
+          "url": "https://doi.org/10.1056/NEJMoa2513428",
+          "evidenceLevel": "Ensayo Clínico",
           "evidenceRank": 3,
-          "abstract": "Seguimiento a 7 años del ensayo BENEFIT (n=666) que comparó belatacept frente a ciclosporina.",
-          "keyFindings": "Belatacept preserva una función renal 18–21 ml/min/1,73 m² superior a ciclosporina a 7 años postrasplante.",
+          "abstract": "HLA sensitization poses a major challenge to kidney transplantation for patients with end-stage kidney disease, especially for highly sensitized candidates. Attempts at antibody elimination (desensitization) have had inconsistent efficacy and have often failed to produce sustained reductions in anti-HLA antibodies in patients with the highest level of sensitization (calculated panel-reactive antibody score, ≥99.9%). We now report the results for the safety run-in cohort of a multicenter phase 1 clinical study evaluating the safety and efficacy of combined CD19-targeted and B-cell maturation antigen (BCMA)-targeted chimeric antigen receptor (CAR) T cells in eliminating the cellular sources of preformed anti-HLA antibodies (ClinicalTrials.gov number, NCT06056102). Kidney transplantation was performed in two highly sensitized candidates after desensitization with the use of dual CAR T-cell therapy.",
+          "keyFindings": "Kidney transplantation was performed in two highly sensitized candidates after desensitization with the use of dual CAR T-cell therapy.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 83,
+            "score": 75,
             "label": "Alta",
-            "rationale": "Seguimiento de 7 años en NEJM que confirma la superioridad funcional renal sostenida de belatacept."
+            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
           }
-        }
-      ]
-    },
-    {
-      "id": "hta-renal",
-      "name": "Hipertensión y Riñón",
-      "color": "#AD1457",
-      "articles": [
+        },
         {
-          "id": "hta-sprint-ckd-2015",
-          "title": "A Randomized Trial of Intensive versus Standard Blood-Pressure Control (SPRINT)",
-          "journal": "New England Journal of Medicine",
-          "authors": "SPRINT Research Group; Wright JT Jr, Williamson JD, Whelton PK, et al.",
-          "year": 2015,
-          "doi": "10.1056/NEJMoa1511939",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/26551272/",
+          "id": "trasplante-42083151",
+          "title": "Safety, Pharmacokinetics, and Pharmacodynamics of Fixed-dose, Subcutaneous, and Intravenous Administration of VEL-101, an Anti-CD28 PEGylated Monoclonal Antibody Fragment, in Healthy Participants: A Randomized, Double-blind, Placebo-controlled, Dose Escalation, Phase 1 Study",
+          "journal": "Transplantation",
+          "authors": "Tremblay S, Abaigar A, Allton P, Sardinha D, et al.",
+          "year": 2026,
+          "doi": "10.1097/TP.0000000000005701",
+          "url": "https://doi.org/10.1097/TP.0000000000005701",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico (n=9.361) que comparó objetivo de PAS <120 mmHg frente a <140 mmHg.",
-          "keyFindings": "El control intensivo de PA reduce los eventos cardiovasculares mayores en pacientes con ERC.",
+          "abstract": "BACKGROUND: VEL-101, also known as pegrizeprument, is a monovalent, humanized, anti-CD28 PEGylated monoclonal antibody fragment that selectively blocks CD28 costimulation, under development as a maintenance immunosuppressant in kidney transplant recipients. In development as a fixed-dose subcutaneous maintenance immunosuppressant in kidney transplant recipients, the safety, tolerability, pharmacokinetics, and pharmacodynamics of single ascending doses of VEL-101 were evaluated in this randomized, double-blind, placebo-controlled, dose escalation, phase 1 study (NCT05238493). METHODS: Sixty healthy participants were randomly assigned 3:1 to receive 1 of 7 dose levels of VEL-101 or placebo (2 intravenous and 5 subcutaneous) and followed for 50 d. Safety, pharmacokinetic, and pharmacodynamic analyses evaluated the nature and severity of treatment-emergent adverse events, serum VEL-101 levels, and CD28 receptor occupancy, respectively. RESULTS: Most adverse events were mild to moderate, with injection site pain the most frequently reported. One serious adverse event (rhabdomyolysis, grade 3) resolved with supportive care. No case of clinically elevated cytokines or cytokine release syndrome was observed. Following subcutaneous administration, all participants had detectable serum concentrations of VEL-101. Dose-exposure proportionality was maintained, and VEL-101 elimination was consistent regardless of subcutaneous or intravenous administration. CONCLUSIONS: Subcutaneous administration of VEL-101 resulted in dose-proportional increases in maximum concentration and area under the time-concentration curve 0-inf across the doses tested and a sustained receptor occupancy of ≥50% to ≥80%. Subcutaneous administration of VEL-101 was generally well-tolerated, yielding detectable CD28 receptor occupancy levels acceptable for future study in kidney transplant recipients.",
+          "keyFindings": "Subcutaneous administration of VEL-101 resulted in dose-proportional increases in maximum concentration and area under the time-concentration curve 0-inf across the doses tested and a sustained receptor occupancy of ≥50% to ≥80%. Subcutaneous administration of VEL-101 was generally well-tolerated, yielding detectable CD28 receptor occupancy levels acceptable for future study in kidney transplant recipients.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 88,
-            "label": "Alta",
-            "rationale": "RCT en NEJM (n=9.361) base de las guías KDIGO 2024 de PA en ERC."
+            "score": 60,
+            "label": "Moderada",
+            "rationale": "RCT en Transplantation — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "trasplante-41805989",
+          "title": "Development and evaluation of a home-based exercise intervention for frail kidney transplant recipients using the ADOPT model",
+          "journal": "Journal of Nephrology",
+          "authors": "Fan HH, Yuan H, Liu B, Liu HY, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajaf012",
+          "url": "https://doi.org/10.1093/joneph/aajaf012",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: International studies have reported that frailty prevalence among kidney transplant recipients ranges from 13.3% to 33.3%, while investigations in China indicated that preoperative frailty may affect up to 41% of recipients. The aim of this study was to develop a home-based exercise intervention program for frail kidney transplant recipients based on the \"Attitude-Definition-Open mind-Planning-Try it out\" (ADOPT) model and to evaluate its effectiveness in clinical practice. METHODS: By using a convenience sampling method, 120 frail kidney transplant recipients were recruited from an organ transplantation center at a grade A tertiary hospital in Shanxi Province between January 2022 and April 2024. Inclusion criteria: (1) meeting the diagnostic criteria for frailty based on the Fried phenotype; (2) age ≥18 years and ≤65 years; (3) undergoing kidney transplantation for the first time; (4) possessing normal listening, speaking, reading, and writing abilities; and (5) providing voluntary consent to participate in the study. Participants were randomly assigned to either a control group, which received standard postoperative care and routine outpatient follow-up, or an intervention group, which received the same standard care supplemented with a home-based exercise program structured according to the ADOPT model. The Attitude-Definition-Open mind-Planning-Try it out (ADOPT) model serves as a structured and dynamic nursing intervention framework, encompassing five key phases: Attitude (A), Definition (D), Open mind (O), Planning (P), and Try it out (T). Participants in the control group engaged in a self-directed, non-standardized home-based exercise regimen. On the day of discharge, researchers provided general discharge instructions and required participants to scan a QR code to join the department's follow-up WeChat group. Educational materials on exercise, medication, and diet were shared weekly in this group. Participants could also consult the research team regarding problems encountered during home exercise; the team provided guidance as needed, but without applying the structured ADOPT framework. Outcomes were measured at baseline and at 4-, 12-, 24-, and 48-weeks post-intervention. Evaluation metrics included the Fried Frailty Phenotype, grip strength, gait speed, Short Physical Performance Battery, Hospital Anxiety and Depression Scale, quality of life scores, and serum creatinine levels. RESULTS: A total of 108 participants completed the study, with 55 in the intervention group and 53 in the control group. When compared to the control group, the intervention group demonstrated statistically significant improvements in Fried frailty scores, grip strength, gait speed, Short Physical Performance Battery scores, and overall quality of life (P < .05). Significant reductions in anxiety and depression scores were also observed (P < .01). No significant changes were found in serum creatinine levels in either group (P > .05). CONCLUSION: The ADOPT model-based home exercise intervention program was found to be safe, scientifically grounded, and feasible for frail kidney transplant recipients. Preliminary findings support its potential to enhance post-operative physical functioning, daily living activities, and overall recovery quality in the early post-transplant period.",
+          "keyFindings": "The ADOPT model-based home exercise intervention program was found to be safe, scientifically grounded, and feasible for frail kidney transplant recipients. Preliminary findings support its potential to enhance post-operative physical functioning, daily living activities, and overall recovery quality in the early post-transplant period.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 60,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
           }
         }
       ]
@@ -304,48 +385,117 @@
       "color": "#0277BD",
       "articles": [
         {
-          "id": "dial-convince-hdf-2023",
-          "title": "Effect of Hemodiafiltration or Hemodialysis on Mortality in Kidney Failure (CONVINCE Trial)",
-          "journal": "New England Journal of Medicine",
-          "authors": "Blankestijn PJ, Vernooij RWM, Hoevenaar-Blom MP, et al.",
-          "year": 2023,
-          "doi": "10.1056/NEJMoa2219700",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/37220291/",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "Ensayo multicéntrico aleatorizado (n=1.360) que comparó HDF en línea de alto volumen frente a hemodiálisis de alto flujo.",
-          "keyFindings": "La HDF en línea de alto volumen reduce la mortalidad total un 23% y la cardiovascular un 29%.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 95,
-            "label": "Alta",
-            "rationale": "RCT definitivo en NEJM (n=1.360, 61 centros)."
-          }
-        }
-      ]
-    },
-    {
-      "id": "nefrolitiasis",
-      "name": "Nefrolitiasis y Uropatías",
-      "color": "#E65100",
-      "articles": [
-        {
-          "id": "nefrolit-prevention-sr-2013",
-          "title": "Medical Management to Prevent Recurrent Nephrolithiasis in Adults",
-          "journal": "Annals of Internal Medicine",
-          "authors": "Fink HA, Wilt TJ, Eidman KE, et al.",
-          "year": 2013,
-          "doi": "10.7326/0003-4819-158-7-201304020-00005",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23778908/",
+          "id": "dialisis-41866019",
+          "title": "Paid Employment and Ability to Work Among People Receiving Dialysis: A Systematic Review of Qualitative Studies",
+          "journal": "American Journal of Kidney Diseases",
+          "authors": "Zhang A, Martin A, Manera K, Guha C, et al.",
+          "year": 2026,
+          "doi": "10.1053/j.ajkd.2026.01.008",
+          "url": "https://doi.org/10.1053/j.ajkd.2026.01.008",
           "evidenceLevel": "Revisión Sistemática",
           "evidenceRank": 2,
-          "abstract": "Revisión sistemática de 28 ensayos aleatorizados (n=4.462) sobre prevención secundaria de nefrolitiasis.",
-          "keyFindings": "Las tiazidas, el citrato potásico y el alopurinol reducen la recurrencia de nefrolitiasis un 35–55%.",
+          "abstract": "RATIONALE & OBJECTIVE: People receiving dialysis have reduced workforce participation, which can affect mental well-being and exacerbate the financial burden of dialysis. This study describes the experiences and perspectives of people receiving dialysis on employment and their ability to work. STUDY DESIGN: Systematic review and thematic synthesis of qualitative studies. SETTING & STUDY POPULATIONS: Adults aged 16 years and over receiving dialysis. SEARCH STRATEGY & SOURCES: MEDLINE, Embase, and PsycINFO were searched to May 2025 for qualitative and mixed-methods studies that reported the perspectives of people receiving dialysis on employment or ability to work. DATA EXTRACTION: Text from results and conclusions of studies. ANALYTICAL APPROACH: Thematic synthesis. RESULTS: The analysis included 37 studies involving 1,374 participants from 17 countries/regions. Six themes were identified: impinging on capacity to work (lacking physical endurance and energy, battling with cognitive symptoms, grueling treatment schedule), narrowed vocational opportunities and financial insecurity (unfulfilled dreams and worry about job prospects, struggling to stay afloat financially), discrimination and stigma (overlooked by potential employers, being pushed out of jobs or fired, delaying or avoiding disclosure of dialysis), conducive workplace environments (empathy and support from managers and colleagues, occupational adjustments), managing dialysis around work (choosing a suitable dialysis type to support work, careful time management and scheduling), and fostering esteem, enjoyment, and social connection. LIMITATIONS: Only English-language articles were included. CONCLUSIONS: Among people receiving dialysis, the symptom and treatment burdens, lack of workplace accommodations, and discrimination all compromised sustained employment. Conversely, supportive workplaces that implemented tailored occupational adjustments enabled work participation, thereby boosting psychosocial well-being. Workplace advocacy and flexible work arrangements, symptom management, and aligning dialysis modality choices and timing with work demands may help to improve participation and work ability among people on dialysis. TRIAL REGISTRATION: Registered at PROSPERO with identification number CRD42023424482. PLAIN-LANGUAGE SUMMARY: Many people receiving dialysis want to work, but maintaining paid employment can be challenging. Work is important not only for income but also for identity and social connection. We reviewed 37 studies to examine how people on dialysis experience work. People described that fatigue and the time demands of dialysis often limited their ability to work. Many also faced discrimination, job loss, or a lack of understanding from employers. However, supportive workplaces, flexible hours, and choosing dialysis options that accommodate work schedules helped people to remain employed. These findings show that better workplace support, flexible work arrangements, and health care that considers employment needs may help people on dialysis remain employed and support their well-being.",
+          "keyFindings": "CONCLUSIONS: Among people receiving dialysis, the symptom and treatment burdens, lack of workplace accommodations, and discrimination all compromised sustained employment.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 76,
-            "label": "Alta",
-            "rationale": "Revisión sistemática fundacional para las guías ACP de nefrolitiasis recurrente."
+            "score": 59,
+            "label": "Moderada",
+            "rationale": "Revisión sistemática en American Journal of Kidney Diseases — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "dialisis-41739586",
+          "title": "Perspectives of Indigenous Peoples on Home Dialysis: A Systematic Review and Meta-Synthesis of Qualitative Studies",
+          "journal": "Clinical Journal of the American Society of Nephrology",
+          "authors": "Przybylak-Brouillard A, Wong-Mersereau C, Messina A, Stephen E, et al.",
+          "year": 2026,
+          "doi": "10.2215/CJN.0000001005",
+          "url": "https://doi.org/10.2215/CJN.0000001005",
+          "evidenceLevel": "Revisión Sistemática",
+          "evidenceRank": 2,
+          "abstract": "KEY POINTS: Indigenous people value home dialysis as it minimizes the need for relocation while supporting autonomy, cultural connection, and community engagement. Qualitative studies highlight that barriers to home dialysis are largely systemic, structural, and culturally rooted. Community-centered and culturally informed approaches are consistently identified as key facilitators to home dialysis. BACKGROUND: Indigenous patients are less likely to be treated with home dialysis, including home hemodialysis and peritoneal dialysis, compared with non-Indigenous people. We conducted a systematic review and meta-synthesis of qualitative studies to better understand the experiences of Indigenous patients and caregivers with home dialysis. METHODS: We conducted a comprehensive search of Cumulative Index to Nursing and Allied Health Literature, Cochrane, Embase, MEDical Literature Analysis and Retrieval System Online, and Web of Science from inception to September 13, 2023, supplemented by additional searches in Google Scholar and Health Canada resources. Data were synthesized using thematic analysis through an inductive and iterative approach. Two Indigenous community members reviewed and contextualized the findings to ensure cultural relevance. RESULTS: Fifteen studies involving 362 participants from Canada, Australia, and New Zealand were included. Five major themes emerged: ( 1 ) delayed diagnosis and limited awareness as barriers to home dialysis; ( 2 ) systemic and structural barriers to home dialysis; ( 3 ) the role of home dialysis in fostering autonomy and empowerment; ( 4 ) the importance of strengthening community engagement with home dialysis; and ( 5 ) proposed facilitators to improving access to home dialysis. CONCLUSIONS: Although Indigenous patients and caregivers recognize the benefits of home dialysis, multiple systemic and culturally rooted barriers limit its accessibility. Meaningful engagement with Indigenous communities is essential to cocreate culturally safe, community-informed strategies that promote equitable access to home dialysis and support better kidney health outcomes.",
+          "keyFindings": "Although Indigenous patients and caregivers recognize the benefits of home dialysis, multiple systemic and culturally rooted barriers limit its accessibility. Meaningful engagement with Indigenous communities is essential to cocreate culturally safe, community-informed strategies that promote equitable access to home dialysis and support better kidney health outcomes.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 59,
+            "label": "Moderada",
+            "rationale": "Revisión sistemática en Clinical Journal of the American Society of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "dialisis-41563809",
+          "title": "Association of Sphingolipids with All-Cause and Cardiovascular Death in Patients with Kidney Failure Treated with Maintenance Hemodialysis",
+          "journal": "Journal of the American Society of Nephrology",
+          "authors": "Lidgard B, Hoofnagle AN, Zelnick LR, de Boer IH, et al.",
+          "year": 2026,
+          "doi": "10.1681/ASN.0000000982",
+          "url": "https://doi.org/10.1681/ASN.0000000982",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "KEY POINTS: Sphingolipids with long fatty acids (16-18 carbons) were associated with all-cause and cardiovascular death in patients treated with hemodialysis. Sphingolipids with very-long fatty acids (20+ carbons) were associated with lower risk of all-cause and cardiovascular death in dialysis patients. BACKGROUND: Patients with kidney failure on hemodialysis are at a higher risk for death, especially cardiovascular death. Statins (which improve outcomes in general populations) do not improve outcomes in dialysis patients. Sphingolipids are mechanistically associated with cardiovascular disease and may represent novel, modifiable risk factors for death in patients with kidney failure. We aimed to examine the associations of sphingolipids with death specifically in dialysis patients. METHODS: Using data from the Hemodialysis (HEMO) Study (a multicenter factorial trial of dose and flux), we measured 16 sphingolipids (ceramides-16:0, 18:0, 20:0, 22:0, 24:0, and 24:1; hexosylceramides-16:0, 22:0, and 24:0; lactosylceramide-16:0; and sphingomyelins 14:0, 16:0, 18:0, 20:0, 22:0, and 24:0) at baseline only in 927 participants with available stored serum using targeted liquid chromatography-tandem mass spectrometry. The primary outcome was all-cause death, with physician-adjudicated cause (cardiovascular versus noncardiovascular) as a secondary outcome. We examined the associations of sphingolipids with death using Cox regressions, controlling the false discovery rate <5%. RESULTS: Among 927 participants, the mean (SD) age was 57 (14) years; median (interquartile range) dialysis vintage was 1.9 (0.8-4.1) years. Over a median (interquartile range) follow-up of 2.4 (1.4-4.0) years, there were 376 deaths. Nine of 16 sphingolipids were significantly associated with death, including ceramide-16:0 (adjusted hazard ratio [aHR] 2.13 per two-fold higher concentration, 95% confidence interval, 1.48 to 3.06), and ceramide-22:0 (aHR per two-fold higher 0.59, 95% confidence interval, 0.44 to 0.79), with similar direction of associations for sphingomyelins. Twelve of 16 sphingolipids were associated with cardiovascular death, for example, ceramide-16:0 (aHR per two-fold higher 3.43, 95% confidence interval, 2.05 to 5.74). No sphingolipid was significantly associated with noncardiovascular death. CONCLUSIONS: In a dedicated study of patients with kidney failure on hemodialysis, sphingolipids with long-chain fatty acids were strongly associated with greater risk of death, especially cardiovascular death.",
+          "keyFindings": "In a dedicated study of patients with kidney failure on hemodialysis, sphingolipids with long-chain fatty acids were strongly associated with greater risk of death, especially cardiovascular death.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
+          "id": "dialisis-41805997",
+          "title": "Effect of intradialytic exercise therapy on life outcomes in maintenance hemodialysis patients: a multicenter study",
+          "journal": "Journal of Nephrology",
+          "authors": "Nakano H, Yabe H, Takahashi R, Yamaguchi T, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajaf026",
+          "url": "https://doi.org/10.1093/joneph/aajaf026",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Intradialytic exercise improves physical function and quality of life (QOL) in patients on hemodialysis (HD), but previous studies on life outcomes are scarce. Our aim was to investigate the impact of intradialytic exercise on all-cause mortality in patients on HD. METHODS: This retrospective observational study enrolled outpatients on hemodialysis at 17 Kaikoukai Group facilities as of 2018. The intradialytic exercise group received muscle strength training using Thera-band, while the control group received regular HD treatment alone. Mortality outcomes were observed until December 2021. Statistical analysis included survival analysis using Kaplan-Meier curves and Cox proportional hazards regression analysis. After adjusting for multiple confounding factors across five progressively adjusted models, hazard ratios (HRs) and 95% confidence intervals (CIs) for overall mortality were estimated. RESULTS: There were 1911 subjects (375 patients in the intervention group and 1536 patients in the control group), and the median observation period was 36 months. Forty-seven patients (12.5%) in the intradialytic exercise group and 276 patients (17.9%) in the control group died. The intervention group had a significantly higher survival rate than the control group (P < .05), which remained significant after adjustment for confounding factors. [Model 1: HR 0.663 (0.486 to 0.904), Model 2: HR 0.721 (0.526 to 0.987), Model 3: HR 0.710 (0.520 to 0.970), Model 4: HR 0.692 (0.508 to 0.944), Model 5: HR 0.690 (0.504 to 0.945)]. CONCLUSIONS: Intradialytic exercise was associated with an approximately 30% reduction in all-cause mortality, even when patient background and dialysis conditions were taken into account; Intradialytic exercise may be associated with improved survival outcomes in HD patients.",
+          "keyFindings": "Intradialytic exercise was associated with an approximately 30% reduction in all-cause mortality, even when patient background and dialysis conditions were taken into account; Intradialytic exercise may be associated with improved survival outcomes in HD patients.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 30,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
+          "id": "dialisis-41837792",
+          "title": "Volume status in dialysis patients at extreme body habitus: a prospective observational study",
+          "journal": "Journal of Nephrology",
+          "authors": "Keane DF, Trinca D, Mussnig S, Krenn S, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajaf018",
+          "url": "https://doi.org/10.1093/joneph/aajaf018",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Bioimpedance and absolute blood volume measurement are objective assessments of volume status. However, uncertainties remain in their application at extreme body habitus. We aimed to compare blood volume and bioimpedance-based volume status at extreme body habitus and explore normalisation of blood volume in this context to support incorporation of these tools into fluid management decisions. METHODS: We defined two common extreme volume-status phenotypes in haemodialysis: obese and bioimpedance-dry (n = 29) and lean and bioimpedance-wet (n = 29). Control subjects were haemodialysis patients who were haemodynamically stable with normal volume status (n = 20). We compared post-dialysis blood volume at clinical \"target weight\", measured by dialysate dilution, in the obese/dry and lean/wet groups with controls. We explored normalisation of blood volume (n = 98) by body mass, lean tissue mass and an anthropometric-based estimate of blood volume determined by Lemmens' formula. RESULTS: Post-dialysis blood volume normalized for body mass (specific blood volume) was lower in the obese/dry (57.9 mL/kg; P = 0.02) and higher in the lean/wet group (84.5 mL/kg; P = 0.001) than in controls (68.0 mL/kg). These differences were not present for lean tissue mass-normalised or Lemmens' formula-normalised blood volume. Normalising blood volume to body mass results in differences by sex and body mass, whereas normalising to Lemmens blood volume, which accounts for fat mass variation, does not. CONCLUSIONS: Setting target weights to achieve fixed reference bioimpedance or blood volume values may not be appropriate at extreme body habitus, reinforcing the need for individualised approaches. Normalising blood volume to body mass may exacerbate established measurement bias observed with bioimpedance.",
+          "keyFindings": "Setting target weights to achieve fixed reference bioimpedance or blood volume values may not be appropriate at extreme body habitus, reinforcing the need for individualised approaches. Normalising blood volume to body mass may exacerbate established measurement bias observed with bioimpedance.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 30,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
+          "id": "dialisis-41774669",
+          "title": "Copeptin is a reliable biomarker of vasopressin and is associated with urine osmolality in patients on peritoneal dialysis",
+          "journal": "Journal of Nephrology",
+          "authors": "Flahault A, Keck M, Kersraoui D, Beaudreuil S, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajaf021",
+          "url": "https://doi.org/10.1093/joneph/aajaf021",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Vasopressin, a hormone regulating water metabolism, has been poorly studied in patients on peritoneal dialysis (PD). Vasopressin measurement is challenging and not routinely available in clinical practice. This study aimed to evaluate whether copeptin, a stable surrogate marker of vasopressin, could be used to assess vasopressin levels in patients on PD and to determine if vasopressin maintains its antidiuretic effect in this population. METHODS: We included 34 PD patients from three French nephrology centers. Plasma vasopressin was measured using radioimmunoassay, while copeptin was quantified with a non-competitive immunofluorescence assay. Urine osmolality and 24-hour urine output were assessed, and peritoneal adequacy tests were performed. Associations between copeptin, vasopressin, and clinical parameters were analyzed using Spearman correlations and mixed-effect models. Healthy controls were included for comparison. RESULTS: Copeptin levels were strongly correlated with vasopressin levels (Spearman's rho = 0.62, P < 0.001), confirming its reliability as a biomarker of vasopreassin. Higher copeptin levels were associated with increased urine osmolality (β = 3.63, P = 0.008) and decreased 24-hour urine output (β = -0.53, P = 0.008), indicating that vasopressin retains its antidiuretic activity in PD patients. Compared to healthy controls, PD patients had lower urine osmolality and required higher copeptin levels to achieve similar urine concentration, suggesting vasopressin resistance. Copeptin levels were also associated with lower residual kidney function and higher brain natriuretic peptide levels but were not influenced by blood pressure, plasma sodium, or PD characteristics. CONCLUSIONS: This study provides evidence that vasopressin maintains an antidiuretic effect in PD patients, and supports the use of copeptin as a robust biomarker for vasopressin in this population.",
+          "keyFindings": "This study provides evidence that vasopressin maintains an antidiuretic effect in PD patients, and supports the use of copeptin as a robust biomarker for vasopressin in this population.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 30,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
           }
         }
       ]
@@ -356,67 +506,41 @@
       "color": "#37474F",
       "articles": [
         {
-          "id": "gen-reprise-tolvaptan-2017",
-          "title": "Tolvaptan in Later-Stage Autosomal Dominant Polycystic Kidney Disease (REPRISE Trial)",
-          "journal": "New England Journal of Medicine",
-          "authors": "Torres VE, Chapman AB, Devuyst O, et al.",
-          "year": 2017,
-          "doi": "10.1056/NEJMoa1710030",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/28922638/",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "Ensayo doble ciego (n=1.370; PQRAD estadio avanzado, TFGe 25–65) que evaluó tolvaptan frente a placebo.",
-          "keyFindings": "Tolvaptan ralentiza la caída de TFGe en PQRAD estadio avanzado con una diferencia de 1,27 ml/min/1,73 m²/año.",
+          "id": "nefro-genetica-41881380",
+          "title": "Association of Autosomal Dominant Polycystic Kidney Disease With Incident Aortic Dissection or Aneurysm",
+          "journal": "American Journal of Kidney Diseases",
+          "authors": "Nakayama T, Kaneko H, Suzuki Y, Okada A, et al.",
+          "year": 2026,
+          "doi": "10.1053/j.ajkd.2025.12.004",
+          "url": "https://doi.org/10.1053/j.ajkd.2025.12.004",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "RATIONALE & OBJECTIVE: Autosomal dominant polycystic kidney disease (ADPKD) is characterized by a broad range of extrarenal complications, yet epidemiologic data on its association with aortic dissection (AD) or aortic aneurysm (AA) remain limited. In the present study, we assessed whether ADPKD is associated with an increased risk of developing these aortic conditions. STUDY DESIGN: Observational cohort study. SETTING & PARTICIPANTS: 2,568,283 individuals without a history of AD or AA, enrolled between April 2014 and August 2023 in a nationwide Japanese epidemiological database provided by DeSC Healthcare of Tokyo, Japan. EXPOSURE: Presence of ADPKD based on the International Classification of Diseases, Tenth Revision codes. OUTCOME: Incidence of AD or AA. ANALYTICAL APPROACH: Cause-specific hazards models were used to estimate associations (hazard ratios), adjusting for potential confounders. RESULTS: The median age was 68 years (IQR, 61-77), and 1,123,131 individuals (44%) were male. ADPKD was diagnosed in 1,102 individuals (0.04%) within the cohort. During a median follow-up of 1,043 days (IQR: 556-1,600), there were 15,019 occurrences of AD or AA. Multivariable cause-specific hazards models demonstrated that individuals with ADPKD had a significantly increased risk of developing these aortic diseases (HR, 1.76 [95% CI, 1.13-2.73]). When analyzed separately, the HRs were 2.53 (95% CI, 1.13-5.66) for AD and 1.56 (95% CI, 0.94-2.60) for AA. The association of ADPKD with incident AD or AA was more pronounced in individuals with body mass index (BMI) ≥ 25 kg/m2 than in those with BMI < 25 kg/m2. LIMITATIONS: Potential residual confounding, possible detection bias, and lack of data on ADPKD-causing genetic variant. CONCLUSIONS: Our analysis of a large-scale epidemiological dataset indicated an elevated risk of AD or AA occurrence in individuals with ADPKD. These findings may inform the clinical management of this condition. PLAIN-LANGUAGE SUMMARY: Autosomal dominant polycystic kidney disease (ADPKD) is a common inherited condition that can impair kidney function and affect other organs. Previous studies have suggested that aortic dissection (AD) or aortic aneurysm (AA) may be among its complications, but the evidence has remained inconclusive. We used a nationwide dataset of more than 2.5 million individuals to examine whether individuals with ADPKD are at increased risk of developing AD or AA. Our analyses showed a significant association between ADPKD and these serious aortic disorders. These findings highlight the importance of multidisciplinary efforts to promote prevention, timely recognition, and early intervention for AD or AA in individuals with ADPKD.",
+          "keyFindings": "Our analysis of a large-scale epidemiological dataset indicated an elevated risk of AD or AA occurrence in individuals with ADPKD. These findings may inform the clinical management of this condition. PLAIN-LANGUAGE",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 86,
-            "label": "Alta",
-            "rationale": "Ensayo en NEJM (n=1.370) que amplió la indicación de tolvaptan a PQRAD estadio más avanzado."
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
           }
         },
         {
-          "id": "gen-wes-ckd-2019",
-          "title": "Diagnostic Utility of Exome Sequencing for Kidney Disease",
-          "journal": "New England Journal of Medicine",
-          "authors": "Groopman EE, Marasa M, Cameron-Christie S, et al.",
-          "year": 2019,
-          "doi": "10.1056/NEJMoa1806891",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/30586318/",
-          "evidenceLevel": "Estudio de Cohorte",
+          "id": "nefro-genetica-41790507",
+          "title": "Monogenic Etiologies of Kidney Cysts in the Pediatric Population: An Observational Cohort Study",
+          "journal": "Clinical Journal of the American Society of Nephrology",
+          "authors": "Bozkurt EG, Sheikh Najeeb M, Yang H, Kemppainen JL, et al.",
+          "year": 2026,
+          "doi": "10.2215/CJN.0000001027",
+          "url": "https://doi.org/10.2215/CJN.0000001027",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
           "evidenceRank": 4,
-          "abstract": "Estudio multicéntrico prospectivo (n=3.315) que evaluó el rendimiento diagnóstico de la secuenciación de exoma completo en ERC.",
-          "keyFindings": "El WES establece diagnóstico genético en el 17% de adultos con ERC de causa no aclarada.",
+          "abstract": "KEY POINTS: In a cohort of children, 79% of families with kidney cysts had a monogenic diagnosis. Resolved cases were more likely to have a family history of kidney cysts and unresolved cases more often had unilateral cysts. Broad genetic testing revealed genetic diversity and informed prognosis and clinical management in childhood kidney cysts. BACKGROUND: Pediatric kidney cysts may indicate an underlying genetic disorder, yet the full spectrum of causes remains incompletely defined. With advances in genetic testing enabling broader evaluation, this study assessed the diagnostic utility of comprehensive genetic testing in a broad pediatric cohort with kidney cysts and characterized the underlying etiological diversity. METHODS: This observational cohort study included patients younger than 18 years enrolled between January 2020 and June 2024 at a single tertiary center. Genetic testing used targeted multigene or custom curated exome/genome sequencing panels, with segregation analysis when available. Eligible participants had at least two cysts without family history, one cyst with positive family history, or enlarged echogenic kidneys on prenatal ultrasound; those with congenital anomalies of the kidney and urinary tract associated with cysts were excluded. Clinical presentation was categorized as symptomatic, incidental, prenatal, or family screening. Primary outcomes were diagnostic yield and distribution of pathogenic variants. RESULTS: Among 109 patients (median age 7.6 years, 53% female), genetic testing identified a definitive diagnosis in 81 of 100 tested patients (81%) from 72 families (79%; 14 disorders). PKD1 variants were most common (45%), while PKD2 accounted for 7%. Other causes included HNF1B or 17q12 deletions (13%), minor autosomal dominant polycystic kidney disease genes (11%; GANAB, NEK8, IFT140 ), monoallelic PKHD1 (3%), and biallelic PKHD1 (8%), while syndromic ciliopathy genes accounted for 5%. A positive family history of cystic kidney disease was more common among patients with a genetic diagnosis (54% versus 11%; P = 0.008). Patients without an identified genetic diagnosis more often had unilateral cysts (26% versus 4%; P = 0.53). Diagnosis by clinical symptoms was the most genetically diverse category. CONCLUSIONS: Comprehensive genetic testing in pediatric kidney cysts achieved high diagnostic yield in a selected cohort and identified diverse causes beyond major autosomal dominant polycystic kidney disease/autosomal recessive polycystic kidney disease genes, supporting early evaluation to improve diagnostic accuracy, inform prognosis, and guide management, even in the absence of family history.",
+          "keyFindings": "Comprehensive genetic testing in pediatric kidney cysts achieved high diagnostic yield in a selected cohort and identified diverse causes beyond major autosomal dominant polycystic kidney disease/autosomal recessive polycystic kidney disease genes, supporting early evaluation to improve diagnostic accuracy, inform prognosis, and guide management, even in the absence of family history.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 80,
-            "label": "Alta",
-            "rationale": "Estudio pivotal en NEJM (n=3.315) base para la incorporación del diagnóstico genético en ERC."
-          }
-        }
-      ]
-    },
-    {
-      "id": "onconefrologia",
-      "name": "Onconefrología",
-      "color": "#BF360C",
-      "articles": [
-        {
-          "id": "onconefro-ici-nephritis-2020",
-          "title": "Clinicopathological Features of Acute Kidney Injury Associated with Immune Checkpoint Inhibitors",
-          "journal": "Kidney International",
-          "authors": "Cortazar FB, Kibbelaar ZA, Glezerman IG, et al.",
-          "year": 2020,
-          "doi": "10.1016/j.kint.2019.10.014",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/32303608/",
-          "evidenceLevel": "Estudio de Cohorte",
-          "evidenceRank": 4,
-          "abstract": "Estudio multicéntrico retrospectivo (n=429 casos de LRA asociada a ICIs).",
-          "keyFindings": "La nefritis intersticial aguda es la causa de LRA por ICIs en el 93% de biopsias.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 81,
-            "label": "Alta",
-            "rationale": "Cohorte multicéntrica de referencia en Kidney International (n=429, 39 centros)."
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
           }
         }
       ]
