@@ -557,6 +557,45 @@
       line-height: 1.8;
     }
     .footer strong { color: #90CAF9; }
+    /* ── Tab navigation ── */
+    .tab-nav {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab-nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      gap: 0;
+    }
+    .tab-btn {
+      padding: 14px 26px;
+      font-size: .88rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: none;
+      border: none;
+      border-bottom: 3px solid transparent;
+      cursor: pointer;
+      transition: color var(--transition), border-color var(--transition);
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: -1px;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: #1565C0; border-bottom-color: #1565C0; }
+    .tab-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+    /* ── Annual hero accent ── */
+    .hero-annual {
+      background: linear-gradient(135deg, #1a0a2e 0%, #4a1a7a 100%);
+    }
+    .hero-annual p { color: #ce93d8; }
+    .hero-annual .stat-label { color: #ce93d8; }
+
     @media (max-width: 600px) {
       .hero h2 { font-size: 1.35rem; }
       .stats-row { gap: 12px; }
@@ -564,6 +603,7 @@
       .subs-name { font-size: .9rem; }
       .logo-text span { display: none; }
       .article-footer { flex-direction: column; align-items: flex-start; }
+      .tab-btn { padding: 12px 16px; font-size: .8rem; }
     }
   </style>
 </head>
@@ -600,6 +640,22 @@
     </div>
   </div>
 </header>
+
+<nav class="tab-nav">
+  <div class="tab-nav-inner">
+    <button class="tab-btn active" id="tabWeekly" onclick="switchTab('weekly')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      Semana actual
+    </button>
+    <button class="tab-btn" id="tabAnnual" onclick="switchTab('annual')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      Top del año
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════ SECCIÓN SEMANAL ═══════════ -->
+<div id="weeklySection">
 
 <section class="hero">
   <h2>Resumen Semanal de Literatura Nefrológica</h2>
@@ -641,6 +697,53 @@
 <main class="main" id="mainContent">
   <div class="no-results" id="noResults">No hay artículos para el filtro seleccionado en esta subespecialidad.</div>
 </main>
+
+</div><!-- /weeklySection -->
+
+<!-- ═══════════ SECCIÓN ANUAL ═══════════ -->
+<div id="annualSection" style="display:none">
+
+<section class="hero hero-annual">
+  <h2>Top del Año en Nefrología</h2>
+  <p id="annYearLabel">Los ensayos clínicos y meta-análisis de mayor impacto en la práctica nefrológica del último año.</p>
+  <div class="stats-row">
+    <div class="stat">
+      <span class="stat-num" id="annStatArticles">–</span>
+      <div class="stat-label">Artículos</div>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="annStatSubs">–</span>
+      <div class="stat-label">Subespecialidades</div>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="annStatMeta">–</span>
+      <div class="stat-label">Meta-análisis</div>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="annStatRCT">–</span>
+      <div class="stat-label">Ensayos clínicos</div>
+    </div>
+  </div>
+</section>
+
+<div class="filter-bar">
+  <div class="filter-inner">
+    <span class="filter-label">Filtrar por evidencia:</span>
+    <div class="evidence-filters" id="annEvidenceFilters">
+      <button class="ev-btn active" data-rank="all">Todos</button>
+      <button class="ev-btn" data-rank="1">Meta-análisis</button>
+      <button class="ev-btn" data-rank="2">Revisión Sistemática</button>
+      <button class="ev-btn" data-rank="3">Ensayo Clínico</button>
+    </div>
+    <button class="btn-expand-all" id="annBtnExpandAll">Expandir todo</button>
+  </div>
+</div>
+
+<main class="main" id="annualContent">
+  <div class="week-loading-indicator">Cargando artículos del año…</div>
+</main>
+
+</div><!-- /annualSection -->
 
 <footer class="footer">
   <strong>Briefing Nefrológico Semanal</strong><br>
@@ -690,7 +793,9 @@
     return `<span class="impact-dots">${d}</span>`;
   }
 
-  function buildArticleCard(article, color) {
+  function buildArticleCard(article, color, prefix) {
+    prefix = prefix || '';
+    const cardId = prefix ? 'card-' + prefix + '-' + article.id : 'card-' + article.id;
     const ev     = evMeta[article.evidenceRank] || evMeta[7];
     const impact = article.clinicalImpact;
     const impCls = impact ? `impact-${impact.label.toLowerCase()}` : '';
@@ -708,7 +813,7 @@
       </div>` : '';
 
     return `
-      <div class="article-card" id="card-${article.id}" data-rank="${article.evidenceRank}">
+      <div class="article-card" id="${cardId}" data-rank="${article.evidenceRank}">
         <div class="article-top-stripe" style="background:${color}"></div>
         <div class="article-body">
           <div class="article-meta-row">
@@ -718,7 +823,7 @@
           </div>
           <div class="article-title">${article.title}</div>
           <div class="article-authors">${article.authors}</div>
-          <button class="abstract-toggle" onclick="toggleAbstract('card-${article.id}', event)">
+          <button class="abstract-toggle" onclick="toggleAbstract('${cardId}', event)">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
             Ver resumen / abstract
           </button>
@@ -743,15 +848,17 @@
       </div>`;
   }
 
-  function buildSubspecialtySection(sub) {
+  function buildSubspecialtySection(sub, prefix) {
+    prefix = prefix || '';
+    const uid = prefix ? prefix + '-' + sub.id : sub.id;
     const articlesHTML = sub.articles
       .sort((a, b) => a.evidenceRank - b.evidenceRank)
-      .map(a => buildArticleCard(a, sub.color))
+      .map(a => buildArticleCard(a, sub.color, prefix))
       .join('');
 
     return `
-      <div class="subspecialty" id="sub-${sub.id}" data-id="${sub.id}">
-        <div class="subspecialty-header" onclick="toggleSubspecialty('sub-${sub.id}')">
+      <div class="subspecialty" id="sub-${uid}" data-id="${uid}">
+        <div class="subspecialty-header" onclick="toggleSubspecialty('sub-${uid}')">
           <div class="color-stripe" style="background:${sub.color}"></div>
           <div class="subs-title-area">
             <div class="subs-color-dot" style="background:${sub.color}"></div>
@@ -763,7 +870,7 @@
           </div>
         </div>
         <div class="articles-panel">
-          <div class="articles-list" id="list-${sub.id}">${articlesHTML}</div>
+          <div class="articles-list" id="list-${uid}">${articlesHTML}</div>
         </div>
       </div>`;
   }
@@ -924,6 +1031,88 @@
   }
 
   init();
+
+  /* ═══════════ TAB SWITCHING ═══════════ */
+  function switchTab(tab) {
+    document.getElementById('tabWeekly').classList.toggle('active', tab === 'weekly');
+    document.getElementById('tabAnnual').classList.toggle('active',  tab === 'annual');
+    document.getElementById('weeklySection').style.display = tab === 'weekly' ? '' : 'none';
+    document.getElementById('annualSection').style.display  = tab === 'annual'  ? '' : 'none';
+    if (tab === 'annual' && !annualLoaded) {
+      loadAnnualData();
+    }
+  }
+
+  /* ═══════════ ANNUAL DATA ═══════════ */
+  let annualLoaded    = false;
+  let annCurrentFilter = 'all';
+  let annAllExpanded  = false;
+
+  async function loadAnnualData() {
+    const annContent = document.getElementById('annualContent');
+    annContent.innerHTML = '<div class="week-loading-indicator">Cargando artículos del año…</div>';
+    try {
+      const resp = await fetch('data/top-annual.json?v=' + Date.now());
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const data = await resp.json();
+
+      const stats = data.stats || {};
+      document.getElementById('annStatArticles').textContent = stats.total            ?? '–';
+      document.getElementById('annStatSubs').textContent     = data.subspecialties.length;
+      document.getElementById('annStatMeta').textContent     = stats.metaAnalysis     ?? '–';
+      document.getElementById('annStatRCT').textContent      = stats.rct              ?? '–';
+      if (data.yearLabel) {
+        document.getElementById('annYearLabel').textContent = data.yearLabel;
+      }
+
+      annContent.innerHTML = data.subspecialties
+        .map(sub => buildSubspecialtySection(sub, 'ann'))
+        .join('') + '<div class="no-results" id="annNoResults"></div>';
+
+      annualLoaded = true;
+      initAnnFilters();
+      initAnnExpandAll();
+    } catch (err) {
+      annContent.innerHTML = `<p style="color:#e53e3e;padding:40px 0;text-align:center">Error al cargar: ${err.message}</p>`;
+    }
+  }
+
+  function applyAnnFilter(rank) {
+    annCurrentFilter = rank;
+    document.querySelectorAll('#annEvidenceFilters .ev-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.rank === String(rank));
+    });
+    document.querySelectorAll('#annualContent .article-card').forEach(card => {
+      const match = rank === 'all' || String(card.dataset.rank) === String(rank);
+      card.classList.toggle('hidden', !match);
+    });
+    document.querySelectorAll('#annualContent .subspecialty').forEach(sub => {
+      const visibleCount = sub.querySelectorAll('.article-card:not(.hidden)').length;
+      if (rank !== 'all') {
+        if (visibleCount > 0) sub.classList.add('open');
+        else sub.classList.remove('open');
+      }
+    });
+  }
+
+  function initAnnFilters() {
+    document.getElementById('annEvidenceFilters').addEventListener('click', e => {
+      if (e.target.classList.contains('ev-btn')) {
+        applyAnnFilter(e.target.dataset.rank);
+      }
+    });
+  }
+
+  function initAnnExpandAll() {
+    const btn = document.getElementById('annBtnExpandAll');
+    btn.addEventListener('click', () => {
+      annAllExpanded = !annAllExpanded;
+      document.querySelectorAll('#annualContent .subspecialty').forEach(sub => {
+        sub.classList.toggle('open', annAllExpanded);
+      });
+      btn.textContent = annAllExpanded ? 'Contraer todo' : 'Expandir todo';
+    });
+  }
 </script>
 </body>
 </html>
