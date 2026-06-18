@@ -42,6 +42,13 @@ jobs:
         run: |
           python scripts/fetch_top_annual.py --days 365
 
+      - name: Fetch top 5-year articles from PubMed & Europe PMC
+        env:
+          NCBI_EMAIL:   ${{ secrets.NCBI_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: |
+          python scripts/fetch_top_5years.py --days 1825
+
       - name: Commit & push updated articles
         run: |
           git config user.name  "github-actions[bot]"
@@ -49,7 +56,7 @@ jobs:
           if git diff --quiet data/; then
             echo "No changes - skipping commit."
           else
-            git add data/articles.json data/index.json data/articles-*.json data/top-annual.json
+            git add data/articles.json data/index.json data/articles-*.json data/top-annual.json data/top-5years.json
             git commit -m "data: briefing nefrologico semanal $(date -u '+%Y-%m-%d')"
             git push origin HEAD
           fi

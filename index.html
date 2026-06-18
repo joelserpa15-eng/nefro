@@ -596,6 +596,13 @@
     .hero-annual p { color: #ce93d8; }
     .hero-annual .stat-label { color: #ce93d8; }
 
+    /* ── 5-year hero accent ── */
+    .hero-5years {
+      background: linear-gradient(135deg, #1a1200 0%, #7a4a00 100%);
+    }
+    .hero-5years p { color: #ffcc80; }
+    .hero-5years .stat-label { color: #ffcc80; }
+
     @media (max-width: 600px) {
       .hero h2 { font-size: 1.35rem; }
       .stats-row { gap: 12px; }
@@ -650,6 +657,10 @@
     <button class="tab-btn" id="tabAnnual" onclick="switchTab('annual')">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
       Top del año
+    </button>
+    <button class="tab-btn" id="tab5years" onclick="switchTab('5years')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      Top 5 años
     </button>
   </div>
 </nav>
@@ -744,6 +755,51 @@
 </main>
 
 </div><!-- /annualSection -->
+
+<!-- ═══════════ SECCIÓN 5 AÑOS ═══════════ -->
+<div id="fiveYearsSection" style="display:none">
+
+<section class="hero hero-5years">
+  <h2>Los Mejores Artículos de los Últimos 5 Años</h2>
+  <p id="fiveYearsPeriodLabel">Los ensayos clínicos y meta-análisis que más han transformado la práctica nefrológica en el último quinquenio.</p>
+  <div class="stats-row">
+    <div class="stat">
+      <span class="stat-num" id="fyStatArticles">–</span>
+      <div class="stat-label">Artículos</div>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="fyStatSubs">–</span>
+      <div class="stat-label">Subespecialidades</div>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="fyStatMeta">–</span>
+      <div class="stat-label">Meta-análisis</div>
+    </div>
+    <div class="stat">
+      <span class="stat-num" id="fyStatRCT">–</span>
+      <div class="stat-label">Ensayos clínicos</div>
+    </div>
+  </div>
+</section>
+
+<div class="filter-bar">
+  <div class="filter-inner">
+    <span class="filter-label">Filtrar por evidencia:</span>
+    <div class="evidence-filters" id="fyEvidenceFilters">
+      <button class="ev-btn active" data-rank="all">Todos</button>
+      <button class="ev-btn" data-rank="1">Meta-análisis</button>
+      <button class="ev-btn" data-rank="2">Revisión Sistemática</button>
+      <button class="ev-btn" data-rank="3">Ensayo Clínico</button>
+    </div>
+    <button class="btn-expand-all" id="fyBtnExpandAll">Expandir todo</button>
+  </div>
+</div>
+
+<main class="main" id="fiveYearsContent">
+  <div class="week-loading-indicator">Cargando artículos…</div>
+</main>
+
+</div><!-- /fiveYearsSection -->
 
 <footer class="footer">
   <strong>Briefing Nefrológico Semanal</strong><br>
@@ -1034,13 +1090,14 @@
 
   /* ═══════════ TAB SWITCHING ═══════════ */
   function switchTab(tab) {
-    document.getElementById('tabWeekly').classList.toggle('active', tab === 'weekly');
+    document.getElementById('tabWeekly').classList.toggle('active',  tab === 'weekly');
     document.getElementById('tabAnnual').classList.toggle('active',  tab === 'annual');
-    document.getElementById('weeklySection').style.display = tab === 'weekly' ? '' : 'none';
-    document.getElementById('annualSection').style.display  = tab === 'annual'  ? '' : 'none';
-    if (tab === 'annual' && !annualLoaded) {
-      loadAnnualData();
-    }
+    document.getElementById('tab5years').classList.toggle('active',  tab === '5years');
+    document.getElementById('weeklySection').style.display    = tab === 'weekly'  ? '' : 'none';
+    document.getElementById('annualSection').style.display    = tab === 'annual'  ? '' : 'none';
+    document.getElementById('fiveYearsSection').style.display = tab === '5years' ? '' : 'none';
+    if (tab === 'annual'  && !annualLoaded)   loadAnnualData();
+    if (tab === '5years'  && !fiveYearsLoaded) loadFiveYearsData();
   }
 
   /* ═══════════ ANNUAL DATA ═══════════ */
@@ -1100,6 +1157,77 @@
       if (e.target.classList.contains('ev-btn')) {
         applyAnnFilter(e.target.dataset.rank);
       }
+    });
+  }
+
+  /* ═══════════ 5-YEAR DATA ═══════════ */
+  let fiveYearsLoaded   = false;
+  let fyCurrentFilter   = 'all';
+  let fyAllExpanded     = false;
+
+  async function loadFiveYearsData() {
+    const fyContent = document.getElementById('fiveYearsContent');
+    fyContent.innerHTML = '<div class="week-loading-indicator">Cargando artículos…</div>';
+    try {
+      const resp = await fetch('data/top-5years.json?v=' + Date.now());
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const data = await resp.json();
+
+      const stats = data.stats || {};
+      document.getElementById('fyStatArticles').textContent = stats.total        ?? '–';
+      document.getElementById('fyStatSubs').textContent     = data.subspecialties.length;
+      document.getElementById('fyStatMeta').textContent     = stats.metaAnalysis ?? '–';
+      document.getElementById('fyStatRCT').textContent      = stats.rct          ?? '–';
+      if (data.periodLabel) {
+        document.getElementById('fiveYearsPeriodLabel').textContent = data.periodLabel;
+      }
+
+      fyContent.innerHTML = data.subspecialties
+        .map(sub => buildSubspecialtySection(sub, '5y'))
+        .join('') + '<div class="no-results" id="fyNoResults"></div>';
+
+      fiveYearsLoaded = true;
+      initFyFilters();
+      initFyExpandAll();
+    } catch (err) {
+      fyContent.innerHTML = `<p style="color:#e53e3e;padding:40px 0;text-align:center">Error al cargar: ${err.message}</p>`;
+    }
+  }
+
+  function applyFyFilter(rank) {
+    fyCurrentFilter = rank;
+    document.querySelectorAll('#fyEvidenceFilters .ev-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.rank === String(rank));
+    });
+    document.querySelectorAll('#fiveYearsContent .article-card').forEach(card => {
+      const match = rank === 'all' || String(card.dataset.rank) === String(rank);
+      card.classList.toggle('hidden', !match);
+    });
+    document.querySelectorAll('#fiveYearsContent .subspecialty').forEach(sub => {
+      const visibleCount = sub.querySelectorAll('.article-card:not(.hidden)').length;
+      if (rank !== 'all') {
+        if (visibleCount > 0) sub.classList.add('open');
+        else sub.classList.remove('open');
+      }
+    });
+  }
+
+  function initFyFilters() {
+    document.getElementById('fyEvidenceFilters').addEventListener('click', e => {
+      if (e.target.classList.contains('ev-btn')) {
+        applyFyFilter(e.target.dataset.rank);
+      }
+    });
+  }
+
+  function initFyExpandAll() {
+    const btn = document.getElementById('fyBtnExpandAll');
+    btn.addEventListener('click', () => {
+      fyAllExpanded = !fyAllExpanded;
+      document.querySelectorAll('#fiveYearsContent .subspecialty').forEach(sub => {
+        sub.classList.toggle('open', fyAllExpanded);
+      });
+      btn.textContent = fyAllExpanded ? 'Contraer todo' : 'Expandir todo';
     });
   }
 
