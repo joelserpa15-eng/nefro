@@ -1,6 +1,11 @@
 {
-  "current": "2026-W30",
+  "current": "2026-W31",
   "weeks": [
+    {
+      "id": "2026-W31",
+      "label": "3 – 9 de agosto, 2026",
+      "file": "articles-2026-W31.json"
+    },
     {
       "id": "2026-W30",
       "label": "27 de julio – 2 de agosto, 2026",
@@ -15,11 +20,6 @@
       "id": "2026-W28",
       "label": "13 – 19 de julio, 2026",
       "file": "articles-2026-W28.json"
-    },
-    {
-      "id": "2026-W27",
-      "label": "6 – 12 de julio, 2026",
-      "file": "articles-2026-W27.json"
     }
   ]
 }
