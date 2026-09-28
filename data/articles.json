@@ -1,40 +1,14 @@
 {
-  "week": "2026-W38",
-  "weekLabel": "21 – 27 de septiembre, 2026",
-  "lastUpdated": "2026-09-21T13:47:16Z",
+  "week": "2026-W39",
+  "weekLabel": "28 de septiembre – 4 de octubre, 2026",
+  "lastUpdated": "2026-09-28T15:10:43Z",
   "stats": {
-    "total": 4,
+    "total": 2,
     "metaAnalysis": 0,
     "systematicReview": 0,
-    "rct": 4
+    "rct": 2
   },
   "subspecialties": [
-    {
-      "id": "erca",
-      "name": "Enfermedad Renal Crónica",
-      "color": "#1565C0",
-      "articles": [
-        {
-          "id": "erca-42246654",
-          "title": "Obinutuzumab or Tacrolimus in Primary Membranous Nephropathy",
-          "journal": "New England Journal of Medicine",
-          "authors": "Fervenza FC, Hou FF, Hao CM, Kirsztajn GM, et al.",
-          "year": 2026,
-          "doi": "10.1056/NEJMoa2602678",
-          "url": "https://doi.org/10.1056/NEJMoa2602678",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: Studies of obinutuzumab, a type II anti-CD20 antibody, have shown efficacy in the treatment of hematologic cancers and autoimmune diseases. An evaluation of the efficacy and safety of obinutuzumab in patients with primary membranous nephropathy is needed. METHODS: In a phase 3 trial, we randomly assigned adults with primary membranous nephropathy in a 1:1 ratio to receive intravenous obinutuzumab or oral tacrolimus. The primary end point was complete remission (defined as a urinary protein-to-creatinine ratio of 0.3 or lower and a stable estimated glomerular filtration rate [eGFR]) at week 104. Key secondary end points were complete or partial remission at week 104, complete remission at week 76, a sustained reduction in the eGFR of at least 30%, duration of complete remission, and change in the Patient-Reported Outcomes Measurement Information System Fatigue T score from baseline to week 104. Fixed-sequence hierarchical testing was performed. Safety was assessed. RESULTS: A total of 142 patients underwent randomization. At week 104, complete remission was observed in 26 of 71 patients in the obinutuzumab group and in 4 of 70 patients in the tacrolimus group (37% vs. 6% with multiple imputation for missing data; adjusted difference, 31 percentage points; 95% CI, 18 to 44; P<0.001). The analyses of complete or partial remission at week 104 and complete remission at week 76 also showed a significant treatment effect. The analysis of a sustained eGFR reduction did not show a significant treatment effect; thus, subsequent end points in the hierarchy were not formally tested for significance. Adverse events of grade 3 or higher were reported in 16 patients (22%) in the obinutuzumab group and in 13 patients (19%) in the tacrolimus group; serious adverse events occurred in 12 (17%) and 10 (14%), respectively. There were 61 and 57 infections per 100 patient-years in the obinutuzumab and tacrolimus groups, respectively; 3 and 4 serious infections per 100 patient-years; and 11 and 14 serious adverse events per 100 patient-years. Adverse drug reactions with obinutuzumab included infusion-related reactions, respiratory tract infections, and neutropenia. One patient in each group died during escape therapy. CONCLUSIONS: Obinutuzumab was superior to tacrolimus in inducing complete remission in patients with primary membranous nephropathy. (Funded by F. Hoffmann-La Roche; MAJESTY ClinicalTrials.gov number, NCT04629248.).",
-          "keyFindings": "Obinutuzumab was superior to tacrolimus in inducing complete remission in patients with primary membranous nephropathy. (Funded by F. Hoffmann-La Roche; MAJESTY ClinicalTrials.gov number, NCT04629248.).",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 83,
-            "label": "Alta",
-            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
-          }
-        }
-      ]
-    },
     {
       "id": "aki",
       "name": "Lesión Renal Aguda",
@@ -55,25 +29,6 @@
           "source": "PubMed",
           "clinicalImpact": {
             "score": 75,
-            "label": "Alta",
-            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
-          }
-        },
-        {
-          "id": "aki-42670979",
-          "title": "Complete Revascularization Guided by Functional Coronary Angiography in STEMI",
-          "journal": "New England Journal of Medicine",
-          "authors": "Biscaglia S, Erriquez A, Colaiori I, Hakeem A, et al.",
-          "year": 2026,
-          "doi": "10.1056/NEJMoa2605373",
-          "url": "https://doi.org/10.1056/NEJMoa2605373",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: Complete coronary-artery revascularization is recommended in patients with ST-segment elevation myocardial infarction (STEMI) and multivessel disease, but the preferred strategy for identifying nonculprit lesions that warrant treatment remains uncertain. METHODS: In this international, randomized trial, we assigned patients with STEMI and multivessel disease in whom the culprit lesion had been successfully treated to undergo complete coronary-artery revascularization guided by functional coronary angiography (physiology-guided group) or by conventional angiography (angiography-guided group). The primary outcome was a composite of death from any cause, myocardial infarction, cerebrovascular accident (stroke or transient ischemic attack), or ischemia-driven revascularization, assessed in a time-to-event analysis. The primary safety outcome was a composite of contrast-associated acute kidney injury or major bleeding. RESULTS: A total of 1823 patients underwent randomization; 913 were assigned to the physiology-guided group and 910 assigned to the angiography-guided group. The median age of the patients was 66 years (interquartile range, 58 to 76), and 24% were women. At a median follow-up of 17.9 months, a primary-outcome event had occurred in 81 patients (8.9%) in the physiology-guided group and in 125 patients (13.7%) in the angiography-guided group (hazard ratio, 0.62; 95% confidence interval [CI], 0.47 to 0.83; P<0.001). A primary-safety-outcome event occurred in 42 patients (4.6%) in the physiology-guided group and in 65 patients (7.1%) in the angiography-guided group (hazard ratio, 0.63; 95% CI, 0.43 to 0.93; P = 0.02). CONCLUSIONS: In patients with STEMI and multivessel coronary artery disease, a strategy of complete coronary-artery revascularization guided by functional coronary angiography resulted in a lower risk of a primary-outcome event (death, myocardial infarction, cerebrovascular accident, or ischemia-driven revascularization) than a strategy guided by conventional angiography. (Funded by the Italian Health Ministry and others; AIR-STEMI ClinicalTrials.gov number, NCT05818475.).",
-          "keyFindings": "In patients with STEMI and multivessel coronary artery disease, a strategy of complete coronary-artery revascularization guided by functional coronary angiography resulted in a lower risk of a primary-outcome event (death, myocardial infarction, cerebrovascular accident, or ischemia-driven revascularization) than a strategy guided by conventional angiography. (Funded by the Italian Health Ministry and others; AIR-STEMI ClinicalTrials.gov number, NCT05818475.).",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 83,
             "label": "Alta",
             "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
           }

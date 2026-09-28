@@ -1,6 +1,11 @@
 {
-  "current": "2026-W38",
+  "current": "2026-W39",
   "weeks": [
+    {
+      "id": "2026-W39",
+      "label": "28 de septiembre – 4 de octubre, 2026",
+      "file": "articles-2026-W39.json"
+    },
     {
       "id": "2026-W38",
       "label": "21 – 27 de septiembre, 2026",
@@ -15,11 +20,6 @@
       "id": "2026-W36",
       "label": "7 – 13 de septiembre, 2026",
       "file": "articles-2026-W36.json"
-    },
-    {
-      "id": "2026-W35",
-      "label": "31 de agosto – 6 de septiembre, 2026",
-      "file": "articles-2026-W35.json"
     }
   ]
 }

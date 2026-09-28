@@ -1,0 +1,58 @@
+{
+  "week": "2026-W39",
+  "weekLabel": "28 de septiembre – 4 de octubre, 2026",
+  "lastUpdated": "2026-09-28T15:10:43Z",
+  "stats": {
+    "total": 2,
+    "metaAnalysis": 0,
+    "systematicReview": 0,
+    "rct": 2
+  },
+  "subspecialties": [
+    {
+      "id": "aki",
+      "name": "Lesión Renal Aguda",
+      "color": "#C62828",
+      "articles": [
+        {
+          "id": "aki-42283370",
+          "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock",
+          "journal": "New England Journal of Medicine",
+          "authors": "Serpa Neto A, McNamara M, White K, Cooper DJ, et al.",
+          "year": 2026,
+          "doi": "10.1056/NEJMoa2600526",
+          "url": "https://doi.org/10.1056/NEJMoa2600526",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Metabolic acidosis is common in critically ill patients and is associated with organ dysfunction and death. Sodium bicarbonate is used to correct acidemia, but its benefit in patients with metabolic acidosis who are receiving vasopressors remains uncertain. METHODS: In this pragmatic, adaptive, double-blind, randomized trial, we assigned adults with metabolic acidosis (pH, <7.30; base excess, no more than -4 mmol per liter; and partial pressure of arterial carbon dioxide, ≤45 mm Hg without intubation or ≤50 mm Hg with intubation) who were receiving vasopressors in the intensive care unit (ICU) to receive either sodium bicarbonate or placebo (5% dextrose). Sodium bicarbonate or placebo was infused for up to 5 hours, with the infusion rate adjusted for a target pH of at least 7.30 and base excess of at least 0 mmol per liter. The primary outcome was a major adverse kidney event, defined as death, use of renal-replacement therapy, or persistent renal dysfunction, within 30 days. RESULTS: A total of 500 patients were enrolled in 55 ICUs across seven countries; 245 patients were assigned to receive sodium bicarbonate and 255 to receive placebo. A major adverse kidney event within 30 days occurred in 98 of 244 patients (40.2%) in the sodium bicarbonate group and in 100 of 254 patients (39.4%) in the placebo group (adjusted difference, 1.2 percentage points; 95% confidence interval [CI], -7.1 to 9.4; P = 0.78). Renal-replacement therapy was used within 30 days in 16.8% of the patients in the sodium bicarbonate group and in 20.9% of those in the placebo group (adjusted difference, -3.9 percentage points; 95% CI, -10.6 to 2.7). In-hospital mortality by day 30 was 25.4% in the sodium bicarbonate group and 24.0% in the placebo group (adjusted difference, 1.8 percentage points; 95% CI, -5.6 to 9.2). Four patients (1.6%) in the sodium bicarbonate group had an adverse effect, as compared with none in the placebo group (P = 0.06). CONCLUSIONS: The use of sodium bicarbonate in critically ill patients with metabolic acidosis receiving vasopressors did not lead to a lower risk of major adverse kidney events within 30 days than placebo. (Funded by the National Health and Medical Research Council of Australia; SODa-BIC ClinicalTrials.gov number, NCT05697770.).",
+          "keyFindings": "The use of sodium bicarbonate in critically ill patients with metabolic acidosis receiving vasopressors did not lead to a lower risk of major adverse kidney events within 30 days than placebo. (Funded by the National Health and Medical Research Council of Australia; SODa-BIC ClinicalTrials.gov number, NCT05697770.).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+          }
+        },
+        {
+          "id": "aki-42267875",
+          "title": "High-Dose Intravenous Vitamin C and Mortality and Organ Dysfunction in Severe Burn Injury: The VICTORY Randomized Clinical Trial",
+          "journal": "JAMA",
+          "authors": "Stoppe C, Hill A, Cancio LC, Day AG, et al.",
+          "year": 2026,
+          "doi": "10.1001/jama.2026.10616",
+          "url": "https://doi.org/10.1001/jama.2026.10616",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Severe burn injury triggers systemic inflammation that can lead to multiple organ dysfunctions and death. High-dose intravenous vitamin C has been proposed to mitigate these effects, but strong evidence in patients with burn injury is lacking. OBJECTIVE: To evaluate the efficacy of high-dose intravenous vitamin C in patients with severe burn injury. DESIGN, SETTING, AND PARTICIPANTS: Randomized, double-blind, placebo-controlled phase 3 trial conducted across 24 burn centers in North, Central, and South America; Europe; and Asia. Adults (≥18 years) with deep second- and/or third-degree burns covering 20% or more of total body surface area and requiring skin grafting were enrolled between August 18, 2020, and September 12, 2025. Final follow-up was completed in March 2026. The trial was stopped early after the first prespecified interim analysis for futility/harm. INTERVENTIONS: Patients were randomly assigned (1:1) to receive intravenous vitamin C (50 mg/kg every 6 hours for 96 hours) or matched placebo. MAIN OUTCOMES AND MEASURES: The primary outcome was a composite of 28-day mortality and persistent organ dysfunction (defined as dependence on mechanical ventilation, kidney replacement therapy, or vasopressor/inotrope support at day 28). The main secondary outcome was time to discharge alive from hospital within 90 days. RESULTS: Among 238 patients enrolled (mean age, 48.9 [SD, 19.1] years; 79% male; mean total body surface area, 37.0% [SD, 14.6%]), 120 were assigned to vitamin C and 118 to placebo. The primary composite outcome occurred in 49 patients (40.8%) in the vitamin C group and 35 patients (29.7%) in the placebo group (adjusted risk ratio [RR], 1.28 [95% CI, 0.99-1.65]; P = .06), crossing the prespecified futility/harm threshold and prompting early trial termination. Time to discharge alive from hospital within 90 days was not improved (adjusted subdistribution hazard ratio, 0.85 [95% CI, 0.62-1.16]; P = .31). Twenty-eight-day mortality was higher in the vitamin C group (15.0% vs 7.6%; adjusted RR, 1.96 [95% CI, 1.32-2.90]; P = .001), as was hospital mortality (23.3% vs 16.1%; adjusted RR, 1.44 [95% CI, 1.03-2.00]; P = .03). CONCLUSIONS AND RELEVANCE: Among patients with severe burn injury, high-dose intravenous vitamin C did not reduce 28-day mortality and persistent organ dysfunction and is possibly harmful. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04138394.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: Among patients with severe burn injury, high-dose intravenous vitamin C did not reduce 28-day mortality and persistent organ dysfunction and is possibly harmful.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+          }
+        }
+      ]
+    }
+  ]
+}
