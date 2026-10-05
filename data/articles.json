@@ -1,55 +1,304 @@
 {
-  "week": "2026-W39",
-  "weekLabel": "28 de septiembre – 4 de octubre, 2026",
-  "lastUpdated": "2026-09-28T15:10:43Z",
+  "week": "2026-W40",
+  "weekLabel": "5 – 11 de octubre, 2026",
+  "lastUpdated": "2026-10-05T15:44:16Z",
   "stats": {
-    "total": 2,
+    "total": 14,
     "metaAnalysis": 0,
     "systematicReview": 0,
-    "rct": 2
+    "rct": 7
   },
   "subspecialties": [
+    {
+      "id": "erca",
+      "name": "Enfermedad Renal Crónica",
+      "color": "#1565C0",
+      "articles": [
+        {
+          "id": "erca-42315016",
+          "title": "A cluster randomized controlled trial (GOAL trial) evaluated a comprehensive geriatric assessment for frail older people with chronic kidney disease",
+          "journal": "Kidney International",
+          "authors": "Logan B, Viecelli AK, Johnson DW, Comans T, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.kint.2026.05.015",
+          "url": "https://doi.org/10.1016/j.kint.2026.05.015",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "INTRODUCTION: Frail older adults with chronic kidney disease (CKD) often experience complex care needs that may benefit from a comprehensive geriatric assessment (CGA). Our GOAL trial evaluated whether an outpatient CGA could improve patient-centered goal attainment in this population. METHODS: GOAL was an open-label, cluster-randomized controlled trial conducted across 15 Australian kidney outpatient centers from March 2021 to June 2023, with a 12-month follow-up. Centers randomized 1:1, delivered a single outpatient CGA plus usual care or usual care alone. Participants were aged 65 years and older (55 years and older for First Nations peoples) with moderate to severe CKD (eGFR 59 mL/min per 1.73 m2 and under) and frail (Frailty Index over 0.25). Of 771 screened, 240 were enrolled (mean age 76.9 years; median Frailty Index 0.39; 56% male), and 179 (74.6%) completed follow-up. In intervention centers, geriatricians performed a one-off CGA and provided individualized management plans. The primary outcome was goal attainment at three months, assessed using Goal Attainment Scaling (GAS), where a mean score of 50 or more indicates goal achievement. Mixed-effects linear regression was used for analysis. Secondary outcomes included quality of life, frailty status, mortality, hospitalizations, and residential aged care admission. All analyses were intention-to-treat at both cluster and participant levels. RESULTS: At three months, mean GAS scores were not significantly different between the intervention and control groups (45.2 vs 43.7; mean difference 1.54, 95% confidence interval: 3.13 to 6.20). No significant differences were found across secondary outcomes. A non-statistically significant reduction of 2.5 days in total hospital stay was observed in the intervention group. CONCLUSIONS: Outpatient CGA did not improve goal attainment or clinical outcomes in frail older adults with CKD. These findings do not support routine implementation of single-episode outpatient CGA in this setting and suggest a need for alternative, integrated models of person-centered care. TRIAL REGISTRATION: Registered at ClinicalTrials.gov with study number NCT04538157.",
+          "keyFindings": "Outpatient CGA did not improve goal attainment or clinical outcomes in frail older adults with CKD. These findings do not support routine implementation of single-episode outpatient CGA in this setting and suggest a need for alternative, integrated models of person-centered care. TRIAL",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 49,
+            "label": "Moderada",
+            "rationale": "RCT en Kidney International — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "erca-42320793",
+          "title": "A three-year randomized, double-blind, placebo-controlled study of lanreotide in stage 2/3 autosomal dominant polycystic kidney disease",
+          "journal": "Kidney International",
+          "authors": "Joly D, Ursino M, Bienaimé F, El Karoui K, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.kint.2026.05.018",
+          "url": "https://doi.org/10.1016/j.kint.2026.05.018",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "INTRODUCTION: Somatostatin analogues reduce liver and kidney cyst volume in autosomal dominant polycystic kidney disease (ADPKD), but randomized trials have not demonstrated a consistent benefit on kidney function decline. We tested whether the analogue lanreotide slows glomerular filtration rate (GFR) decline over three years in adults with ADPKD stages 2/3. METHODS: In this randomized, double-blind, placebo-controlled trial, we enrolled adults with ADPKD and measured GFR (mGFR) 30-89 ml/min/1.73 m2. Patients were randomized to receive monthly injections of lanreotide 120 mg or 0.9% sodium chloride placebo for three years. The primary endpoint was mGFR slope (iohexol clearance) assessed at baseline, weeks 72 and 144 and analyzed with a linear mixed-effects model (LMM). Secondary endpoints included annual estimated GFR decline (creatinine-based, assessed at 11 scheduled visits), kidney events, quality of life, and safety. Due to slow enrollment, recruitment stopped after 144 of 180 planned participants. All randomized participants were included in the analysis (intention-to-treat). RESULTS: The primary endpoint was not met: the model-derived annualized between-arm difference in mGFR trajectory was -0.3 ml/min/1.73 m2 per year (95% confidence interval -3.4 to 2.8). The time × lanreotide coefficient from the pre-specified creatinine-eGFR LMM was significant +1.2 ml/min/1.73 m2 per year (0.27 to 2.15); however, this signal was not replicated by cystatin C-eGFR nor urinary creatinine clearance, consistent with a non-GFR effect on creatinine physiology. Rates of kidney events and quality-of-life scores were similar between arms. Gastrointestinal adverse events were more frequent with lanreotide. Hypoglycemia occurred in 11.1% of lanreotide-treated versus 1.4% of placebo-treated participants. CONCLUSIONS: Lanreotide did not slow mGFR decline in adults with stage 2/3 ADPKD. The creatinine-eGFR signal is exploratory, not supported by muscle-mass-independent markers, and should be interpreted in the context of a negative primary endpoint. An unexpected hypoglycemia signal warrants proactive monitoring when considering lanreotide in this population. TRIAL REGISTRATION: Registered at ClinicalTrials.gov with study number NCT02127437.",
+          "keyFindings": "Lanreotide did not slow mGFR decline in adults with stage 2/3 ADPKD. The creatinine-eGFR signal is exploratory, not supported by muscle-mass-independent markers, and should be interpreted in the context of a negative primary endpoint. An unexpected hypoglycemia signal warrants proactive monitoring when considering lanreotide in this population. TRIAL",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en Kidney International — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "erca-41926219",
+          "title": "Association of Urinary EGF with Kidney Outcomes and Effects of Sodium-Glucose Cotransporter 2 Inhibition",
+          "journal": "Journal of the American Society of Nephrology",
+          "authors": "Moedt E, Koshino A, Jongs N, Ju W, et al.",
+          "year": 2026,
+          "doi": "10.1681/ASN.0000001086",
+          "url": "https://doi.org/10.1681/ASN.0000001086",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "KEY POINTS: Lower urinary EGF levels, normalized to urinary creatinine, reflected impaired tubular health and were associated with higher kidney risk across CKD. Sodium-glucose cotransporter 2 inhibitors attenuated the decline in urinary EGF-creatinine ratio observed with placebo, supporting a role in maintaining tubular health. Early increases in urinary EGF-creatinine ratio were linked to lower kidney risk, adding prognostic value beyond albuminuria. BACKGROUND: Urinary EGF is a marker of tubular repair capacity. Lower urinary EGF-creatinine ratio (uEGF/Cr) levels associate with kidney disease progression in patients with type 2 diabetes at early stages of CKD. In these patients, sodium-glucose cotransporter 2 inhibitors (SGLT2is) are associated with increased tubular EGF expression. In this study, we aimed to extend these findings to a broad CKD population with and without type 2 diabetes at various stages of CKD. METHODS: We measured EGF in stored urine samples at baseline and year 1 in participants from the Canagliflozin Cardiovascular Assessment Study (CANVAS), Canagliflozin and Renal Events in Diabetes with Established Nephropathy Clinical Evaluation (CREDENCE), and Dapagliflozin and Prevention of Adverse Outcomes in CKD (DAPA-CKD) clinical trials. Associations of baseline and longitudinal uEGF/Cr with the composite kidney outcome (sustained ≥40% eGFR decline, kidney failure, or kidney-related death) were assessed using multivariable Cox regression, and associations with annual eGFR decline using a two-slope linear mixed-effects model. Treatment effects of SGLT2i on uEGF/Cr over time were analyzed with analysis of covariance. RESULTS: In participants with type 2 diabetes from the CANVAS and CREDENCE trials ( N =5978), higher baseline uEGF/Cr was associated with a lower risk of the composite kidney outcome (hazard ratio per two-fold higher uEGF/Cr, 0.87 [95% confidence interval, 0.80 to 0.94]). SGLT2i attenuated the decline in uEGF/Cr over 1 year compared with placebo by 6.7% (95% confidence interval, 2.5 to 10.8). Increases in uEGF/Cr from baseline to year 1 were independently associated with a lower risk of the kidney outcome, even after accounting for 1-year changes in albuminuria, eGFR, and other clinical variables. Replication analyses showed similar results in the DAPA-CKD trial ( N =2450), with consistent findings in participants with and without diabetes. CONCLUSIONS: These results extend previous findings, supporting uEGF/Cr as a robust, independent biomarker of tubular health and kidney risk across diverse CKD populations. SGLT2i attenuated uEGF/Cr decline, and early changes in uEGF/Cr provided prognostic information beyond albuminuria.",
+          "keyFindings": "These results extend previous findings, supporting uEGF/Cr as a robust, independent biomarker of tubular health and kidney risk across diverse CKD populations. SGLT2i attenuated uEGF/Cr decline, and early changes in uEGF/Cr provided prognostic information beyond albuminuria.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of the American Society of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "erca-42448023",
+          "title": "An Interactive Virtual Nephrologist to Engage Patients With Advanced CKD About Transplantation",
+          "journal": "American Journal of Kidney Diseases",
+          "authors": "Reese PP, Tamboli D, Potluri V, Goldberg DS, et al.",
+          "year": 2026,
+          "doi": "10.1053/j.ajkd.2026.04.014",
+          "url": "https://doi.org/10.1053/j.ajkd.2026.04.014",
+          "evidenceLevel": "Ensayo Clínico",
+          "evidenceRank": 3,
+          "abstract": "RATIONALE & OBJECTIVE: Despite advantages in survival and quality of life with kidney transplantation (KT) compared with other treatments for kidney failure requiring dialysis, many patients do not receive sufficient information about KT or have concerns about it. New artificial intelligence capabilities enable the creation of virtual agents to supplement human efforts to engage patients in regard to treatment options. STUDY DESIGN: Single-arm, open-label trial with the primary outcome assessed before and after intervention. SETTING & PARTICIPANTS: Adults (age ≥18 and <75 years) with estimated glomerular filtration rate <25 mL/min/1.73 m2 in a large health system. INTERVENTIONS: Our group developed the \"virtual transplant nephrologist,\" an interactive, video-based platform to provide personalized education about KT. Meetings could occur at any time from a smartphone with a weblink. Participants first selected the demographic profile of their virtual nephrologist. Participants then self-tailored the encounter, choosing among 11 topics, pausing, changing the topic, and requesting more information. OUTCOME: The primary outcome was the difference in participants' intentions to speak to their doctor about KT before versus after the intervention, assessed on a 5-point Likert-like scale. RESULTS: Participants had a median age of 66 years; 59% were female, and 50% were Black. Female and Black participants exhibited preferences to select a gender- (P < 0.001) or race- (P < 0.001) concordant virtual nephrologist, respectively. Participants spent a median 12.6 minutes reviewing a median of 11 topics in the encounter. The primary outcome of intention to speak to a clinician about KT increased significantly after the virtual encounter (mean increase, 0.30; P < 0.001). LIMITATIONS: The clinical significance of the outcome is uncertain. CONCLUSIONS: Virtual clinicians offer a promising path to education and engagement in regard to complex treatments such as KT. This customizable approach to providing high-quality information about KT using a virtual clinician warrants more definitive testing in a randomized trial. FUNDING: Grant from a nonprofit entity (Leonard Davis Institute at the University of Pennsylvania, supported by a gift from Monogram Health). TRIAL REGISTRATION: Registered at Clinicaltrials.gov with study number NCT06841016. PLAIN-LANGUAGE SUMMARY: Many patients with kidney failure requiring dialysis never learn about kidney transplantation or pursue this treatment. This study used artificial intelligence and high-quality information about kidney transplantation to create the \"virtual nephrologist,\" a series of videos that simulate a meeting with a doctor who teaches about transplantation. The study team then tested whether a meeting with the virtual nephrologist increased patients' intentions to speak to their physicians about transplantation. The virtual nephrologist could be accessed on a smartphone or computer at any time and used simple language. Patients chose from 4 nephrologists with different backgrounds and went through topics including the waiting list and finding a transplant center. Participants reported that they were more likely to talk to their doctors about transplantation after using the virtual nephrologist, highlighting a need for more research on applying new technologies like this virtual nephrologist to engage patients about important health topics.",
+          "keyFindings": "This study used artificial intelligence and high-quality information about kidney transplantation to create the \"virtual nephrologist,\" a series of videos that simulate a meeting with a doctor who teaches about transplantation.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en American Journal of Kidney Diseases — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "erca-41823312",
+          "title": "Clinical impact of ionized calcium and hidden hypocalcemia on cardiovascular outcomes in dialysis patients",
+          "journal": "Nephrology Dialysis Transplantation",
+          "authors": "Kim JE, Kang D, Song SM, Kang MW, et al.",
+          "year": 2026,
+          "doi": "10.1093/ndt/gfag057",
+          "url": "https://doi.org/10.1093/ndt/gfag057",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Calcium homeostasis is critical for cardiovascular health in chronic kidney disease (CKD). Ionized calcium is biologically active, but clinical monitoring typically relies on total or albumin-corrected calcium, which may misclassify calcium status and mask abnormalities such as hidden hypocalcemia. We examined the associations of ionized calcium levels and hidden hypocalcemia with cardiovascular outcomes in dialysis patients. METHODS: We analyzed 637 maintenance dialysis patients from the prospective, multicenter ORCHESTRA cohort with ionized calcium measurements at baseline, 6, and 12 months. To minimize reverse causality, patients experiencing events within the first 12 months were excluded from time-to-event analyses. Total, albumin-corrected, and ionized calcium were categorized as low, normal, or high, and patients were further classified into concordant or discordant groups (both normal, hidden hypocalcemia, true hypocalcemia, hidden hypercalcemia, true hypercalcemia). Cox models assessed associations of baseline and longitudinal calcium categories with major adverse cardiovascular events (MACE; cardiovascular death, nonfatal myocardial infarction, or nonfatal stroke) and all-cause mortality. RESULTS: During a median follow-up of 1.1 years after the 12-month assessment, 61 MACE and 52 deaths occurred. When evaluated using 12-month averaged values, total, corrected, and ionized calcium categories were not significantly associated with MACE or mortality. However, patients with ≥2 ionized hypocalcemic measurements had a higher risk of MACE (adjusted hazard ratio (HR) 3.62; 95% confidence intervals 1.25-10.46). Hidden hypocalcemia (normal total or corrected calcium with low ionized calcium) was associated with increased MACE risk both at baseline (total × ionized HR 2.94; corrected × ionized HR 2.81) and in longitudinal analyses (corrected × ionized ≥ 2 episodes HR 4.58). No calcium category was associated with mortality. CONCLUSIONS: Total and albumin-corrected calcium were not associated with cardiovascular outcomes. By contrast, recurrent hidden hypocalcemia was associated with excess MACE risk. These findings suggest that evaluating discordance between total and ionized calcium may provide clinically relevant information beyond conventional calcium measures in dialysis patients.",
+          "keyFindings": "Total and albumin-corrected calcium were not associated with cardiovascular outcomes. By contrast, recurrent hidden hypocalcemia was associated with excess MACE risk. These findings suggest that evaluating discordance between total and ionized calcium may provide clinically relevant information beyond conventional calcium measures in dialysis patients.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 15,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
+          "id": "erca-41811969",
+          "title": "Renal blood flow and progression to kidney failure in ADPKD",
+          "journal": "Nephrology Dialysis Transplantation",
+          "authors": "Nowak KL, Copeland TP, Ku E, Sarnak MJ, et al.",
+          "year": 2026,
+          "doi": "10.1093/ndt/gfag059",
+          "url": "https://doi.org/10.1093/ndt/gfag059",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: A decrease in renal blood flow (RBF) precedes estimated glomerular filtration rate (eGFR) decline among patients with autosomal dominant polycystic kidney disease (ADPKD) and inversely associates with disease severity and progression. However, it is unknown whether RBF independently predicts progression to kidney failure in patients with ADPKD. METHODS: A total of 379 participants with early-stage ADPKD (mean age 36.6 ± 8.5 years; eGFR: 92.9 ± 17.1 ml/min/1.73 m2) who participated in the Halt Progression of Polycystic Kidney Disease Study A (HALT PKD A; NCT00283686) with baseline RBF (phase contrast magnetic resonance imaging) data were included in the primary analysis. Kaplan-Meier survival analysis and multivariate Cox proportional hazard models were used to determine the association of baseline RBF as a continuous and categorical variable with kidney failure risk (during the HALT study and subsequently linked to the US Renal Data System) over a median follow-up period of 13.1 years (interquartile range 7.5-14.5) (primary outcome). All-cause mortality was also considered as a competing risk (Fine and Gray method). The associations of RBF with eGFR slope and the change in height-adjusted total kidney volume (∆htTKV) were evaluated with linear and logistic regression models. RESULTS: The kidney failure incidence rate was the highest among those with the lowest RBF tertile {1.90 [95% confidence interval (CI) 1.31-2.78] versus 0.34 [95% CI 0.14-0.83] events/100 person-years in tertile 3}. In the fully adjusted model, the lowest RBF tertile was associated with a higher risk of progression to kidney failure [hazard ratio (HR) 3.19 (95% CI 1.05-9.67] versus the highest tertile]. The association of RBF with kidney failure risk was slightly attenuated in adjusted models. All associations remained similar when considering death as a competing risk [HR 0.82 (95% CI 0.67-1.00) per 100 ml/min/1.73 m2 higher RBF]. Higher RBF was associated with a slower eGFR decline and lower odds of rapid annual ∆htTKV. CONCLUSIONS: Lower baseline RBF independently associates with a greater risk of progression to kidney failure in early-stage patients with ADPKD.",
+          "keyFindings": "Lower baseline RBF independently associates with a greater risk of progression to kidney failure in early-stage patients with ADPKD.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 30,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
+          "id": "erca-41848280",
+          "title": "The evolution of symptom burden in older men and women with advanced CKD",
+          "journal": "Nephrology Dialysis Transplantation",
+          "authors": "Chesnaye NC, Wrackefeldt J, Caskey FJ, Dekker FW, et al.",
+          "year": 2026,
+          "doi": "10.1093/ndt/gfag045",
+          "url": "https://doi.org/10.1093/ndt/gfag045",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND AND HYPOTHESIS: Whether the interdependence of symptom burden and kidney function over time differ by gender remain unknown. Here we aim to describe longitudinal trajectories of symptom burden in older men and women with advanced chronic kidney disease (CKD) over time, and in relation to the trajectory of kidney function. METHODS: In the prospective, observational multicentre cohort study in Europe; The European QUALity (EQUAL) study on treatment in advanced CKD, patients with incident eGFR <20 ml/min per 1.73 m2 not on dialysis, ≥65 years of age were followed for over 5 years, or until initiation of kidney replacement therapy. Symptom number and burden were assessed at 3-6-month intervals using the dialysis symptoms index. The evolution of symptom burden was modelled over time and eGFR for men and women separately, using generalized additive models. RESULTS: Over the follow-up, 4730 symptom measurements were collected in 1135 patients. Overall symptom progression was relatively slow. The number of symptoms increased on average by 0.47 (95% CI 0.37-0.58) symptoms per year, and by 0.75 (95% CI 0.58-0.91) symptoms per 5 ml/min/1.73 m2 decrease in kidney function. Women reported more symptoms on average than men throughout follow-up, although the increase in symptom number with declining kidney function was almost three times greater in men (0.97 per 5 ml/min/1.73 m2, 95% CI 0.78-1.16) than in women (0.34 per 5 ml/min/1.73 m2, 95% CI 0.03-0.64). This difference was especially evident towards lower eGFR levels. CONCLUSIONS: Women experience more symptoms on average than men, but symptoms progressed faster in men, relative to kidney decline. Further research should focus on how patient-reported outcome measures (PROMs) can routinely be implemented in nephrology care, and how to use PROMs effectively in patient-nephrologist communication with regards to shared decision making.",
+          "keyFindings": "Women experience more symptoms on average than men, but symptoms progressed faster in men, relative to kidney decline. Further research should focus on how patient-reported outcome measures (PROMs) can routinely be implemented in nephrology care, and how to use PROMs effectively in patient-nephrologist communication with regards to shared decision making.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 30,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        }
+      ]
+    },
     {
       "id": "aki",
       "name": "Lesión Renal Aguda",
       "color": "#C62828",
       "articles": [
         {
-          "id": "aki-42283370",
-          "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock",
-          "journal": "New England Journal of Medicine",
-          "authors": "Serpa Neto A, McNamara M, White K, Cooper DJ, et al.",
+          "id": "aki-41920709",
+          "title": "B -Cell Maturation Antigen-CD19 Dual-Targeted Chimeric Antigen Receptor- T -Cell Therapy for Relapsed or Refractory AL Amyloidosis",
+          "journal": "Journal of the American Society of Nephrology",
+          "authors": "Huang X, Wu X, Chen W, Wang W, et al.",
           "year": 2026,
-          "doi": "10.1056/NEJMoa2600526",
-          "url": "https://doi.org/10.1056/NEJMoa2600526",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "doi": "10.1681/ASN.0000001096",
+          "url": "https://doi.org/10.1681/ASN.0000001096",
+          "evidenceLevel": "Ensayo Clínico",
           "evidenceRank": 3,
-          "abstract": "BACKGROUND: Metabolic acidosis is common in critically ill patients and is associated with organ dysfunction and death. Sodium bicarbonate is used to correct acidemia, but its benefit in patients with metabolic acidosis who are receiving vasopressors remains uncertain. METHODS: In this pragmatic, adaptive, double-blind, randomized trial, we assigned adults with metabolic acidosis (pH, <7.30; base excess, no more than -4 mmol per liter; and partial pressure of arterial carbon dioxide, ≤45 mm Hg without intubation or ≤50 mm Hg with intubation) who were receiving vasopressors in the intensive care unit (ICU) to receive either sodium bicarbonate or placebo (5% dextrose). Sodium bicarbonate or placebo was infused for up to 5 hours, with the infusion rate adjusted for a target pH of at least 7.30 and base excess of at least 0 mmol per liter. The primary outcome was a major adverse kidney event, defined as death, use of renal-replacement therapy, or persistent renal dysfunction, within 30 days. RESULTS: A total of 500 patients were enrolled in 55 ICUs across seven countries; 245 patients were assigned to receive sodium bicarbonate and 255 to receive placebo. A major adverse kidney event within 30 days occurred in 98 of 244 patients (40.2%) in the sodium bicarbonate group and in 100 of 254 patients (39.4%) in the placebo group (adjusted difference, 1.2 percentage points; 95% confidence interval [CI], -7.1 to 9.4; P = 0.78). Renal-replacement therapy was used within 30 days in 16.8% of the patients in the sodium bicarbonate group and in 20.9% of those in the placebo group (adjusted difference, -3.9 percentage points; 95% CI, -10.6 to 2.7). In-hospital mortality by day 30 was 25.4% in the sodium bicarbonate group and 24.0% in the placebo group (adjusted difference, 1.8 percentage points; 95% CI, -5.6 to 9.2). Four patients (1.6%) in the sodium bicarbonate group had an adverse effect, as compared with none in the placebo group (P = 0.06). CONCLUSIONS: The use of sodium bicarbonate in critically ill patients with metabolic acidosis receiving vasopressors did not lead to a lower risk of major adverse kidney events within 30 days than placebo. (Funded by the National Health and Medical Research Council of Australia; SODa-BIC ClinicalTrials.gov number, NCT05697770.).",
-          "keyFindings": "The use of sodium bicarbonate in critically ill patients with metabolic acidosis receiving vasopressors did not lead to a lower risk of major adverse kidney events within 30 days than placebo. (Funded by the National Health and Medical Research Council of Australia; SODa-BIC ClinicalTrials.gov number, NCT05697770.).",
+          "abstract": "KEY POINTS: This study evaluated the safety and efficacy of B -cell maturation antigen-CD19 dual-targeted chimeric antigen receptor- T -cell therapy for patients with relapsed/refractory AL amyloidosis. B -cell maturation antigen-CD19 dual-targeted chimeric antigen receptor- T -cell therapy was well tolerated and no dose limiting toxicity occurred. Single-cell analysis confirmed B -cell maturation antigen-CD19 chimeric antigen receptor- T -cell enabled complete elimination of pathogenic plasma and B cells and promoted immune reconstitution. BACKGROUND: The potential efficacy of chimeric antigen receptor (CAR)- T cells for the treatment of relapsed/refractory systemic light chain (AL) amyloidosis remains elusive. This study aimed to investigate the efficacy and safety of B -cell maturation antigen (BCMA)-CD19 dual-targeted CAR- T -cell therapy in patients with refractory/relapsed AL amyloidosis in a single-center exploratory trial. METHODS: The key eligibility criteria of this trial were patients with AL amyloidosis and at least one major organ involvement who were refractory to or had relapsed from at least two lines of therapy. The primary outcome was the safety of CAR- T therapy. All eligible patients received a single infusion of 0.3×10 6 /kg the BCMA-CD19 dual-targeted CAR- T cells after preconditioning with fludarabine (30 mg/m 2 per day for 3 days) and cyclophosphamide (300 mg/m 2 per day for 3 days). RESULTS: Notably, six patients with refractory/relapsed AL amyloidosis were enrolled, all of whom had kidney involvement, and one of whom had cardiac involvement with Mayo stage 3a disease. After a median follow-up of 640 (range, 563-745) days, all six patients achieved hematologic complete response (100%, 95% confidence interval, 54% to 100%) and renal response (100%, 95% confidence interval, 54% to 100%). The median time to hematologic response and renal response were 9 (interquartile range, 6-11) and 75 (interquartile range, 18-180) days, respectively. One patient relapsed at month 6, while the other patients remained in remission. Grade 1 cytokine release syndrome occurred in two patients, and no immune effector cell-associated neurotoxicity syndrome was identified. Pneumonia occurred in two of the six patients. One patient had grade 3 urticaria and grade 2 AKI. One patient developed acute promyelocytic leukemia 15 months post-CAR- T -cell therapy. Single-cell RNA/ B -cell receptor sequencing confirmed that BCMA-CD19 dual-targeted CAR- T cells enabled the comprehensive clearance of pathogenic plasma cells and aberrant B cells, while also promoting endogenous immune reconstitution in AL amyloidosis. CONCLUSIONS: This study provides preliminary evidence for the feasibility and tolerability of BCMA-CD19 dual-targeting CAR- T -cell therapy, and it showed promising activity in patients with relapsed/refractory AL amyloidosis. CLINICAL TRIAL REGISTRY NAME AND REGISTRATION NUMBER: ClinicalTrials.gov, NCT05978661 .",
+          "keyFindings": "This study provides preliminary evidence for the feasibility and tolerability of BCMA-CD19 dual-targeting CAR- T -cell therapy, and it showed promising activity in patients with relapsed/refractory AL amyloidosis. CLINICAL TRIAL REGISTRY NAME AND REGISTRATION",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 75,
-            "label": "Alta",
-            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of the American Society of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nefro-diabetica",
+      "name": "Nefropatía Diabética",
+      "color": "#2E7D32",
+      "articles": [
+        {
+          "id": "nefro-diabetica-42468834",
+          "title": "Time in Target Range for Hemoglobin A1c and Systolic Blood Pressure: Association With Adverse Kidney Events",
+          "journal": "American Journal of Kidney Diseases",
+          "authors": "Meng X, Wang Y, Zhang X, Wang S, et al.",
+          "year": 2026,
+          "doi": "10.1053/j.ajkd.2026.05.009",
+          "url": "https://doi.org/10.1053/j.ajkd.2026.05.009",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "RATIONALE & OBJECTIVE: Time in target range (TTR) for systolic blood pressure (SBP) and hemoglobin A1c (HbA1c) integrates information about average and variability of levels over time. Their impact on kidney outcomes has not been fully evaluated. This study investigated the association of HbA1c-TTR and SBP-TTR, individually and jointly, with kidney outcomes among patients with type 2 diabetes and hypertension. STUDY DESIGN: Post hoc observational cohort analysis of the Action to Control Cardiovascular Risk in Diabetes (ACCORD) trial data. SETTINGS & PARTICIPANTS: 6,542 ACCORD participants with ≥ 3 HbA1c and SBP measurements during the first 12 months. EXPOSURE: HbA1c-TTR and SBP-TTR during the first 12 months after randomization, each categorized separately as either 100% or in tertiles among the remaining study participants. In addition, 4 categories jointly assessing TTR for HbA1c and SBP were created: both HbA1c-TTR and SBP-TTR ≤ 80%, HbA1c-TTR ≤ 80% and SBP-TTR > 80%, HbA1c-TTR > 80% and SBP-TTR ≤ 80%, and both HbA1c-TTR and SBP-TTR > 80%. OUTCOME: A composite kidney outcome, defined as incident albuminuria, estimated glomerular filtration rate decline ≥ 40% from baseline, or kidney failure. ANALYTICAL APPROACH: Associations of HbA1c-TTR and SBP-TTR, individually and in combination with kidney outcomes, were analyzed using Cox proportional hazards models. RESULTS: Compared with HbA1c-TTR of ≤ 49.6% (the lowest tertile), HbA1c-TTR of 100% was associated with a 20% lower risk of the composite kidney outcome (HR, 0.80 [95% CI, 0.68-0.94]). Compared with SBP-TTR of ≤50.7% (the lowest tertile), SBP-TTR of 100% was associated with a 32% lower risk of the composite kidney outcome (HR, 0.68 [95% CI, 0.58-0.80]). Participants with both HbA1c-TTR and SBP-TTR > 80% had a 29% (HR, 0.71 [95% CI, 0.61-0.83]) lower risk of the composite kidney outcome compared with participants with both HbA1c-TTR and SBP-TTR ≤ 80%. LIMITATIONS: Limited duration of follow-up and low number of kidney failure events. CONCLUSIONS: Longer time with HbA1c and SBP within target range was associated with a lower risk of adverse kidney events. PLAIN-LANGUAGE SUMMARY: The concept of \"time in target range\" (TTR), defined as the proportion of time within a defined range, has been proposed in managing diabetes and hypertension. The combined effect of hemoglobin A1c (HbA1c)-TTR and systolic blood pressure (SBP)-TTR on adverse kidney events remains unknown. We evaluated the association of HbA1c-TTR and SBP-TTR, both individually and in combination, with incident kidney outcomes among patients who were enrolled in a clinical trial. We found that higher HbA1c-TTR and SBP-TTR were individually associated with a lower risk of adverse kidney events in patients with type 2 diabetes and hypertension. Having more time with both HbA1c and SBP within target range was also associated with a lower risk of adverse kidney outcomes compared with having either 1 individual parameter or neither individual parameter within target range.",
+          "keyFindings": "Longer time with HbA1c and SBP within target range was associated with a lower risk of adverse kidney events. PLAIN-LANGUAGE",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 64,
+            "label": "Moderada",
+            "rationale": "RCT en American Journal of Kidney Diseases — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "trasplante",
+      "name": "Trasplante Renal",
+      "color": "#00695C",
+      "articles": [
+        {
+          "id": "trasplante-42308433",
+          "title": "Effects of Donor Wage Reimbursement: Findings From the Living Donor Lost Wages Randomized Trial",
+          "journal": "Transplantation",
+          "authors": "Rodrigue JR, Fleishman A, Schold JD, Pavlakis M, et al.",
+          "year": 2026,
+          "doi": "10.1097/TP.0000000000005749",
+          "url": "https://doi.org/10.1097/TP.0000000000005749",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Lost wages following living donation may deter patients from pursuing living donor kidney transplantation (LDKT) and potential donors from being evaluated. METHODS: We randomized patients undergoing transplant evaluation to 1 of 2 donor wage reimbursement groups ($1500 or $3000 maximum) and encouraged them to discuss this reimbursement program with their social network. These patients were compared with matched historical controls (HCs) on the likelihood of LDKT and ≥1 donor evaluation within 1 y of transplant evaluation. Multivariable logistic regression adjusted for demographic and clinical factors known to be associated with LDKT. RESULTS: Access to any donor wage reimbursement (lost wages $1500 maximum reimbursement and lost wages $3000 maximum reimbursement combined versus HC) was not significantly associated with LDKT occurrence (adjusted odds ratio [aOR], 0.85; 95% confidence interval [CI], 0.39-1.85; P  = 0.68) or with the likelihood of having at least 1 donor evaluated within 1 y of initial evaluation (aOR, 1.07; 95% CI, 0.76-1.50; P  = 0.70) after covariate adjustment. Also, donor wage reimbursement level (lost wages $1500 maximum reimbursement versus lost wages $3000 maximum reimbursement) was not associated with LDKT (aOR, 0.73; 95% CI, 0.22-2.44; P  = 0.61) or with having a donor evaluation initiated (aOR, 0.65; 95% CI, 0.40-1.05; P  = 0.11). In an exploratory analysis extending follow-up to account for COVID-related shutdowns, access to wage reimbursement was associated with higher odds of LDKT compared with HC (aOR, 2.16; 95% CI, 1.12-4.18; P  = 0.02). CONCLUSIONS: Donor wage reimbursement, at the levels tested, did not increase LDKT or living donor evaluation likelihood in primary analyses, although exploratory findings suggest that effects may emerge with longer follow-up. Wage reimbursement alone may be insufficient to meaningfully expand LDKT.",
+          "keyFindings": "Donor wage reimbursement, at the levels tested, did not increase LDKT or living donor evaluation likelihood in primary analyses, although exploratory findings suggest that effects may emerge with longer follow-up. Wage reimbursement alone may be insufficient to meaningfully expand LDKT.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 45,
+            "label": "Moderada",
+            "rationale": "RCT en Transplantation — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
           }
         },
         {
-          "id": "aki-42267875",
-          "title": "High-Dose Intravenous Vitamin C and Mortality and Organ Dysfunction in Severe Burn Injury: The VICTORY Randomized Clinical Trial",
-          "journal": "JAMA",
-          "authors": "Stoppe C, Hill A, Cancio LC, Day AG, et al.",
+          "id": "trasplante-42508611",
+          "title": "A multi-national study examined the response sustainability to calcineurin inhibitors and long-term kidney survivals in children with genetic podocytopathies",
+          "journal": "Kidney International",
+          "authors": "Malakasioti G, Iancu D, Au CT, Zhou D, et al.",
           "year": 2026,
-          "doi": "10.1001/jama.2026.10616",
-          "url": "https://doi.org/10.1001/jama.2026.10616",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "IMPORTANCE: Severe burn injury triggers systemic inflammation that can lead to multiple organ dysfunctions and death. High-dose intravenous vitamin C has been proposed to mitigate these effects, but strong evidence in patients with burn injury is lacking. OBJECTIVE: To evaluate the efficacy of high-dose intravenous vitamin C in patients with severe burn injury. DESIGN, SETTING, AND PARTICIPANTS: Randomized, double-blind, placebo-controlled phase 3 trial conducted across 24 burn centers in North, Central, and South America; Europe; and Asia. Adults (≥18 years) with deep second- and/or third-degree burns covering 20% or more of total body surface area and requiring skin grafting were enrolled between August 18, 2020, and September 12, 2025. Final follow-up was completed in March 2026. The trial was stopped early after the first prespecified interim analysis for futility/harm. INTERVENTIONS: Patients were randomly assigned (1:1) to receive intravenous vitamin C (50 mg/kg every 6 hours for 96 hours) or matched placebo. MAIN OUTCOMES AND MEASURES: The primary outcome was a composite of 28-day mortality and persistent organ dysfunction (defined as dependence on mechanical ventilation, kidney replacement therapy, or vasopressor/inotrope support at day 28). The main secondary outcome was time to discharge alive from hospital within 90 days. RESULTS: Among 238 patients enrolled (mean age, 48.9 [SD, 19.1] years; 79% male; mean total body surface area, 37.0% [SD, 14.6%]), 120 were assigned to vitamin C and 118 to placebo. The primary composite outcome occurred in 49 patients (40.8%) in the vitamin C group and 35 patients (29.7%) in the placebo group (adjusted risk ratio [RR], 1.28 [95% CI, 0.99-1.65]; P = .06), crossing the prespecified futility/harm threshold and prompting early trial termination. Time to discharge alive from hospital within 90 days was not improved (adjusted subdistribution hazard ratio, 0.85 [95% CI, 0.62-1.16]; P = .31). Twenty-eight-day mortality was higher in the vitamin C group (15.0% vs 7.6%; adjusted RR, 1.96 [95% CI, 1.32-2.90]; P = .001), as was hospital mortality (23.3% vs 16.1%; adjusted RR, 1.44 [95% CI, 1.03-2.00]; P = .03). CONCLUSIONS AND RELEVANCE: Among patients with severe burn injury, high-dose intravenous vitamin C did not reduce 28-day mortality and persistent organ dysfunction and is possibly harmful. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04138394.",
-          "keyFindings": "CONCLUSIONS AND RELEVANCE: Among patients with severe burn injury, high-dose intravenous vitamin C did not reduce 28-day mortality and persistent organ dysfunction and is possibly harmful.",
+          "doi": "10.1016/j.kint.2026.06.030",
+          "url": "https://doi.org/10.1016/j.kint.2026.06.030",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "INTRODUCTION: While calcineurin inhibitors (CNIs) reduce proteinuria in a subgroup of children with genetic podocytopathies, previous reports suggest that the response is short-lived and of no benefit to long-term outcomes. Here, we assess CNI response sustainability and the association between different patterns of response preservation and kidney survival. METHODS: We performed a retrospective cohort study of patients aged 0-18 years with genetic podocytopathies treated with CNIs for at least three months from 34 pediatric nephrology centers worldwide. Response status was defined in accordance with International Pediatric Nephrology Association Clinical Practice Recommendations. RESULTS: We analyzed 136 patients with genetic podocytopathies over a median follow-up period of 42.1 months (between CNI initiation and last follow-up or commencement of kidney replacement therapy, whichever occurred first). At least partial response was attained in 28% and 22% of patients at six months post-CNI initiation and last follow-up, respectively. Compared to no response group, patients with at least partial response at six months had significantly lower urine protein-to-creatinine ratios across various time points post-CNIs. 71%, 11% and 18% exhibited no response, non-sustained and sustained response, respectively, throughout the observation period. Both sustained and non-sustained responses were significantly associated with superior kidney survival compared to no response. Importantly, no patients with sustained response developed kidney failure over a follow-up period of 42 (interquartile range 19-62) months. Patients with non-sustained response had a 92% lower risk of kidney failure compared to non-responders. CONCLUSIONS: A subset of children with genetic podocytopathies experienced a sustained response to CNIs, and none developed kidney failure. Children with non-sustained response still demonstrated superior kidney survival compared to non-responders. Our findings may support a trial of CNIs in genetic podocytopathies, and continuing therapy among those showing clinical response.",
+          "keyFindings": "A subset of children with genetic podocytopathies experienced a sustained response to CNIs, and none developed kidney failure. Children with non-sustained response still demonstrated superior kidney survival compared to non-responders. Our findings may support a trial of CNIs in genetic podocytopathies, and continuing therapy among those showing clinical response.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 75,
-            "label": "Alta",
-            "rationale": "RCT publicado en JAMA con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+            "score": 42,
+            "label": "Moderada",
+            "rationale": "Estudio de cohorte en Kidney International — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "trasplante-42508609",
+          "title": "Early acute T cell-mediated rejection and kidney allograft outcomes",
+          "journal": "Kidney International",
+          "authors": "Chen C, Elias C, Keyser M, Wellekens K, et al.",
+          "year": 2026,
+          "doi": "10.1016/j.kint.2026.06.042",
+          "url": "https://doi.org/10.1016/j.kint.2026.06.042",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "INTRODUCTION: Despite the prevalent notion that early acute T cell-mediated rejection (TCMR) in kidney transplant patients is clinically benign, how it responds to treatment and whether treatment responses impact long-term graft survival remain unclear and poorly characterized. METHODS: To comprehensively address this issue, we conducted an observational cohort study of all adult patients who underwent kidney transplantation between January 2013 and December 2019 across six centers in the United States and Europe. We evaluated the incidence of TCMR in the first post-transplant year, assessed clinical and histological responses to treatment, and examined their association with long-term graft outcomes. RESULTS: Among 5,762 patients undergoing 9,780 biopsies, 790 (13.6%) developed TCMR. Despite treatment, 36% of patients demonstrated clinical deterioration and 32% had persistent TCMR on follow-up biopsy, indicating frequent treatment resistance. Clinical and histologic responses were frequently discordant. While only 51% of patients with clinical improvement had no rejection, 37% with clinical deterioration also showed no rejection. TCMR was significantly associated with worse graft survival (death-censored graft loss hazard ratio 2.84, 95% confidence interval 2.38-3.3). Importantly, persistent TCMR conferred a substantially higher risk of graft loss compared with responsive TCMR (3.21, 2.19-4.71) independent of clinical response and other confounders. This association was consistent across subgroups and supported by time-dependent and landmark analyses. Increasing tubulointerstitial inflammation (Banff Δ 't+i' scores) demonstrated a graded association with adverse outcomes, and trajectory analyses showed a stepwise increase in graft loss with persistent or recurrent inflammation. CONCLUSIONS: TCMR is common, frequently treatment-resistant, and persistent TCMR is strongly associated with inferior long-term graft survival. Clinical improvement often failed to reflect histologic response. These findings challenge the notion that TCMR is clinically benign and identify persistent inflammation as a key driver of graft loss, underscoring the need for response guided monitoring and more effective targeted therapies.",
+          "keyFindings": "TCMR is common, frequently treatment-resistant, and persistent TCMR is strongly associated with inferior long-term graft survival. Clinical improvement often failed to reflect histologic response. These findings challenge the notion that TCMR is clinically benign and identify persistent inflammation as a key driver of graft loss, underscoring the need for response guided monitoring and more effective targeted therapies.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
+          "id": "trasplante-42133430",
+          "title": "Clinical Relevance of Donor-Derived Cell-Free DNA in Monitoring Kidney Transplant Rejection",
+          "journal": "Journal of the American Society of Nephrology",
+          "authors": "Pagliazzi A, Wellekens K, de Loor H, Koshy P, et al.",
+          "year": 2026,
+          "doi": "10.1681/ASN.0000001116",
+          "url": "https://doi.org/10.1681/ASN.0000001116",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "KEY POINTS: Donor-derived cell-free DNA showed strong discriminative ability for rejection after kidney transplantation. Clinical interpretability was improved by calculating donor-derived cell-free DNA result-specific likelihood ratio and corresponding post-test rejection risk. We showed that donor-derived cell-free DNA testing could help reduce unnecessary kidney biopsies, delineating a key clinical context in a low rejection prevalence cohort. BACKGROUND: Over the past 25 years, donor-derived cell-free DNA (dd-cfDNA) has emerged as a noninvasive biomarker for detecting allograft rejection in kidney transplant recipients, yet its clinical interpretability and context(s) of use in post-transplant monitoring remain largely unexplored. METHODS: In this observational cohort study, we analyzed 472 retrospective and 450 prospective plasma samples as the derivation and validation cohorts, respectively. Samples were collected at the time of either an indication or a protocol kidney biopsy. We evaluated three logistic regression models for rejection discrimination: a clinical model, the dd-cfDNA alone, and their combination. Result-specific likelihood ratios were derived from the dd-cfDNA-based model probabilities and applied to the clinical model predictions to obtain post-test probabilities of rejection. By comparing pre-test and post-test probabilities, we assessed the impact of dd-cfDNA on rejection risk stratification. RESULTS: dd-cfDNA alone demonstrated strong discriminative ability, with area under the receiver operating characteristic curves of 0.79 (95% confidence interval, 0.73 to 0.84) and 0.80 (95% confidence interval, 0.72 to 0.87) in the derivation and validation cohorts, respectively. Combining dd-cfDNA with clinical parameters improved the above area under the receiver operating characteristic curves to 0.82 and 0.87, respectively. We compared pre-test and post-test probabilities to determine how dd-cfDNA testing influenced rejection risk estimation. Incorporating dd-cfDNA testing results clarified risk stratification by reducing the number of samples categorized as intermediate (10%-30%) pre-test risk. Overall, 253/345 pre-test intermediate risk samples were reclassified, with 117/162 (72%) and 33/91 (36%) correctly assigned to low (≤10%) and high (≥30%) post-test risk, respectively. With 10% probability threshold for warranting a kidney biopsy, 482 biopsies would have been safely avoided using post-test probabilities, with 437 (91%) of these being protocol biopsies. CONCLUSIONS: Our study confirmed the strong association between dd-cfDNA% and rejection after kidney transplantation. Using test result-specific likelihood ratio, we evaluated the impact of integrating dd-cfDNA% for estimating time point-specific rejection risk, demonstrating its potential to reduce the number of unnecessary biopsies in a cohort with a relatively low rejection prevalence.",
+          "keyFindings": "Our study confirmed the strong association between dd-cfDNA% and rejection after kidney transplantation. Using test result-specific likelihood ratio, we evaluated the impact of integrating dd-cfDNA% for estimating time point-specific rejection risk, demonstrating its potential to reduce the number of unnecessary biopsies in a cohort with a relatively low rejection prevalence.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 42,
+            "label": "Moderada",
+            "rationale": "Estudio de cohorte en Journal of the American Society of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "trasplante-42024462",
+          "title": "Normalization of nCounter Gene Expression Data Alters Molecular Diagnostics in Kidney Transplantation",
+          "journal": "Journal of the American Society of Nephrology",
+          "authors": "Piedrafita A, Sablik M, Preka E, Goutaudier V, et al.",
+          "year": 2026,
+          "doi": "10.1681/ASN.0000001107",
+          "url": "https://doi.org/10.1681/ASN.0000001107",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "KEY POINTS: Normalization methods affected the performance of gene-based diagnostic classifiers for kidney transplant rejection across a large multicenter cohort. Complex normalization reduced classifier performance by overcorrecting signal, while simpler methods preserved rejection signature and key robustness. By identifying optimal normalization methods, this work advances a standardized preprocessing framework for molecular diagnostics in transplantation. BACKGROUND: The Banff 2022 classification endorses intragraft gene expression profiling using the Banff Human Organ Transplant (B-HOT) consensus gene panel for rejection diagnosis. However, lack of standardized analytical pipelines, including data normalization, limits clinical implementation, with its effect on diagnostic performance yet to be determined. METHODS: We evaluated ten normalization methods in 868 kidney allograft biopsies from nine European and North American centers, all Banff-graded and B-HOT-profiled on nCounter, comprising derivation ( n =441), internal ( n =186), and external ( n =241) validation cohorts. Each method was assessed through its downstream impact on ( 1 ) gene count stability, ( 2 ) differential expression and cross-platform concordance with RNA sequencing (RNA-seq) data, and ( 3 ) discrimination and calibration of predictive models for antibody-mediated rejection (AMR) and T -cell-mediated rejection (TCMR). RESULTS: Most methods improved count stability and showed high concordance with RNA-seq for overall gene expression. They also produced robust differential expression signatures consistent with those detected by RNA-seq, except for RUVSeq and RCRNorm , which identified fewer differentially expressed genes and showed lower concordance. In the overall validation cohort ( n =427), diagnostic performance was consistently high across nSolver -based approaches, nanostringr , NanoStringDiff , MetaNorm , and RCRNormFast (AMR, area under the ROC curve [AUROC], 0.88-0.91; area under precision-recall curves [AUPRC], 0.86-0.89; TCMR AUROC, 0.90-0.92; AUPRC, 0.78-0.83). Performance declined with RCRNorm (AMR AUROC/AUPRC, 0.55/0.41; TCMR, 0.53/0.18) and, for TCMR, with RUVSeq (AUROC, 0.84-0.85; AUPRC, 0.64-0.65). Calibration was satisfactory for most methods, except for RCRNorm and for TCMR models after RUVSeq . CONCLUSIONS: Normalization choice significantly impacted gene expression profiles and diagnostic classifier performance. Most methods, including nSolver-based pipelines, achieved robust discrimination for both AMR and TCMR. Complex methods, including RCRNorm, and RUVSeq for TCMR, reduced performance, with simpler approaches consistently outperforming them for B-HOT-based molecular diagnostics.",
+          "keyFindings": "Normalization choice significantly impacted gene expression profiles and diagnostic classifier performance. Most methods, including nSolver-based pipelines, achieved robust discrimination for both AMR and TCMR. Complex methods, including RCRNorm, and RUVSeq for TCMR, reduced performance, with simpler approaches consistently outperforming them for B-HOT-based molecular diagnostics.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
           }
         }
       ]
