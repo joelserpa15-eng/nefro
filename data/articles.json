@@ -1,12 +1,12 @@
 {
-  "week": "2026-W42",
-  "weekLabel": "19 – 25 de octubre, 2026",
-  "lastUpdated": "2026-10-19T14:29:00Z",
+  "week": "2026-W43",
+  "weekLabel": "26 de octubre – 1 de noviembre, 2026",
+  "lastUpdated": "2026-10-26T14:02:05Z",
   "stats": {
-    "total": 10,
+    "total": 9,
     "metaAnalysis": 1,
-    "systematicReview": 1,
-    "rct": 2
+    "systematicReview": 0,
+    "rct": 3
   },
   "subspecialties": [
     {
@@ -15,55 +15,17 @@
       "color": "#1565C0",
       "articles": [
         {
-          "id": "erca-42488997",
-          "title": "Impact of HIF-prolyl hydroxylase inhibitors on VEGF expression and vascular adverse events in chronic kidney disease: a meta-analysis of 34 randomized controlled trials",
+          "id": "erca-42549920",
+          "title": "Are children with isolated renal ectopia at increased risk of hypertension? Evidence from an observational study",
           "journal": "Journal of Nephrology",
-          "authors": "Montazer SM, Asadi A, Taghipour A, Rajabi A, et al.",
+          "authors": "Sahin G, Cagli Piskin C, Orhan Ok Z, Sasmaz Nurdag N, et al.",
           "year": 2026,
-          "doi": "10.1093/joneph/aajag065",
-          "url": "https://doi.org/10.1093/joneph/aajag065",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "Background Hypoxia-inducible factor prolyl hydroxylase inhibitors (HIF-PHIs) are novel oral agents used to treat renal anemia in chronic kidney disease (CKD). While their erythropoietic effects are well-documented, the potential consequences of HIF-mediated vascular endothelial growth factor (VEGF) activation remain uncertain. This meta-analysis aimed to evaluate the effect of HIF-PHI therapy on VEGF levels and the risk of VEGF-related adverse outcomes in CKD patients. Methods We systematically analyzed 34 randomized controlled trials (RCTs) including 26 trials reporting VEGF levels and additional data on cancer, diabetic retinopathy, peripheral edema, and thrombosis. Subgroup analyses were performed based on drug type, treatment duration, dialysis status, trial phase, and comparator type. Results HIF-PHI treatment was associated with a modest but significant increase in VEGF levels (SMD = 0.23; 95% CI: 0.07-0.39) and a reproducible increase in peripheral edema risk (log RR = 0.22; 95% CI: 0.09-0.35). No significant associations were found for cancer, diabetic retinopathy, or thrombosis. Dialysis status moderated VEGF response, with greater elevation observed in dialysis-dependent patients. Conclusion HIF-PHIs modestly increase VEGF expression, with peripheral edema as the most consistent adverse signal. However, no evidence of oncologic or retinal harm was found in the short term. Long-term surveillance is recommended.",
-          "keyFindings": "HIF-PHIs modestly increase VEGF expression, with peripheral edema as the most consistent adverse signal. However, no evidence of oncologic or retinal harm was found in the short term. Long-term surveillance is recommended.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 75,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Journal of Nephrology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
-          }
-        },
-        {
-          "id": "erca-42301927",
-          "title": "Effects of gliflozins on bone health of patients with chronic kidney disease: a systematic review",
-          "journal": "Journal of Nephrology",
-          "authors": "Cassani de Oliveira M, Rufino L, Mendes Lourenço AL, Corrêa EA, et al.",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag035",
-          "url": "https://doi.org/10.1093/joneph/aajag035",
-          "evidenceLevel": "Revisión Sistemática",
-          "evidenceRank": 2,
-          "abstract": "BACKGROUND: Sodium-glucose co-transporter-2 inhibitors (SGLT2i) are a crucial therapy for chronic kidney disease (CKD), yet concerns persist regarding their impact on bone metabolism. This systematic review evaluates the skeletal safety and metabolic effects of SGLT2i in patients with CKD. METHODS: A systematic review of randomized controlled trials (RCTs) and observational cohort studies was conducted. Data on study design, population characteristics, baseline kidney function, bone-related comorbidities, and outcomes (osteoporosis, fractures, falls, amputations, and bone mineral markers) were summarized. Risk of bias was evaluated according to the included category. RESULTS: The analysis revealed that while one RCT and a cohort study reported a significantly increased risk of bone fracture and amputation, this finding was not replicated in other subsequent cohort studies and other RCTs, which generally showed non-significant differences. Of note, the reporting of bone-related outcomes was inconsistent throughout the literature, and a substantial proportion of the evidence derives from studies primarily designed for patients with type 2 diabetes, largely involving early-stage CKD subgroups. One study suggests that SGLT2i may favorably modulate markers of CKD-mineral bone disease (MBD), reporting reduced risk of hyperphosphatemia, hypocalcemia, high parathyroid hormone, and low vitamin D levels. The reviewed literature primarily included data on empagliflozin, canagliflozin, dapagliflozin, and ertugliflozin. CONCLUSIONS: Mostly, SGLT2i demonstrated a possible reassuring skeletal safety profile in CKD. Initial safety concerns regarding fractures have not been consistently supported, although evidence in moderate-to-advanced CKD remains limited. Long-term, prospectively defined skeletal outcomes are needed to confirm these findings and clarify class effects.",
-          "keyFindings": "Mostly, SGLT2i demonstrated a possible reassuring skeletal safety profile in CKD. Initial safety concerns regarding fractures have not been consistently supported, although evidence in moderate-to-advanced CKD remains limited. Long-term, prospectively defined skeletal outcomes are needed to confirm these findings and clarify class effects.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 55,
-            "label": "Moderada",
-            "rationale": "Revisión sistemática en Journal of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "erca-42583872",
-          "title": "Digital health literacy in patients with chronic kidney disease: a cross-sectional study",
-          "journal": "Journal of Nephrology",
-          "authors": "Totaro M, Comparcini D, Simonetti V, Pastore F, et al.",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag118",
-          "url": "https://doi.org/10.1093/joneph/aajag118",
+          "doi": "10.1093/joneph/aajag124",
+          "url": "https://doi.org/10.1093/joneph/aajag124",
           "evidenceLevel": "Estudio Multicéntrico / Cohorte",
           "evidenceRank": 4,
-          "abstract": "BACKGROUND: Chronic kidney disease (CKD) care is increasingly reliant on digital tools. However, diverse abilities among patients may create a digital divide, exacerbating disparities in health outcomes. Measuring digital health literacy is the first step towards gaining knowledge to develop targeted, patient-centred strategies. Due to a lack of available evidence, this study aimed to assess digital health literacy levels among patients with CKD. METHODS: A multicentre cross-sectional study was conducted between July 2024 - January 2025, enrolling CKD patients from three Nephrology Units in central and southern Italy. Data were collected through a questionnaire assessing: (I) sociodemographic data; (II) clinical variables; (III) digital health literacy, using the Health Literacy Population Survey 2019-Digital (HLS19-DIGI) tool; (IV) health information-seeking modalities and behaviours, and digital training. RESULTS: A total of 323 participants were enrolled (mean age 54.8 ± 16.0 years). A 'problematic' level was found with regard to dealing with digital health information, and a 'sufficient' level was observed in interacting with digital health resources. Digital devices were used approximately one to three days per week. Older age and lower level of education were predictors of worse coping and interaction abilities, while these were higher among patients with better socio-economic status, without a caregiver, and who were physically active, and compliant with kidney disease medication and diet. Moreover, on the HLS19-DIGI, retired participants scored lower while digitally trained individuals scored higher. Both seeking information beyond what is provided by health professionals and prior digital training were predictors of more frequent use of digital devices for health. CONCLUSIONS: Targeted interventions are warranted to promote digital health literacy and more frequent engagement with digital devices among CKD patients.",
-          "keyFindings": "Targeted interventions are warranted to promote digital health literacy and more frequent engagement with digital devices among CKD patients.",
+          "abstract": "BACKGROUND: This study aimed to evaluate blood pressure profiles in children with isolated renal ectopia by using ambulatory blood pressure monitoring (ABPM) to determine the prevalence and patterns of hypertension, and to explore the relationships between ectopy subtype and kidney function. METHODS: Clinical and ABPM data from 24 children with isolated renal ectopia followed between January 2024 and January 2025 at Çukurova University Department of Pediatric Nephrology were evaluated. Type of ectopia, presence of decreased renal parenchymal uptake on dimercaptosuccinic acid (DMSA) scintigraphy, estimated glomerular filtration rate (eGFR) and presence of end organ damage were also assessed. On the day of ABPM, standard deviation scores (SDS) were recorded for anthropometric measurements and office and 24-hour BP values. RESULTS: Of 24 patients (66.7% male), 75% had simple ectopia and 25% had crossed-fused ectopia. Mean age was 11.3 ± 3.7 years. Masked hypertension was identified in 45.8%. eGFR negatively correlated with 24-hour systolic BP SDS (r = -0.456, P = .02), nighttime diastolic BP SDS (r = -0.417, P = .04), and nighttime systolic BP SDS (r = -0.487, P = .01). Decreased parenchymal uptake was present in 50% of patients and was associated with lower height SDS (P = .03), higher nighttime systolic BP SDS (P = .01) and increased frequency of systolic non-dipping (91.7% vs. 45.5%; P = .02). The crossed-fused renal ectopia group had a higher prevalence of vesicoureteral reflux (P = .009) and lower eGFR (P = .01). CONCLUSION: Children with isolated renal ectopia show a high prevalence of ABPM abnormalities, particularly masked hypertension and altered nocturnal blood pressure patterns. Regular monitoring of growth, kidney function, and blood pressure is essential to detect both early and late complications.",
+          "keyFindings": "Children with isolated renal ectopia show a high prevalence of ABPM abnormalities, particularly masked hypertension and altered nocturnal blood pressure patterns. Regular monitoring of growth, kidney function, and blood pressure is essential to detect both early and late complications.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 30,
@@ -72,55 +34,17 @@
           }
         },
         {
-          "id": "erca-42517372",
-          "title": "Efficacy and safety of finerenone with or without combination therapy in patients with non-diabetic chronic kidney disease: a real-world observational study",
+          "id": "erca-42583874",
+          "title": "Association between sarcopenia and inflammation in non-geriatric patients with chronic kidney disease: a comparison of hemodialysis and non-hemodialysis patients",
           "journal": "Journal of Nephrology",
-          "authors": "Fang Y, Shao Y, Lin X, Xu Q, et al.",
+          "authors": "Aric M, Meltem E, Adiyaman Z, Alagoz S",
           "year": 2026,
-          "doi": "10.1093/joneph/aajag094",
-          "url": "https://doi.org/10.1093/joneph/aajag094",
+          "doi": "10.1093/joneph/aajag120",
+          "url": "https://doi.org/10.1093/joneph/aajag120",
           "evidenceLevel": "Estudio Multicéntrico / Cohorte",
           "evidenceRank": 4,
-          "abstract": "BACKGROUND: This study aimed to evaluate the efficacy and safety of finerenone, with or without combination therapy of sodium-glucose cotransporter-2 inhibitors (SGLT2i) or renin-angiotensin system inhibitors (RASi), in Chinese patients with non-diabetic chronic kidney disease (non-diabetic CKD) at different follow-up time points. METHODS: Patients with non-diabetic CKD who received finerenone treatment from March 2023 to August 2025 were retrospectively enrolled. According to the treatment regimens, patients were divided into four groups: finerenone monotherapy group (without SGLT2i or RASi), finerenone + SGLT2i group, finerenone + RASi group, and finerenone + SGLT2i + RASi group. The main evaluated indicators included urine albumin-to-creatinine ratio (UACR), urine protein-to-creatinine ratio (UPCR), serum creatinine (Scr), estimated glomerular filtration rate (eGFR), and serum potassium (K+) levels. RESULTS: A total of 483 patients were enrolled in this study, including 229 males (47.41%); baseline UACR was 520.1 (interquartile range [IQR], 259.2-993.9) mg/g. After receiving finerenone treatment for 18 months, the UACR decreased by 69.18%. During the study period, the change in eGFR remained stable, with only 2.48% of patients experiencing an eGFR decline >30%. Hyperkalemia occurred in only 6 patients (1.24%), indicating a good safety profile during the medication period. CONCLUSION: Finerenone can effectively reduce proteinuria in patients with non-diabetic CKD. Dual or triple combination therapy demonstrated more pronounced effects, with an overall favorable safety profile. Nevertheless, careful monitoring of short-term changes in eGFR and serum K+ levels remains essential during finerenone therapy.",
-          "keyFindings": "Finerenone can effectively reduce proteinuria in patients with non-diabetic CKD. Dual or triple combination therapy demonstrated more pronounced effects, with an overall favorable safety profile. Nevertheless, careful monitoring of short-term changes in eGFR and serum K+ levels remains essential during finerenone therapy.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 30,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        },
-        {
-          "id": "erca-42517369",
-          "title": "Frailty in kidney transplant candidates is associated with reduced likelihood of transplantation",
-          "journal": "Journal of Nephrology",
-          "authors": "Sabatino A, Alibrandi S, Dovšak T, Adinolfi M, et al.",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag095",
-          "url": "https://doi.org/10.1093/joneph/aajag095",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Kidney transplantation is the optimal treatment for kidney failure; however, it represents a major physiological stress. Frailty is a clinical syndrome also characterized by decreased physiological reserve and a reduced ability to cope with stressor events. The aim of this study was to assess the association between frailty status and the likelihood of undergoing kidney transplantation. METHODS: This retrospective observational study included all kidney transplant candidates waitlisted at the Kidney Transplant Center of the Parma University Hospital, Italy, between July 2018 and February 2020. Frailty status was assessed using the Fried Frailty Phenotype. Frailty was defined as a Fried frailty phenotype score ≥3, while a score of 1 or 2 indicated a pre-frail condition. The Aalen-Johansen estimator was used to estimate the cumulative probability of transplantation and death/withdrawal according to frailty status (frail vs non-frail). Adjusted analyses were performed using Fine-Gray multivariable regression models. RESULTS: Of the 171 patients enrolled, 39% were non-frail, 51% were pre-frail, and 10% were frail. Patients were followed for a median of 17 months; during this period, 42% underwent transplantation, whereas 6% died or were permanently removed from the waiting list. In adjusted analyses, frail and pre-frail patients combined had a 42% lower likelihood of undergoing transplantation compared with non-frail patients (SubHR 0.58, 95% CI 0.39-0.86; P = .006). CONCLUSIONS: Frailty among patients with advanced CKD on the kidney transplant waiting list was associated with a lower probability of undergoing transplantation.",
-          "keyFindings": "Frailty among patients with advanced CKD on the kidney transplant waiting list was associated with a lower probability of undergoing transplantation.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 30,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        },
-        {
-          "id": "erca-42634179",
-          "title": "Impact of the management of advanced kidney disease in patients over 80 years of age: a multicenter Spanish study",
-          "journal": "Journal of Nephrology",
-          "authors": "Gómez-Rojas I, Criado-Bellido L, García-Casanova J, González de Rivera-Utrera M, et al.",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag108",
-          "url": "https://doi.org/10.1093/joneph/aajag108",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: The decision to initiate kidney replacement therapy (KRT) rather than conservative care in patients with chronic kidney disease (CKD) depends on various factors and carries significant consequences. This study analyzes the impact of choice of treatment modality on hospitalization and survival of very old patients with advanced CKD. METHODS: This multicenter, retrospective, observational study analyzed data collected from 11 spanish hospital between 2019 and 2022. The study included patients aged over 80 years with an estimated glomerular filtration rate (eGFR) of less than 15 mL/min/1.73 m2. Baseline epidemiological data and information on comorbidities were collected. The factors associated with the choice of conservative treatment, as well as its impact on hospitalization and survival were analyzed. A sub-analysis was performed comparing patients with a survival time of less than one year. RESULTS: Four hundred ninety-two patients (58.1% male, age 85 ± 4 years) were included. Among them, 262 (53.3%) opted for conservative care, while 230 (46.7%) initiated KRT, of whom 74 (32.1%) did so urgently. Factors independently associated with choosing conservative care were female sex, older age, higher eGFR, and greater level of dependency (all P < .001). During follow-up (21 [13-34] months), 221 patients (44.9%) died. Choosing conservative care was independently associated with mortality (Hazard Ratio [HR] 2.554, P < .001). There was a trend towards an association between urgent initiation of KRT and mortality compared to programmed KRT (HR 2.064, P = .080). In patients surviving less than 12 months, conservative care and KRT exhibited similar outcomes. CONCLUSIONS: In very old patients, KRT is associated with better survival than conservative care. However, urgent initiation of KRT or short expected survival reduces the prognostic benefits.",
-          "keyFindings": "In very old patients, KRT is associated with better survival than conservative care. However, urgent initiation of KRT or short expected survival reduces the prognostic benefits.",
+          "abstract": "BACKGROUND: Sarcopenia is an increasingly recognized complication of chronic kidney disease (CKD), contributing to impaired physical function and higher mortality. While most evidence derives from elderly populations, its frequency and inflammatory correlates in younger adults remain underexplored. This study aimed to investigate the prevalence of sarcopenia and its association with inflammatory markers in a non-geriatric CKD cohort, including both hemodialysis and non-dialysis patients. METHODS: This cross-sectional observational study included 128 non-geriatric CKD patients (18-65 years), 60 of whom were on maintenance hemodialysis. Sarcopenia was diagnosed according to EWGSOP2 criteria using handgrip strength, bioelectrical impedance analysis, and 4-meter gait-speed testing. Serum interleukin-6 (IL-6) and tumor necrosis factor-alpha (TNF-α) were measured by ELISA, while C-reactive protein (CRP) served as another inflammatory marker. SPSS v27.0 was used for statistical analysis. RESULTS: Sarcopenia was confirmed in 21.9% of the cohort, with a significantly higher prevalence among hemodialysis patients (31.7% vs 13.2%, P < .05). The prevalence of sarcopenia increased progressively with advancing CKD stage in the overall cohort (P < .05). Dialysis status was the most consistent independent predictor of sarcopenia (fully adjusted OR = 8.28, P = .004). IL-6 ≥ 110 ng/L and TNF-α > 150 ng/L were associated with higher sarcopenia prevalence and lower appendicular skeletal muscle mass, respectively (P < .05). CONCLUSION: Sarcopenia is highly prevalent among non-geriatric CKD patients and increases with disease progression. Dialysis remains the strongest independent predictor, while elevated IL-6 and TNF-α levels reflect inflammation-related muscle loss.",
+          "keyFindings": "Sarcopenia is highly prevalent among non-geriatric CKD patients and increases with disease progression. Dialysis remains the strongest independent predictor, while elevated IL-6 and TNF-α levels reflect inflammation-related muscle loss.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 30,
@@ -153,19 +77,45 @@
             "label": "Alta",
             "rationale": "RCT publicado en JAMA con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
           }
+        }
+      ]
+    },
+    {
+      "id": "glomerulopatias",
+      "name": "Glomerulopatías",
+      "color": "#6A1B9A",
+      "articles": [
+        {
+          "id": "glomerulopatias-42584019",
+          "title": "Early exercise therapy for acute nephrotic syndrome: a randomised clinical trial",
+          "journal": "Journal of Nephrology",
+          "authors": "Hirano Y, Fujikura T, Yamaguchi T, Nagashima M, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajag129",
+          "url": "https://doi.org/10.1093/joneph/aajag129",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: In adults with acute nephrotic syndrome (NS), physical function often declines; however, limited evidence on the efficacy and safety of exercise therapy leads to its avoidance due to fears of exacerbated proteinuria and renal deterioration. This study aimed to assess whether early exercise therapy enhances physical function without elevating risks of non-remission or worsening kidney function. METHODS: This single-centre randomised controlled trial enrolled hospitalised adults receiving glucocorticoid therapy for NS. Participants were randomised (1:1) to exercise therapy or standard care. The primary outcome was peak oxygen uptake (peak VO2) at baseline and 6 weeks. The secondary outcome was non-remission at 6 weeks (proteinuria ≥0.3 g/day). Analyses used multiple imputation for missing data, analysis of covariance adjusted for baseline, and modified Poisson regression. RESULTS: Twenty-seven participants were recruited (early intervention, n = 13; standard care, n = 14). Peak VO2 increased significantly in the early exercise group (Δ = 3.45 mL/kg/min; 95% confidence interval [CI], 1.22-5.67) but not in the standard care group (Δ = 1.00 mL/kg/min; 95% CI, -1.14 to 3.14). Adjusted between-group difference at 6 weeks was 2.46 mL/kg/min (95% CI, -0.12 to 5.03). Risk ratio for non-remission was 0.673 (95% CI, 0.266-1.703), with no significant intergroup difference. CONCLUSION: Early exercise therapy in acute NS improved exercise tolerance clinically, although the primary outcome between-group difference was not statistically significant. No evidence indicated increased non-remission risk. CLINICAL TRIAL REGISTRATION: This trial was registered with the University Hospital Medical Information Network Clinical Trials Registry (UMIN-CTR) (registration number: UMIN000038250; registration date: October 9, 2019).",
+          "keyFindings": "Early exercise therapy in acute NS improved exercise tolerance clinically, although the primary outcome between-group difference was not statistically significant. No evidence indicated increased non-remission risk. CLINICAL TRIAL",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 60,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
         },
         {
-          "id": "aki-42517201",
-          "title": "Real-world management of dialysis-requiring acute kidney injury in Italy: a national survey of nephrology centers",
+          "id": "glomerulopatias-42598914",
+          "title": "Anti-PLA2R antibody levels are associated with thromboembolism risk in individuals with membranous nephropathy and hypoalbuminemia",
           "journal": "Journal of Nephrology",
-          "authors": "Naso E, Fabbrini P, Marengo M, Fiorentino M, et al.",
+          "authors": "Al Jurdi A, El Mouhayyar C, Yatim K, Efe O, et al.",
           "year": 2026,
-          "doi": "10.1093/joneph/aajag088",
-          "url": "https://doi.org/10.1093/joneph/aajag088",
+          "doi": "10.1093/joneph/aajag121",
+          "url": "https://doi.org/10.1093/joneph/aajag121",
           "evidenceLevel": "Estudio Multicéntrico / Cohorte",
           "evidenceRank": 4,
-          "abstract": "BACKGROUND: Dialysis-requiring acute kidney injury (AKI-D) is a frequent and severe in-hospital complication associated with high mortality, long-term kidney sequelae, and substantial resource use. National data on AKI-D impact and service organization in Italy are limited. METHODS: We conducted a nationwide, web-based, 20-item survey endorsed by the Italian Society of Nephrology. We assessed care settings (dialysis units and other wards, including intensive care units [ICUs]), kidney replacement therapy (KRT) modalities in ICUs, staffing models, monitoring and anticoagulation strategies, and nephrologists' perspectives on barriers and priorities for improvement. RESULTS: Fifty-nine centers responded; analyses focused on 57 adult centers. AKI-D represented ∼20% to >60% of dialysis-unit activity. KRT was frequently delivered outside nephrology wards, most often in cardiac intensive care units (94%) and emergency departments (50.8%). In ICUs, nephrologists primarily prescribed KRT in 73.7% of centers; continuous KRT (CKRT) was available in 94.7%, and regional citrate anticoagulation was first-line in 82.5%. Dialysis dose was reassessed daily in 55.2% of centers. Routine antibiotic therapeutic drug monitoring during CKRT was available in 30.3%, and in 22.8% dedicated post-AKI outpatient clinics. Most indicators were similar between center types; however, structured antibiotic therapeutic drug monitoring during CKRT was more frequently available in University and Hub centers than in Spokes (43.5 vs 31.6 vs 7.1%, respectively, P = .031). Respondents highlighted heterogeneous protocols, limited dedicated staffing, and gaps in multidisciplinary coordination. CONCLUSIONS: AKI-D care in Italy is widespread but organizationally heterogeneous across settings, responsibilities, and key operational practices. Standardized pathways, training, and measurable monitoring tools are key priorities for improvement.",
-          "keyFindings": "AKI-D care in Italy is widespread but organizationally heterogeneous across settings, responsibilities, and key operational practices. Standardized pathways, training, and measurable monitoring tools are key priorities for improvement.",
+          "abstract": "BACKGROUND: Studies to evaluate markers of thrombotic risk in individuals with high-risk membranous nephropathy (MN) are needed. We hypothesized that high anti-phospholipase A2 receptor (PLA2R) titers at the time of severe hypoalbuminemia, reflecting ongoing immunologic disease activity, may be associated with a higher risk of thrombotic complications. METHODS: We conducted a multicenter retrospective cohort study of individuals with membranous nephropathy and serum albumin <2.5 g/dL and evaluated risk factors for first thrombotic events. RESULTS: Sixty-seven individuals met the inclusion criteria. Median serum creatinine was 1.2 mg/dL (Interquartile range [IQR] 0.9-1.6), median urine protein-to-creatinine ratio (UPCR) was 11.9 g/g (IQR 8.5-16.5), and median nadir serum albumin level was 1.9 g/dL (IQR 1.6-2.2). Twenty-four individuals (36%) received no thromboprophylaxis, 20 (30%) received prophylaxis with only antiplatelets, and 23 (34%) received anticoagulation prophylaxis. Thrombotic events occurred in 11 individuals (16%) with incidence rates of 0.11, 0.10, and 0.02 per person-year in the no prophylaxis, antiplatelet, and anticoagulation groups, respectively. In individuals with anti-PLA2R antibody-positive MN who did not receive anticoagulation thromboprophylaxis, higher anti-PLA2R antibody levels were associated with a higher risk of developing thrombotic complications (adjusted Hazard Ratio [HR] = 1.51 per 10 RU/mL increase in PLA2R, 95% Confidence Interval [CI]: 1.10-2.09, P = .012) after adjusting for serum albumin nadir and age. CONCLUSIONS: Higher anti-PLA2R antibody levels at the time of hypoalbuminemia are associated with a higher risk of thrombotic complications in individuals with anti-PLA2R-positive MN.",
+          "keyFindings": "Higher anti-PLA2R antibody levels at the time of hypoalbuminemia are associated with a higher risk of thrombotic complications in individuals with anti-PLA2R-positive MN.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 30,
@@ -202,22 +152,74 @@
       ]
     },
     {
+      "id": "trasplante",
+      "name": "Trasplante Renal",
+      "color": "#00695C",
+      "articles": [
+        {
+          "id": "trasplante-42696417",
+          "title": "Crescents in native kidney biopsies from patients with IgA nephropathy and the risk of recurrence after kidney transplantation: a retrospective cohort study, systematic literature review and meta-analysis of observational studies",
+          "journal": "Journal of Nephrology",
+          "authors": "Guzzo G, Al-Gobari M, Jaques C, Teta D, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajag169",
+          "url": "https://doi.org/10.1093/joneph/aajag169",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: IgA nephropathy (IgAN) is associated with a high risk of kidney failure. Whenever this occurs, the best treatment option is kidney transplantation. IgAN recurrence in the kidney allograft may increase the risk of allograft loss. The association of glomerular crescents in native IgAN is a negative prognostic factor for the progression to kidney failure. The aim of our study was to clarify whether the presence of crescents in native kidney biopsies represents a risk factor for IgAN recurrence in renal allografts. METHODS: The association between glomerular crescents in native kidney biopsies and IgAN recurrence was investigated in IgAN patients who underwent kidney transplantation at Lausanne University Hospital from 2003 to 2019. A systematic literature review was performed in MEDLINE, Embase, Cochrane CENTRAL, Web of Science and PMC from inception to November 2025, excluding reviews. Aggregate data were analyzed in a meta-analysis. The overall Risk Ratio (RR) with their corresponding 95% confidence interval (95% CI) was obtained via the Hartung-Knapp-Sidik-Jonkman adjustment method, after verifying heterogeneity (I2). Reporting bias was visualized in a funnel plot using STATA. RESULTS: The Lausanne cohort included 63 patients with IgAN who underwent kidney transplantation. We found no association between glomerular crescents in native kidney biopsies and IgA recurrence in the renal allograft. Five additional cohorts were included in our meta-analysis, ultimately merging data from 311 patients, of whom 23% with recurrent IgAN. Crescent prevalence ranged from 12 to 62%, confirming the absence of association with an increased risk of IgAN recurrence [RR 1.53 (95% CI: 0.40-5.90), P = .41]. CONCLUSIONS: Glomerular crescents, especially when present in more than 25% of viable glomeruli, remain an unfavorable prognostic factor for the progression of IgAN to kidney failure; however, they may not represent a risk factor for disease recurrence in renal allografts.",
+          "keyFindings": "Glomerular crescents, especially when present in more than 25% of viable glomeruli, remain an unfavorable prognostic factor for the progression of IgAN to kidney failure; however, they may not represent a risk factor for disease recurrence in renal allografts.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Journal of Nephrology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+          }
+        }
+      ]
+    },
+    {
       "id": "dialisis",
       "name": "Terapia Renal Sustitutiva",
       "color": "#0277BD",
       "articles": [
         {
-          "id": "dialisis-42583884",
-          "title": "Assessing Patients' ability to learn medication protocols during a hemodialysis session",
+          "id": "dialisis-42634183",
+          "title": "Exploring the association between perceived control, psychological flexibility, and hope among hemodialysis patients: a cross-sectional observational study",
           "journal": "Journal of Nephrology",
-          "authors": "Khan U, Rotenberg S, Cameron JI, Oliver MJ, et al.",
+          "authors": "Zhang Y, Yan Y, Yang S, Wang C, et al.",
           "year": 2026,
-          "doi": "10.1093/joneph/aajag099",
-          "url": "https://doi.org/10.1093/joneph/aajag099",
+          "doi": "10.1093/joneph/aajag123",
+          "url": "https://doi.org/10.1093/joneph/aajag123",
           "evidenceLevel": "Estudio Multicéntrico / Cohorte",
           "evidenceRank": 4,
-          "abstract": "BACKGROUND: People on hemodialysis experience high rates of cognitive impairment and are prescribed complex medication regimens, increasing their risk of medication errors. Although hemodialysis units are convenient settings for medication education, it is unclear whether patients can effectively learn a new regimen during a hemodialysis session. METHODS: We conducted a secondary analysis of multicenter, cross-sectional data from Toronto, Canada. One hundred one participants completed the Medication Management Ability Assessment (MMAA), Montreal Cognitive Assessment (MoCA), and Lawton-Brody Instrumental Activities of Daily Living (IADL) scale during the first hour of a hemodialysis session. We calculated the proportion of participants who scored as impaired on the MMAA (≤27), examined predictors of impairment, and calculated correlations between the MMAA, MoCA, and the medication management item from the Lawton-Brody IADL scale. RESULTS: Of 353 patients screened, 101 were eligible and completed all assessments (mean age 67 years; 29% female; median dialysis vintage 36 months). Fifty-five participants (54%; 95% confidence interval [CI]: 44-64%) were impaired on the MMAA, including 23 who reported being independent with medication management in daily life. MMAA scores correlated moderately with the MoCA (r = 0.585, P < 0.001) and were significantly associated with self-reported dependence on the Lawton-Brody medication item (χ2(1, n = 101) = 20.00, P < 0.001). Older age (adjusted odds ratio [OR] = 1.08, 95% CI [1.03, 1.12], P < 0.001) and racialized status (adjusted OR = 3.53, 95% CI [1.23, 10.07], P = 0.019) were significantly associated with impaired MMAA performance in a multivariable logistic regression analysis. CONCLUSION: Over half of participants had difficulty learning a new medication regimen during a hemodialysis session. Findings highlight the need to reconsider when and how medication education is delivered to this population, and to develop interventions that support their learning.",
-          "keyFindings": "Over half of participants had difficulty learning a new medication regimen during a hemodialysis session. Findings highlight the need to reconsider when and how medication education is delivered to this population, and to develop interventions that support their learning.",
+          "abstract": "BACKGROUND: Psychological resilience is critical for hemodialysis patients, although the associations among perceived control, psychological flexibility, and hope remain insufficiently understood. This study examined the relationships among these variables within a unified analytical framework. METHODS: Data were collected on 417 hemodialysis patients. This study employed a cross-sectional design and was conducted between January 2023 and May 2024 across four hospitals in China. Patients receiving maintenance hemodialysis were purposively sampled. Participants were included if they met the following criteria: (1) were diagnosed with kidney failure in accordance with the Kidney Disease Outcomes Quality Initiative (KDOQI) guidelines; (2) were 18 years of age or older; (3) had been receiving maintenance hemodialysis for at least three months, with regular sessions two to three times per week; (4) were clinically stable, without serious or acute complications; and (5) demonstrated adequate cognitive function and communication skills to understand the study and independently complete the questionnaire. Exclusion criteria included: (1) hemodialysis duration of less than three months; (2) presence of acute infection; (3) acute heart failure; or (4) being in the acute phase of a cerebrovascular event. Hope was assessed using the Herth Hope Index (HHI), developed by Kathryn Herth in 1991 to measure an individuals' positive outlook and sense of hope for the future. Perceived control was measured using selected subscales from the Revised Illness Perception Questionnaire (IPQ-R). Psychological flexibility was evaluated using the Acceptance and Action Questionnaire-II (AAQ-II). Linear regression analyses were conducted to examine associations among variables, and structural equation modeling was used to evaluate model-consistent relationships. RESULTS: Hope was associated with psychological flexibility scores and perceived control scores, indicating that higher levels of hope were related to greater psychological flexibility and perceived control. Psychological flexibility scores were positively associated with perceived control scores. Regression analyses showed that perceived control subdimensions (including consequence awareness, personal control, and treatment control) were associated with hope, with some associations remaining significant after adjustment for psychological flexibility. Structural equation modeling indicated that the observed associations among perceived control, psychological flexibility, and hope were consistent with the proposed model. CONCLUSIONS: The findings demonstrate close associations among perceived control, psychological flexibility, and hope in hemodialysis patients, consistent with the Stress and Coping Theory framework. The results may inform psychological support strategies.",
+          "keyFindings": "The findings demonstrate close associations among perceived control, psychological flexibility, and hope in hemodialysis patients, consistent with the Stress and Coping Theory framework. The results may inform psychological support strategies.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 30,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nefro-genetica",
+      "name": "Nefropatías Hereditarias y Genéticas",
+      "color": "#37474F",
+      "articles": [
+        {
+          "id": "nefro-genetica-42610367",
+          "title": "Prevalence of Fabry disease GLA variants among patients with parapelvic cysts: a Multicenter Italian Cohort Study",
+          "journal": "Journal of Nephrology",
+          "authors": "Capuano I, Riccio E, Di Risi T, Buonanno P, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajag122",
+          "url": "https://doi.org/10.1093/joneph/aajag122",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Fabry disease is a rare X-linked disorder characterized by the accumulation of sphingolipids in various vital systems, leading to multiple organ damage. As previous data showed the association between Fabry disease and parapelvic cysts, the aim of our work was to evaluate the prevalence of GLA variants in patients with parapelvic cysts. METHODS: From November 2022 to September 2024, we conducted a multicenter cohort study on patients referred to 15 Italian Nephrology Units. The prevalence of GLA variants among patients with parapelvic cysts was compared to the prevalence of Fabry disease in newborns and in chronic kidney disease (CKD )patients. RESULTS: Among 306 enrolled patients with parapelvic cysts, we identified seven different variants in the GLA gene in eight patients (4 females, 4 males) (1.3%, 1.3%, respectively): three patients with two different pathogenic variants (2 males, 1 female) (0.65%, 0.32%, respectively), two patients with variants of uncertain significance (VUS) (2 males) (0.65%) and three with benign variants (3 females) (0.98%). The overall prevalence of GLA variants in our population was 2.6%, which is 11-fold higher than in CKD patients not on dialysis (ND) (0.24%), and this difference resulted statistically significant (P <.0001; 11.07, 95%CI: 4.89; 25.06). Our results showed a prevalence of GLA variants 200 times higher compared to Italian newborn screening programs. CONCLUSION: Our study is the first to analyze the prevalence of GLA variants in patients with parapelvic cysts, showing results that are significantly higher compared to CKD-ND patients and the general population. Parapelvic cyst identification, even before clinical manifestations, is crucial for early Fabry disease diagnosis and treatment.",
+          "keyFindings": "(VUS) (2 males) (0.65%) and three with benign variants (3 females) (0.98%). The overall prevalence of GLA variants in our population was 2.6%, which is 11-fold higher than in CKD patients not on dialysis (ND) (0.24%), and this difference resulted statistically significant (P <.0001; 11.07, 95%CI: 4.89; 25.06). Our results showed a prevalence of GLA variants 200 times higher compared to Italian newborn screening programs.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 30,

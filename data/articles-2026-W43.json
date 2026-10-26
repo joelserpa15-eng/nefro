@@ -1,0 +1,233 @@
+{
+  "week": "2026-W43",
+  "weekLabel": "26 de octubre – 1 de noviembre, 2026",
+  "lastUpdated": "2026-10-26T14:02:05Z",
+  "stats": {
+    "total": 9,
+    "metaAnalysis": 1,
+    "systematicReview": 0,
+    "rct": 3
+  },
+  "subspecialties": [
+    {
+      "id": "erca",
+      "name": "Enfermedad Renal Crónica",
+      "color": "#1565C0",
+      "articles": [
+        {
+          "id": "erca-42549920",
+          "title": "Are children with isolated renal ectopia at increased risk of hypertension? Evidence from an observational study",
+          "journal": "Journal of Nephrology",
+          "authors": "Sahin G, Cagli Piskin C, Orhan Ok Z, Sasmaz Nurdag N, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajag124",
+          "url": "https://doi.org/10.1093/joneph/aajag124",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: This study aimed to evaluate blood pressure profiles in children with isolated renal ectopia by using ambulatory blood pressure monitoring (ABPM) to determine the prevalence and patterns of hypertension, and to explore the relationships between ectopy subtype and kidney function. METHODS: Clinical and ABPM data from 24 children with isolated renal ectopia followed between January 2024 and January 2025 at Çukurova University Department of Pediatric Nephrology were evaluated. Type of ectopia, presence of decreased renal parenchymal uptake on dimercaptosuccinic acid (DMSA) scintigraphy, estimated glomerular filtration rate (eGFR) and presence of end organ damage were also assessed. On the day of ABPM, standard deviation scores (SDS) were recorded for anthropometric measurements and office and 24-hour BP values. RESULTS: Of 24 patients (66.7% male), 75% had simple ectopia and 25% had crossed-fused ectopia. Mean age was 11.3 ± 3.7 years. Masked hypertension was identified in 45.8%. eGFR negatively correlated with 24-hour systolic BP SDS (r = -0.456, P = .02), nighttime diastolic BP SDS (r = -0.417, P = .04), and nighttime systolic BP SDS (r = -0.487, P = .01). Decreased parenchymal uptake was present in 50% of patients and was associated with lower height SDS (P = .03), higher nighttime systolic BP SDS (P = .01) and increased frequency of systolic non-dipping (91.7% vs. 45.5%; P = .02). The crossed-fused renal ectopia group had a higher prevalence of vesicoureteral reflux (P = .009) and lower eGFR (P = .01). CONCLUSION: Children with isolated renal ectopia show a high prevalence of ABPM abnormalities, particularly masked hypertension and altered nocturnal blood pressure patterns. Regular monitoring of growth, kidney function, and blood pressure is essential to detect both early and late complications.",
+          "keyFindings": "Children with isolated renal ectopia show a high prevalence of ABPM abnormalities, particularly masked hypertension and altered nocturnal blood pressure patterns. Regular monitoring of growth, kidney function, and blood pressure is essential to detect both early and late complications.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 30,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
+          "id": "erca-42583874",
+          "title": "Association between sarcopenia and inflammation in non-geriatric patients with chronic kidney disease: a comparison of hemodialysis and non-hemodialysis patients",
+          "journal": "Journal of Nephrology",
+          "authors": "Aric M, Meltem E, Adiyaman Z, Alagoz S",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajag120",
+          "url": "https://doi.org/10.1093/joneph/aajag120",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Sarcopenia is an increasingly recognized complication of chronic kidney disease (CKD), contributing to impaired physical function and higher mortality. While most evidence derives from elderly populations, its frequency and inflammatory correlates in younger adults remain underexplored. This study aimed to investigate the prevalence of sarcopenia and its association with inflammatory markers in a non-geriatric CKD cohort, including both hemodialysis and non-dialysis patients. METHODS: This cross-sectional observational study included 128 non-geriatric CKD patients (18-65 years), 60 of whom were on maintenance hemodialysis. Sarcopenia was diagnosed according to EWGSOP2 criteria using handgrip strength, bioelectrical impedance analysis, and 4-meter gait-speed testing. Serum interleukin-6 (IL-6) and tumor necrosis factor-alpha (TNF-α) were measured by ELISA, while C-reactive protein (CRP) served as another inflammatory marker. SPSS v27.0 was used for statistical analysis. RESULTS: Sarcopenia was confirmed in 21.9% of the cohort, with a significantly higher prevalence among hemodialysis patients (31.7% vs 13.2%, P < .05). The prevalence of sarcopenia increased progressively with advancing CKD stage in the overall cohort (P < .05). Dialysis status was the most consistent independent predictor of sarcopenia (fully adjusted OR = 8.28, P = .004). IL-6 ≥ 110 ng/L and TNF-α > 150 ng/L were associated with higher sarcopenia prevalence and lower appendicular skeletal muscle mass, respectively (P < .05). CONCLUSION: Sarcopenia is highly prevalent among non-geriatric CKD patients and increases with disease progression. Dialysis remains the strongest independent predictor, while elevated IL-6 and TNF-α levels reflect inflammation-related muscle loss.",
+          "keyFindings": "Sarcopenia is highly prevalent among non-geriatric CKD patients and increases with disease progression. Dialysis remains the strongest independent predictor, while elevated IL-6 and TNF-α levels reflect inflammation-related muscle loss.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 30,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        }
+      ]
+    },
+    {
+      "id": "aki",
+      "name": "Lesión Renal Aguda",
+      "color": "#C62828",
+      "articles": [
+        {
+          "id": "aki-42606886",
+          "title": "Cold and Room-Temperature Platelets in Cardiac Surgery: The CHIPS Randomized Clinical Trial",
+          "journal": "JAMA",
+          "authors": "Spinella PC, Zantek ND, VanBuren JM, Nicolson SC, et al.",
+          "year": 2026,
+          "doi": "10.1001/jama.2026.13328",
+          "url": "https://doi.org/10.1001/jama.2026.13328",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "IMPORTANCE: Patients undergoing cardiac surgery with cardiopulmonary bypass often require platelet transfusions for bleeding. Platelets are routinely stored at room temperature (20-24 °C) for up to 5 to 7 days; however, cold storage (1-6 °C) may allow for increased storage duration without loss of hemostatic function. OBJECTIVE: To determine the maximum cold-storage duration, up to 21 days, for which cold-stored platelets (CSPs) are noninferior or superior in hemostatic efficacy to room-temperature platelets (RTPs) when transfused in actively bleeding patients undergoing cardiac surgery with cardiopulmonary bypass. DESIGN, SETTING, AND PARTICIPANTS: A phase 3, multicenter, randomized, partially blinded, adaptive, noninferiority, storage duration-ranging trial conducted in pediatric and adult patients undergoing cardiac surgery with planned cardiopulmonary bypass at 27 sites in the US and Australia from December 2021 to March 2025. Statistical analysis was conducted from September 9 to October 3, 2025. INTERVENTION: Patients were randomized 2:1 to receive CSPs with a maximum of 21 days of storage vs RTPs with a maximum of 7 days of storage. MAIN OUTCOMES AND MEASURES: The primary outcome was a hemostatic efficacy score with values ranging from 1 to 5 and higher values indicating greater bleeding. The noninferiority margin was 1 point. The success criterion was met if at least 1 cold-storage duration of 7 days or more had a posterior probability of noninferiority of at least 97.5%. The secondary outcome was 24-hour chest tube output. RESULTS: Of the 1000 patients who underwent platelet transfusion, 989 were included in the primary analysis (650 CSPs and 339 RTPs). The cohort had a mean (SD) age of 42.1 (30.1) years and 67.8% were male. CSPs were noninferior to RTPs for the primary outcome, with a probability of greater than 99.9% for all cold-storage durations. Pooled across storage durations, CSPs had a mean difference from RTPs of 0.09 (95% credible interval, -0.06 to 0.23). Median (IQR) chest tube output at 24 hours (8.9 mL/kg [5.2-15.4] for CSPs vs 8.4 mL/kg [5.5-15.9] for RTPs; difference in medians, 0.4 [95% CI, -1.0 to 1.5]) was not statistically different between study groups. In a post hoc analysis, as all storage durations were noninferior, considering the CSPs as a single group, the hemostatic efficacy score was similar between both groups: mean (SD) of 3.08 (1.15) CSPs vs 2.99 (1.10) RTPs. There were no differences in venous or arterial thrombotic events, transfusion-associated adverse events, acute respiratory distress syndrome, kidney failure, septic shock, and mortality between the study groups, except for increased reexploration rates in the CSP group. CONCLUSIONS AND RELEVANCE: For patients undergoing cardiac surgery, CSPs stored up to 21 days are noninferior to RTPs for the control of active surgical bleeding. Use of CSPs may allow for increased availability of platelets by reducing wastage and shortages and may allow for incorporation of platelets into inventory at locations where platelets cannot be maintained due to the 5- to 7-day shelf life of RTPs. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT04834414.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: For patients undergoing cardiac surgery, CSPs stored up to 21 days are noninferior to RTPs for the control of active surgical bleeding.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en JAMA con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+          }
+        }
+      ]
+    },
+    {
+      "id": "glomerulopatias",
+      "name": "Glomerulopatías",
+      "color": "#6A1B9A",
+      "articles": [
+        {
+          "id": "glomerulopatias-42584019",
+          "title": "Early exercise therapy for acute nephrotic syndrome: a randomised clinical trial",
+          "journal": "Journal of Nephrology",
+          "authors": "Hirano Y, Fujikura T, Yamaguchi T, Nagashima M, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajag129",
+          "url": "https://doi.org/10.1093/joneph/aajag129",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: In adults with acute nephrotic syndrome (NS), physical function often declines; however, limited evidence on the efficacy and safety of exercise therapy leads to its avoidance due to fears of exacerbated proteinuria and renal deterioration. This study aimed to assess whether early exercise therapy enhances physical function without elevating risks of non-remission or worsening kidney function. METHODS: This single-centre randomised controlled trial enrolled hospitalised adults receiving glucocorticoid therapy for NS. Participants were randomised (1:1) to exercise therapy or standard care. The primary outcome was peak oxygen uptake (peak VO2) at baseline and 6 weeks. The secondary outcome was non-remission at 6 weeks (proteinuria ≥0.3 g/day). Analyses used multiple imputation for missing data, analysis of covariance adjusted for baseline, and modified Poisson regression. RESULTS: Twenty-seven participants were recruited (early intervention, n = 13; standard care, n = 14). Peak VO2 increased significantly in the early exercise group (Δ = 3.45 mL/kg/min; 95% confidence interval [CI], 1.22-5.67) but not in the standard care group (Δ = 1.00 mL/kg/min; 95% CI, -1.14 to 3.14). Adjusted between-group difference at 6 weeks was 2.46 mL/kg/min (95% CI, -0.12 to 5.03). Risk ratio for non-remission was 0.673 (95% CI, 0.266-1.703), with no significant intergroup difference. CONCLUSION: Early exercise therapy in acute NS improved exercise tolerance clinically, although the primary outcome between-group difference was not statistically significant. No evidence indicated increased non-remission risk. CLINICAL TRIAL REGISTRATION: This trial was registered with the University Hospital Medical Information Network Clinical Trials Registry (UMIN-CTR) (registration number: UMIN000038250; registration date: October 9, 2019).",
+          "keyFindings": "Early exercise therapy in acute NS improved exercise tolerance clinically, although the primary outcome between-group difference was not statistically significant. No evidence indicated increased non-remission risk. CLINICAL TRIAL",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 60,
+            "label": "Moderada",
+            "rationale": "RCT en Journal of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        },
+        {
+          "id": "glomerulopatias-42598914",
+          "title": "Anti-PLA2R antibody levels are associated with thromboembolism risk in individuals with membranous nephropathy and hypoalbuminemia",
+          "journal": "Journal of Nephrology",
+          "authors": "Al Jurdi A, El Mouhayyar C, Yatim K, Efe O, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajag121",
+          "url": "https://doi.org/10.1093/joneph/aajag121",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Studies to evaluate markers of thrombotic risk in individuals with high-risk membranous nephropathy (MN) are needed. We hypothesized that high anti-phospholipase A2 receptor (PLA2R) titers at the time of severe hypoalbuminemia, reflecting ongoing immunologic disease activity, may be associated with a higher risk of thrombotic complications. METHODS: We conducted a multicenter retrospective cohort study of individuals with membranous nephropathy and serum albumin <2.5 g/dL and evaluated risk factors for first thrombotic events. RESULTS: Sixty-seven individuals met the inclusion criteria. Median serum creatinine was 1.2 mg/dL (Interquartile range [IQR] 0.9-1.6), median urine protein-to-creatinine ratio (UPCR) was 11.9 g/g (IQR 8.5-16.5), and median nadir serum albumin level was 1.9 g/dL (IQR 1.6-2.2). Twenty-four individuals (36%) received no thromboprophylaxis, 20 (30%) received prophylaxis with only antiplatelets, and 23 (34%) received anticoagulation prophylaxis. Thrombotic events occurred in 11 individuals (16%) with incidence rates of 0.11, 0.10, and 0.02 per person-year in the no prophylaxis, antiplatelet, and anticoagulation groups, respectively. In individuals with anti-PLA2R antibody-positive MN who did not receive anticoagulation thromboprophylaxis, higher anti-PLA2R antibody levels were associated with a higher risk of developing thrombotic complications (adjusted Hazard Ratio [HR] = 1.51 per 10 RU/mL increase in PLA2R, 95% Confidence Interval [CI]: 1.10-2.09, P = .012) after adjusting for serum albumin nadir and age. CONCLUSIONS: Higher anti-PLA2R antibody levels at the time of hypoalbuminemia are associated with a higher risk of thrombotic complications in individuals with anti-PLA2R-positive MN.",
+          "keyFindings": "Higher anti-PLA2R antibody levels at the time of hypoalbuminemia are associated with a higher risk of thrombotic complications in individuals with anti-PLA2R-positive MN.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 30,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nefro-diabetica",
+      "name": "Nefropatía Diabética",
+      "color": "#2E7D32",
+      "articles": [
+        {
+          "id": "nefro-diabetica-42815506",
+          "title": "Cardiovascular safety of orforglipron versus insulin glargine in adults with type 2 diabetes at increased cardiovascular risk (ACHIEVE-4): a phase 3, event-driven, randomised, open-label, non-inferiority, active comparator trial",
+          "journal": "The Lancet",
+          "authors": "Klein KR, Wysham C, Tuttle KR, Davies MJ, et al.",
+          "year": 2026,
+          "doi": "10.1016/S0140-6736(26)01865-9",
+          "url": "https://doi.org/10.1016/S0140-6736(26)01865-9",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: Orforglipron is an oral, non-peptide GLP-1 receptor agonist. While some peptide GLP-1 receptor agonists have established cardiovascular benefit, the cardiovascular safety of non-peptide GLP-1 receptor agonists has not been studied. This study aimed to compare the effect of orforglipron with insulin glargine on the incidence of major adverse cardiovascular events in individuals with type 2 diabetes and obesity or overweight who are at increased risk for cardiovascular events. METHODS: This event-driven, phase 3, multicentre, randomised, open-label, active comparator, parallel-group study was conducted in 317 sites across 16 countries and territories. Adults with type 2 diabetes at increased cardiovascular risk with glycated haemoglobin (HbA1c) concentrations between 7·0% and 10·5% (53-91 mmol/mol) and a BMI of 25 kg/m2 or more, treated with up to three glucose-lowering medications (metformin, a sulfonylurea, and/or an SGLT2 inhibitor), were randomly assigned (1:1) to oral orforglipron maximum tolerated dose (up to 36 mg capsule [equivalent to 17·2 mg tablet]) or injectable titrated insulin glargine, each administered once daily. All participants had established cardiovascular or chronic kidney disease. The primary outcome was time to occurrence of four-component major adverse cardiovascular events (MACE-4), including cardiovascular death, non-fatal myocardial infarction, non-fatal stroke, or hospitalisation for unstable angina. Non-inferiority of orforglipron to insulin glargine was declared if the upper limit of the two-sided 95% CI for the hazard ratio (HR; orforglipron vs insulin glargine) was less than 1·8. The primary endpoint and other safety endpoints were assessed in all participants who took at least one dose of assigned treatment using all datapoints from baseline until withdrawal or study completion, regardless of treatment adherence. This trial was registered on ClinicalTrials.gov (NCT05803421) and is completed. FINDINGS: Between May 1, 2023, and Sept 5, 2024, 2749 participants were randomly assigned (1371 to orforglipron and 1378 to insulin glargine). 1032 (38%) participants were female and 1717 (62·5%) male. 2362 (85·9%) participants had established cardiovascular disease and 1033 (37·6%) had chronic kidney disease. Mean baseline age, HbA1c, and BMI were 63·1 years (SD 9·9), 8·2% (1·0), and 33 kg/m2 (6·2), respectively. Over a median follow-up of 2 years, the primary outcome occurred in 57 (4·2%) of 1358 orforglipron participants and 67 (5·0%) of 1343 insulin glargine participants, showing non-inferiority to insulin glargine for MACE-4 (HR 0·84; 95% CI 0·59-1·20; p<0·0001 for non-inferiority). Gastrointestinal adverse events were reported in 851 (62·1%) of 1371 orforglipron participants and 193 (14·2%) of 1355 insulin glargine participants; clinically significant or severe hypoglycaemia (glucose <3 mmol/L [54 mg/dL]) occurred in 93 (6·8%) of 1371 orforglipron participants and 260 (19·2%) of 1355 insulin glargine participants. 62 deaths were reported during the study: 19 (1·4%) of 1371 participants receiving orforglipron and 43 (3·2%) of 1355 participants receiving insulin glargine; all deaths except one (in the insulin glargine group) were deemed unrelated to treatment. INTERPRETATION: In people with type 2 diabetes at increased cardiovascular risk, the cardiovascular safety of orforglipron was confirmed by demonstrating non-inferiority to insulin glargine for MACE-4. Gastrointestinal adverse events were the most frequent adverse event and most common reason for orforglipron treatment discontinuation with orforglipron, while clinically significant hypoglycaemia occurred less frequently with orforglipron than with insulin glargine. These findings support orforglipron as a potential once-daily, oral treatment option with established cardiovascular safety in people with type 2 diabetes and increased cardiovascular risk. FUNDING: Eli Lilly and Company.",
+          "keyFindings": "In people with type 2 diabetes at increased cardiovascular risk, the cardiovascular safety of orforglipron was confirmed by demonstrating non-inferiority to insulin glargine for MACE-4. Gastrointestinal adverse events were the most frequent adverse event and most common reason for orforglipron treatment discontinuation with orforglipron, while clinically significant hypoglycaemia occurred less frequently with orforglipron than with insulin glargine. These findings support orforglipron as a poten",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en The Lancet con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+          }
+        }
+      ]
+    },
+    {
+      "id": "trasplante",
+      "name": "Trasplante Renal",
+      "color": "#00695C",
+      "articles": [
+        {
+          "id": "trasplante-42696417",
+          "title": "Crescents in native kidney biopsies from patients with IgA nephropathy and the risk of recurrence after kidney transplantation: a retrospective cohort study, systematic literature review and meta-analysis of observational studies",
+          "journal": "Journal of Nephrology",
+          "authors": "Guzzo G, Al-Gobari M, Jaques C, Teta D, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajag169",
+          "url": "https://doi.org/10.1093/joneph/aajag169",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "BACKGROUND: IgA nephropathy (IgAN) is associated with a high risk of kidney failure. Whenever this occurs, the best treatment option is kidney transplantation. IgAN recurrence in the kidney allograft may increase the risk of allograft loss. The association of glomerular crescents in native IgAN is a negative prognostic factor for the progression to kidney failure. The aim of our study was to clarify whether the presence of crescents in native kidney biopsies represents a risk factor for IgAN recurrence in renal allografts. METHODS: The association between glomerular crescents in native kidney biopsies and IgAN recurrence was investigated in IgAN patients who underwent kidney transplantation at Lausanne University Hospital from 2003 to 2019. A systematic literature review was performed in MEDLINE, Embase, Cochrane CENTRAL, Web of Science and PMC from inception to November 2025, excluding reviews. Aggregate data were analyzed in a meta-analysis. The overall Risk Ratio (RR) with their corresponding 95% confidence interval (95% CI) was obtained via the Hartung-Knapp-Sidik-Jonkman adjustment method, after verifying heterogeneity (I2). Reporting bias was visualized in a funnel plot using STATA. RESULTS: The Lausanne cohort included 63 patients with IgAN who underwent kidney transplantation. We found no association between glomerular crescents in native kidney biopsies and IgA recurrence in the renal allograft. Five additional cohorts were included in our meta-analysis, ultimately merging data from 311 patients, of whom 23% with recurrent IgAN. Crescent prevalence ranged from 12 to 62%, confirming the absence of association with an increased risk of IgAN recurrence [RR 1.53 (95% CI: 0.40-5.90), P = .41]. CONCLUSIONS: Glomerular crescents, especially when present in more than 25% of viable glomeruli, remain an unfavorable prognostic factor for the progression of IgAN to kidney failure; however, they may not represent a risk factor for disease recurrence in renal allografts.",
+          "keyFindings": "Glomerular crescents, especially when present in more than 25% of viable glomeruli, remain an unfavorable prognostic factor for the progression of IgAN to kidney failure; however, they may not represent a risk factor for disease recurrence in renal allografts.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 75,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Journal of Nephrology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dialisis",
+      "name": "Terapia Renal Sustitutiva",
+      "color": "#0277BD",
+      "articles": [
+        {
+          "id": "dialisis-42634183",
+          "title": "Exploring the association between perceived control, psychological flexibility, and hope among hemodialysis patients: a cross-sectional observational study",
+          "journal": "Journal of Nephrology",
+          "authors": "Zhang Y, Yan Y, Yang S, Wang C, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajag123",
+          "url": "https://doi.org/10.1093/joneph/aajag123",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Psychological resilience is critical for hemodialysis patients, although the associations among perceived control, psychological flexibility, and hope remain insufficiently understood. This study examined the relationships among these variables within a unified analytical framework. METHODS: Data were collected on 417 hemodialysis patients. This study employed a cross-sectional design and was conducted between January 2023 and May 2024 across four hospitals in China. Patients receiving maintenance hemodialysis were purposively sampled. Participants were included if they met the following criteria: (1) were diagnosed with kidney failure in accordance with the Kidney Disease Outcomes Quality Initiative (KDOQI) guidelines; (2) were 18 years of age or older; (3) had been receiving maintenance hemodialysis for at least three months, with regular sessions two to three times per week; (4) were clinically stable, without serious or acute complications; and (5) demonstrated adequate cognitive function and communication skills to understand the study and independently complete the questionnaire. Exclusion criteria included: (1) hemodialysis duration of less than three months; (2) presence of acute infection; (3) acute heart failure; or (4) being in the acute phase of a cerebrovascular event. Hope was assessed using the Herth Hope Index (HHI), developed by Kathryn Herth in 1991 to measure an individuals' positive outlook and sense of hope for the future. Perceived control was measured using selected subscales from the Revised Illness Perception Questionnaire (IPQ-R). Psychological flexibility was evaluated using the Acceptance and Action Questionnaire-II (AAQ-II). Linear regression analyses were conducted to examine associations among variables, and structural equation modeling was used to evaluate model-consistent relationships. RESULTS: Hope was associated with psychological flexibility scores and perceived control scores, indicating that higher levels of hope were related to greater psychological flexibility and perceived control. Psychological flexibility scores were positively associated with perceived control scores. Regression analyses showed that perceived control subdimensions (including consequence awareness, personal control, and treatment control) were associated with hope, with some associations remaining significant after adjustment for psychological flexibility. Structural equation modeling indicated that the observed associations among perceived control, psychological flexibility, and hope were consistent with the proposed model. CONCLUSIONS: The findings demonstrate close associations among perceived control, psychological flexibility, and hope in hemodialysis patients, consistent with the Stress and Coping Theory framework. The results may inform psychological support strategies.",
+          "keyFindings": "The findings demonstrate close associations among perceived control, psychological flexibility, and hope in hemodialysis patients, consistent with the Stress and Coping Theory framework. The results may inform psychological support strategies.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 30,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nefro-genetica",
+      "name": "Nefropatías Hereditarias y Genéticas",
+      "color": "#37474F",
+      "articles": [
+        {
+          "id": "nefro-genetica-42610367",
+          "title": "Prevalence of Fabry disease GLA variants among patients with parapelvic cysts: a Multicenter Italian Cohort Study",
+          "journal": "Journal of Nephrology",
+          "authors": "Capuano I, Riccio E, Di Risi T, Buonanno P, et al.",
+          "year": 2026,
+          "doi": "10.1093/joneph/aajag122",
+          "url": "https://doi.org/10.1093/joneph/aajag122",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "BACKGROUND: Fabry disease is a rare X-linked disorder characterized by the accumulation of sphingolipids in various vital systems, leading to multiple organ damage. As previous data showed the association between Fabry disease and parapelvic cysts, the aim of our work was to evaluate the prevalence of GLA variants in patients with parapelvic cysts. METHODS: From November 2022 to September 2024, we conducted a multicenter cohort study on patients referred to 15 Italian Nephrology Units. The prevalence of GLA variants among patients with parapelvic cysts was compared to the prevalence of Fabry disease in newborns and in chronic kidney disease (CKD )patients. RESULTS: Among 306 enrolled patients with parapelvic cysts, we identified seven different variants in the GLA gene in eight patients (4 females, 4 males) (1.3%, 1.3%, respectively): three patients with two different pathogenic variants (2 males, 1 female) (0.65%, 0.32%, respectively), two patients with variants of uncertain significance (VUS) (2 males) (0.65%) and three with benign variants (3 females) (0.98%). The overall prevalence of GLA variants in our population was 2.6%, which is 11-fold higher than in CKD patients not on dialysis (ND) (0.24%), and this difference resulted statistically significant (P <.0001; 11.07, 95%CI: 4.89; 25.06). Our results showed a prevalence of GLA variants 200 times higher compared to Italian newborn screening programs. CONCLUSION: Our study is the first to analyze the prevalence of GLA variants in patients with parapelvic cysts, showing results that are significantly higher compared to CKD-ND patients and the general population. Parapelvic cyst identification, even before clinical manifestations, is crucial for early Fabry disease diagnosis and treatment.",
+          "keyFindings": "(VUS) (2 males) (0.65%) and three with benign variants (3 females) (0.98%). The overall prevalence of GLA variants in our population was 2.6%, which is 11-fold higher than in CKD patients not on dialysis (ND) (0.24%), and this difference resulted statistically significant (P <.0001; 11.07, 95%CI: 4.89; 25.06). Our results showed a prevalence of GLA variants 200 times higher compared to Italian newborn screening programs.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 30,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        }
+      ]
+    }
+  ]
+}
