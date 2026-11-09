@@ -1,9 +1,9 @@
 {
-  "week": "2026-W44",
-  "weekLabel": "2 – 8 de noviembre, 2026",
-  "lastUpdated": "2026-11-02T16:55:19Z",
+  "week": "2026-W45",
+  "weekLabel": "9 – 15 de noviembre, 2026",
+  "lastUpdated": "2026-11-09T17:17:48Z",
   "stats": {
-    "total": 21,
+    "total": 18,
     "metaAnalysis": 2,
     "systematicReview": 2,
     "rct": 6
@@ -91,6 +91,25 @@
           }
         },
         {
+          "id": "erca-42012898",
+          "title": "eGFR Discordance and Its Association with Outcomes After Allogeneic Hematopoietic Stem Cell Transplantation and Adoptive T-Cell Therapies",
+          "journal": "Journal of the American Society of Nephrology",
+          "authors": "Chewcharat A, Anumolu R, Suresh A, Yamada KS, et al.",
+          "year": 2026,
+          "doi": "10.1681/ASN.0000001119",
+          "url": "https://doi.org/10.1681/ASN.0000001119",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "KEY POINTS: eGFR discordance was associated with higher risk of AKI in allogeneic hematopoietic stem cell transplantation and adoptive T-cell therapies. Among hematopoietic stem cell transplantation recipients, eGFR discordance was associated with slower time-to-platelet engraftment. Among adoptive T-cell recipients, eGFR discordance was associated with prolonged cytopenia. BACKGROUND: Discordance between eGFR on the basis of serum creatinine (eGFR cr ) versus cystatin C (eGFR cys ) is associated with adverse outcomes in patients with and without cancer. We hypothesized that eGFR discordance is associated with AKI and death after hematopoietic stem cell transplantation (HSCT) or receipt of adoptive T-cell therapies. METHODS: We conducted a multicenter study of adults receiving allogeneic HSCT and adoptive T-cell therapies who had paired serum creatinine and cystatin C values obtained in the 30 days preceding conditioning or lymphodepleting chemotherapy. The primary exposure was eGFR discordance, defined as eGFR cys ≥30% lower than eGFR cr . The primary outcome was a composite outcome of AKI (≥50% increase in serum creatinine or receipt of KRT) or death within 90 days after HSCT or adoptive T-cell infusion. Secondary outcomes included time-to-platelet engraftment in HSCT and prolonged cytopenia in adoptive T-cell recipients. We used multivariable logistic regression and cause-specific Cox regression with inverse probability weighting to adjust for confounders. RESULTS: Of 274 patients receiving HSCT (median age, 65 years; interquartile range, 52-71; 43% female), 86 (31%) had an eGFR discordance. Among 236 adoptive T-cell recipients (median age, 67 years; interquartile range, 60-74; 59% female), 78 (33%) had a discordance in eGFR. eGFR discordance was associated with higher odds of AKI or death in HSCT (odds ratio, 1.75; 95% confidence interval, 1.03 to 3.02) and adoptive T-cell recipients (odds ratio, 2.37; 95% confidence interval, 1.12 to 4.94). However, adjustment for eGFR cr-cys attenuated these associations in both cohorts. eGFR discordance was also associated with slower time-to-platelet engraftment in HSCT recipients and prolonged cytopenia after adoptive T-cell therapy. CONCLUSIONS: A pretreatment eGFR discordance was associated with AKI or death in HSCT and adoptive T-cell recipients; however, this association was attenuated after adjusting for eGFR cr-cys .",
+          "keyFindings": "A pretreatment eGFR discordance was associated with AKI or death in HSCT and adoptive T-cell recipients; however, this association was attenuated after adjusting for eGFR cr-cys .",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
           "id": "erca-42471177",
           "title": "Lived Experiences of Home-Based Conservative Kidney Management in Older Adults: A Qualitative Study",
           "journal": "American Journal of Kidney Diseases",
@@ -127,44 +146,6 @@
             "label": "Baja",
             "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
           }
-        },
-        {
-          "id": "erca-42549920",
-          "title": "Are children with isolated renal ectopia at increased risk of hypertension? Evidence from an observational study",
-          "journal": "Journal of Nephrology",
-          "authors": "Sahin G, Cagli Piskin C, Orhan Ok Z, Sasmaz Nurdag N, et al.",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag124",
-          "url": "https://doi.org/10.1093/joneph/aajag124",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: This study aimed to evaluate blood pressure profiles in children with isolated renal ectopia by using ambulatory blood pressure monitoring (ABPM) to determine the prevalence and patterns of hypertension, and to explore the relationships between ectopy subtype and kidney function. METHODS: Clinical and ABPM data from 24 children with isolated renal ectopia followed between January 2024 and January 2025 at Çukurova University Department of Pediatric Nephrology were evaluated. Type of ectopia, presence of decreased renal parenchymal uptake on dimercaptosuccinic acid (DMSA) scintigraphy, estimated glomerular filtration rate (eGFR) and presence of end organ damage were also assessed. On the day of ABPM, standard deviation scores (SDS) were recorded for anthropometric measurements and office and 24-hour BP values. RESULTS: Of 24 patients (66.7% male), 75% had simple ectopia and 25% had crossed-fused ectopia. Mean age was 11.3 ± 3.7 years. Masked hypertension was identified in 45.8%. eGFR negatively correlated with 24-hour systolic BP SDS (r = -0.456, P = .02), nighttime diastolic BP SDS (r = -0.417, P = .04), and nighttime systolic BP SDS (r = -0.487, P = .01). Decreased parenchymal uptake was present in 50% of patients and was associated with lower height SDS (P = .03), higher nighttime systolic BP SDS (P = .01) and increased frequency of systolic non-dipping (91.7% vs. 45.5%; P = .02). The crossed-fused renal ectopia group had a higher prevalence of vesicoureteral reflux (P = .009) and lower eGFR (P = .01). CONCLUSION: Children with isolated renal ectopia show a high prevalence of ABPM abnormalities, particularly masked hypertension and altered nocturnal blood pressure patterns. Regular monitoring of growth, kidney function, and blood pressure is essential to detect both early and late complications.",
-          "keyFindings": "Children with isolated renal ectopia show a high prevalence of ABPM abnormalities, particularly masked hypertension and altered nocturnal blood pressure patterns. Regular monitoring of growth, kidney function, and blood pressure is essential to detect both early and late complications.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 30,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        },
-        {
-          "id": "erca-42583874",
-          "title": "Association between sarcopenia and inflammation in non-geriatric patients with chronic kidney disease: a comparison of hemodialysis and non-hemodialysis patients",
-          "journal": "Journal of Nephrology",
-          "authors": "Aric M, Meltem E, Adiyaman Z, Alagoz S",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag120",
-          "url": "https://doi.org/10.1093/joneph/aajag120",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Sarcopenia is an increasingly recognized complication of chronic kidney disease (CKD), contributing to impaired physical function and higher mortality. While most evidence derives from elderly populations, its frequency and inflammatory correlates in younger adults remain underexplored. This study aimed to investigate the prevalence of sarcopenia and its association with inflammatory markers in a non-geriatric CKD cohort, including both hemodialysis and non-dialysis patients. METHODS: This cross-sectional observational study included 128 non-geriatric CKD patients (18-65 years), 60 of whom were on maintenance hemodialysis. Sarcopenia was diagnosed according to EWGSOP2 criteria using handgrip strength, bioelectrical impedance analysis, and 4-meter gait-speed testing. Serum interleukin-6 (IL-6) and tumor necrosis factor-alpha (TNF-α) were measured by ELISA, while C-reactive protein (CRP) served as another inflammatory marker. SPSS v27.0 was used for statistical analysis. RESULTS: Sarcopenia was confirmed in 21.9% of the cohort, with a significantly higher prevalence among hemodialysis patients (31.7% vs 13.2%, P < .05). The prevalence of sarcopenia increased progressively with advancing CKD stage in the overall cohort (P < .05). Dialysis status was the most consistent independent predictor of sarcopenia (fully adjusted OR = 8.28, P = .004). IL-6 ≥ 110 ng/L and TNF-α > 150 ng/L were associated with higher sarcopenia prevalence and lower appendicular skeletal muscle mass, respectively (P < .05). CONCLUSION: Sarcopenia is highly prevalent among non-geriatric CKD patients and increases with disease progression. Dialysis remains the strongest independent predictor, while elevated IL-6 and TNF-α levels reflect inflammation-related muscle loss.",
-          "keyFindings": "Sarcopenia is highly prevalent among non-geriatric CKD patients and increases with disease progression. Dialysis remains the strongest independent predictor, while elevated IL-6 and TNF-α levels reflect inflammation-related muscle loss.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 30,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
         }
       ]
     },
@@ -173,6 +154,25 @@
       "name": "Lesión Renal Aguda",
       "color": "#C62828",
       "articles": [
+        {
+          "id": "aki-42201768",
+          "title": "Remote Ischemic Preconditioning for Prevention of Contrast-Associated Acute Kidney Injury following Coronary Angiography or Percutaneous Coronary Intervention",
+          "journal": "Journal of the American Society of Nephrology",
+          "authors": "Rao IR, Paramasivam G, Acharya S, Ravindranath S, et al.",
+          "year": 2026,
+          "doi": "10.1681/ASN.0000001145",
+          "url": "https://doi.org/10.1681/ASN.0000001145",
+          "evidenceLevel": "Meta-análisis",
+          "evidenceRank": 1,
+          "abstract": "KEY POINTS: Remote ischemic preconditioning reduced the risk of contrast-associated AKI in patients undergoing coronary angiography or percutaneous coronary intervention. The benefits of remote ischemic preconditioning were consistent across coronary angiography, percutaneous coronary intervention, diabetes, and CKD subgroups. Remote ischemic preconditioning probably reduced in-hospital major adverse cardiovascular events, although there was no significant impact on 30-day kidney and cardiac outcomes. BACKGROUND: Remote ischemic preconditioning may prevent contrast-associated AKI and have cardioprotective effects in patients undergoing coronary angiographic procedures; however, results have been inconsistent. The aim of this systematic review and meta-analysis was to evaluate whether remote ischemic preconditioning lowers the risk of contrast-associated AKI and improves short-term kidney and cardiac outcomes in patients undergoing coronary angiography or percutaneous coronary intervention (PCI). METHODS: We performed a comprehensive literature search using PubMed, Embase, and the Cochrane Central Register of Controlled Trials from inception through December 6, 2025. Randomized controlled trials (RCTs) comparing remote ischemic preconditioning with either sham remote ischemic preconditioning or usual care for kidney and/or cardiac outcomes in patients undergoing coronary angiography or PCI were included. Two independent reviewers screened studies, extracted data, and assessed risk of bias using the Cochrane Risk of Bias 2.0 tool. Outcomes studied were contrast-associated AKI, need for dialysis, in-hospital mortality, in-hospital major adverse cardiovascular events (MACE), 30-day mortality, 30-day MACE, and major adverse kidney events at 30 days. Data were pooled using a random-effects model and expressed as risk ratios (RR) with 95% confidence intervals (CI). Certainty of evidence was assessed using the Grading of Recommendations Assessment, Development, and Evaluation approach. RESULTS: Of the 5532 records identified, 36 RCTs encompassing 10,923 patients were included in this systematic review. Compared with sham remote ischemic preconditioning or usual care, remote ischemic preconditioning significantly reduced contrast-associated AKI (RR, 0.54; 95% CI, 0.45 to 0.65; 30 RCTs, 5078 participants; high-certainty evidence). Remote ischemic preconditioning probably reduced in-hospital MACE (RR, 0.51; 95% CI, 0.26 to 0.98; four RCTs, 1266 participants; moderate-certainty evidence). There were no differences in the need for dialysis, in-hospital mortality, 30-day mortality, and 30-day MACE. CONCLUSIONS: Remote ischemic preconditioning reduced the risk of contrast-associated AKI and in-hospital MACE in patients undergoing coronary angiography or PCI.",
+          "keyFindings": "Remote ischemic preconditioning reduced the risk of contrast-associated AKI and in-hospital MACE in patients undergoing coronary angiography or PCI.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 87,
+            "label": "Alta",
+            "rationale": "Meta-análisis publicado en Journal of the American Society of Nephrology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+          }
+        },
         {
           "id": "aki-42873070",
           "title": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury",
@@ -219,41 +219,22 @@
       "color": "#6A1B9A",
       "articles": [
         {
-          "id": "glomerulopatias-42584019",
-          "title": "Early exercise therapy for acute nephrotic syndrome: a randomised clinical trial",
-          "journal": "Journal of Nephrology",
-          "authors": "Hirano Y, Fujikura T, Yamaguchi T, Nagashima M, et al.",
+          "id": "glomerulopatias-42912669",
+          "title": "Interim Analysis of a Phase 3 Trial of Povetacicept in IgA Nephropathy",
+          "journal": "New England Journal of Medicine",
+          "authors": "Barratt J, Zhang H, Han SH, Suzuki Y, et al.",
           "year": 2026,
-          "doi": "10.1093/joneph/aajag129",
-          "url": "https://doi.org/10.1093/joneph/aajag129",
+          "doi": "10.1056/NEJMoa2608682",
+          "url": "https://doi.org/10.1056/NEJMoa2608682",
           "evidenceLevel": "Ensayo Clínico Aleatorizado",
           "evidenceRank": 3,
-          "abstract": "BACKGROUND: In adults with acute nephrotic syndrome (NS), physical function often declines; however, limited evidence on the efficacy and safety of exercise therapy leads to its avoidance due to fears of exacerbated proteinuria and renal deterioration. This study aimed to assess whether early exercise therapy enhances physical function without elevating risks of non-remission or worsening kidney function. METHODS: This single-centre randomised controlled trial enrolled hospitalised adults receiving glucocorticoid therapy for NS. Participants were randomised (1:1) to exercise therapy or standard care. The primary outcome was peak oxygen uptake (peak VO2) at baseline and 6 weeks. The secondary outcome was non-remission at 6 weeks (proteinuria ≥0.3 g/day). Analyses used multiple imputation for missing data, analysis of covariance adjusted for baseline, and modified Poisson regression. RESULTS: Twenty-seven participants were recruited (early intervention, n = 13; standard care, n = 14). Peak VO2 increased significantly in the early exercise group (Δ = 3.45 mL/kg/min; 95% confidence interval [CI], 1.22-5.67) but not in the standard care group (Δ = 1.00 mL/kg/min; 95% CI, -1.14 to 3.14). Adjusted between-group difference at 6 weeks was 2.46 mL/kg/min (95% CI, -0.12 to 5.03). Risk ratio for non-remission was 0.673 (95% CI, 0.266-1.703), with no significant intergroup difference. CONCLUSION: Early exercise therapy in acute NS improved exercise tolerance clinically, although the primary outcome between-group difference was not statistically significant. No evidence indicated increased non-remission risk. CLINICAL TRIAL REGISTRATION: This trial was registered with the University Hospital Medical Information Network Clinical Trials Registry (UMIN-CTR) (registration number: UMIN000038250; registration date: October 9, 2019).",
-          "keyFindings": "Early exercise therapy in acute NS improved exercise tolerance clinically, although the primary outcome between-group difference was not statistically significant. No evidence indicated increased non-remission risk. CLINICAL TRIAL",
+          "abstract": "BACKGROUND: B-cell activating factor (BAFF) and a proliferation-inducing ligand (APRIL) have distinct roles in IgA-producing B-cell populations and appear to be central to the pathogenesis of IgA nephropathy. Povetacicept, an enhanced, variant transmembrane activator and calcium-modulator and cyclophilin-ligand interactor (TACI)-Fc fragment fusion therapeutic, is engineered for dual inhibition of BAFF and APRIL. METHODS: In this ongoing, phase 3, double-blind, placebo-controlled trial, participants with biopsy-proven IgA nephropathy receiving stable background therapy were randomly assigned in a 2:1 ratio to receive povetacicept at a dose of 80 mg or placebo subcutaneously every 4 weeks. The primary end point of this prespecified interim analysis was the change in the 24-hour urinary protein-to-creatinine ratio at week 36. Secondary end points were the change at week 36 in galactose-deficient IgA1 levels and hematuria resolution at week 36 among participants with baseline hematuria. RESULTS: A total of 557 participants received povetacicept (372 participants) or placebo (185 participants). Efficacy analyses included the first 199 participants who had undergone randomization (131 in the povetacicept group and 68 in the placebo group). The 24-hour urinary protein-to-creatinine ratio decreased by 52.0% with povetacicept and by 4.3% with placebo by week 36 (adjusted difference, -49.8 percentage points; 95% confidence interval [CI], -58.6 to -39.2; P<0.001). Galactose-deficient IgA1 levels decreased by 77.4% with povetacicept and increased by 9.1% with placebo (adjusted difference, -79.3 percentage points; 95% CI, -82.2 to -75.9; P<0.001). Among the participants with baseline hematuria, resolution occurred in 85% with povetacicept and in 23% with placebo (adjusted difference, 62 percentage points; 95% CI, 45 to 78; P<0.001). The incidence of adverse events (75% with povetacicept and 78% with placebo) and serious adverse events (3% and 4%, respectively) were similar in the trial groups. CONCLUSIONS: Povetacicept led to a significantly greater reduction in the 24-hour urinary protein-to-creatinine ratio than placebo by week 36 in participants with IgA nephropathy. (Funded by Vertex Pharmaceuticals; RAINIER AIS-D08 ClinicalTrials.gov number, NCT06564142.).",
+          "keyFindings": "Povetacicept led to a significantly greater reduction in the 24-hour urinary protein-to-creatinine ratio than placebo by week 36 in participants with IgA nephropathy. (Funded by Vertex Pharmaceuticals; RAINIER AIS-D08 ClinicalTrials.gov number, NCT06564142.).",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 60,
-            "label": "Moderada",
-            "rationale": "RCT en Journal of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "glomerulopatias-42598914",
-          "title": "Anti-PLA2R antibody levels are associated with thromboembolism risk in individuals with membranous nephropathy and hypoalbuminemia",
-          "journal": "Journal of Nephrology",
-          "authors": "Al Jurdi A, El Mouhayyar C, Yatim K, Efe O, et al.",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag121",
-          "url": "https://doi.org/10.1093/joneph/aajag121",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Studies to evaluate markers of thrombotic risk in individuals with high-risk membranous nephropathy (MN) are needed. We hypothesized that high anti-phospholipase A2 receptor (PLA2R) titers at the time of severe hypoalbuminemia, reflecting ongoing immunologic disease activity, may be associated with a higher risk of thrombotic complications. METHODS: We conducted a multicenter retrospective cohort study of individuals with membranous nephropathy and serum albumin <2.5 g/dL and evaluated risk factors for first thrombotic events. RESULTS: Sixty-seven individuals met the inclusion criteria. Median serum creatinine was 1.2 mg/dL (Interquartile range [IQR] 0.9-1.6), median urine protein-to-creatinine ratio (UPCR) was 11.9 g/g (IQR 8.5-16.5), and median nadir serum albumin level was 1.9 g/dL (IQR 1.6-2.2). Twenty-four individuals (36%) received no thromboprophylaxis, 20 (30%) received prophylaxis with only antiplatelets, and 23 (34%) received anticoagulation prophylaxis. Thrombotic events occurred in 11 individuals (16%) with incidence rates of 0.11, 0.10, and 0.02 per person-year in the no prophylaxis, antiplatelet, and anticoagulation groups, respectively. In individuals with anti-PLA2R antibody-positive MN who did not receive anticoagulation thromboprophylaxis, higher anti-PLA2R antibody levels were associated with a higher risk of developing thrombotic complications (adjusted Hazard Ratio [HR] = 1.51 per 10 RU/mL increase in PLA2R, 95% Confidence Interval [CI]: 1.10-2.09, P = .012) after adjusting for serum albumin nadir and age. CONCLUSIONS: Higher anti-PLA2R antibody levels at the time of hypoalbuminemia are associated with a higher risk of thrombotic complications in individuals with anti-PLA2R-positive MN.",
-          "keyFindings": "Higher anti-PLA2R antibody levels at the time of hypoalbuminemia are associated with a higher risk of thrombotic complications in individuals with anti-PLA2R-positive MN.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 30,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
           }
         }
       ]
@@ -263,25 +244,6 @@
       "name": "Trasplante Renal",
       "color": "#00695C",
       "articles": [
-        {
-          "id": "trasplante-42696417",
-          "title": "Crescents in native kidney biopsies from patients with IgA nephropathy and the risk of recurrence after kidney transplantation: a retrospective cohort study, systematic literature review and meta-analysis of observational studies",
-          "journal": "Journal of Nephrology",
-          "authors": "Guzzo G, Al-Gobari M, Jaques C, Teta D, et al.",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag169",
-          "url": "https://doi.org/10.1093/joneph/aajag169",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "BACKGROUND: IgA nephropathy (IgAN) is associated with a high risk of kidney failure. Whenever this occurs, the best treatment option is kidney transplantation. IgAN recurrence in the kidney allograft may increase the risk of allograft loss. The association of glomerular crescents in native IgAN is a negative prognostic factor for the progression to kidney failure. The aim of our study was to clarify whether the presence of crescents in native kidney biopsies represents a risk factor for IgAN recurrence in renal allografts. METHODS: The association between glomerular crescents in native kidney biopsies and IgAN recurrence was investigated in IgAN patients who underwent kidney transplantation at Lausanne University Hospital from 2003 to 2019. A systematic literature review was performed in MEDLINE, Embase, Cochrane CENTRAL, Web of Science and PMC from inception to November 2025, excluding reviews. Aggregate data were analyzed in a meta-analysis. The overall Risk Ratio (RR) with their corresponding 95% confidence interval (95% CI) was obtained via the Hartung-Knapp-Sidik-Jonkman adjustment method, after verifying heterogeneity (I2). Reporting bias was visualized in a funnel plot using STATA. RESULTS: The Lausanne cohort included 63 patients with IgAN who underwent kidney transplantation. We found no association between glomerular crescents in native kidney biopsies and IgA recurrence in the renal allograft. Five additional cohorts were included in our meta-analysis, ultimately merging data from 311 patients, of whom 23% with recurrent IgAN. Crescent prevalence ranged from 12 to 62%, confirming the absence of association with an increased risk of IgAN recurrence [RR 1.53 (95% CI: 0.40-5.90), P = .41]. CONCLUSIONS: Glomerular crescents, especially when present in more than 25% of viable glomeruli, remain an unfavorable prognostic factor for the progression of IgAN to kidney failure; however, they may not represent a risk factor for disease recurrence in renal allografts.",
-          "keyFindings": "Glomerular crescents, especially when present in more than 25% of viable glomeruli, remain an unfavorable prognostic factor for the progression of IgAN to kidney failure; however, they may not represent a risk factor for disease recurrence in renal allografts.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 75,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Journal of Nephrology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
-          }
-        },
         {
           "id": "trasplante-42625257",
           "title": "Urinary Extracellular Vesicles as a Source of Biomarkers for Kidney Allograft Rejection: A Systematic Review",
@@ -332,6 +294,25 @@
           "evidenceRank": 4,
           "abstract": "INTRODUCTION: Microvascular inflammation (MVI) on kidney biopsy is associated with reduced graft survival following kidney transplantation (KT). CD38-targeting regimens, including the monoclonal antibody daratumumab, have recently emerged as a promising therapeutic strategy to counteract MVI and stabilize graft function. METHODS: Here, we retrospectively collected data on eGFR, albuminuria, kidney allograft pathology, donor specific antibodies (DSA) and donor-derived cell-free DNA (dd-cfDNA) levels from 70 KT patients both prior to and after initiation of daratumumab treatment. Safety signals were also documented. RESULTS: The study cohort consisted of 59 patients diagnosed with antibody mediated rejection (AMR) and 11 patients showing DSA- and C4d-negative MVI. Median time between transplantation and diagnosis of MVI was 36 months. Daratumumab treatment was initiated at a median of 1.6 months following diagnosis of MVI. A mixed linear model showed stabilization of eGFR from -1.6 ml/min/1.73m2/month in the year prior to the diagnosis of MVI to +0.3 ml/min/1.73m2/month after starting daratumumab. Six patients lost their graft during follow-up. Median albuminuria and dd-cfDNA levels decreased early during treatment, whereas the effect on DSA was heterogeneous. Both the number of doses and treatment duration had no measurable impact on outcome. CONCLUSIONS: Our preliminary data suggest efficacy of daratumumab in stabilizing kidney function in KT recipients with MVI.",
           "keyFindings": "Our preliminary data suggest efficacy of daratumumab in stabilizing kidney function in KT recipients with MVI.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 34,
+            "label": "Baja",
+            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+          }
+        },
+        {
+          "id": "trasplante-42302101",
+          "title": "Elevations in Donor-Derived Cell-Free DNA and Allograft Outcomes in Kidney Transplantation",
+          "journal": "Journal of the American Society of Nephrology",
+          "authors": "Klein JA, Taber D, Wojciechowski D, Mandelbrot DA, et al.",
+          "year": 2026,
+          "doi": "10.1681/ASN.0000001133",
+          "url": "https://doi.org/10.1681/ASN.0000001133",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "KEY POINTS: We assessed whether an initial donor-derived cell-free DNA elevation during routine surveillance was associated with allograft dysfunction and loss in kidney transplant recipients. Intermediate and high donor-derived cell-free DNA states were independently associated with 3.7-fold and 6.4-fold higher risks of allograft loss, respectively. Persistently low donor-derived cell-free DNA levels were associated with low rates of rejection and allograft loss, identifying a low-risk population. BACKGROUND: Although donor-derived cell-free DNA (dd-cfDNA) correlates with histologic rejection and injury severity, its association with long-term graft outcomes has yet to be well established in kidney transplant recipients. We hypothesize that among patients monitored with dd-cfDNA, an initial elevation may be associated with subsequent allograft dysfunction and loss. METHODS: The Kidney Allograft Outcomes AlloSure Registry is a prospective, multicenter cohort of 1743 adult kidney transplant recipients from 56 US centers; this analysis included 1258 patients who initiated dd-cfDNA surveillance 15-60 days post-transplant with up to 3-year follow-up. A multistate model was applied to characterize transitions from a low dd-cfDNA state (no elevations) to intermediate (0.5%-1.0% with ≥61% relative change value) or high (≥1.0%) dd-cfDNA states, and their unadjusted and covariate-adjusted associations with allograft loss or all-cause death were quantified using hazard regression models. RESULTS: Within 3 years, 36% of patients transitioned to an elevated dd-cfDNA state (intermediate n =216; high n =233). Allograft dysfunction by 36 months occurred significantly more often in patients with dd-cfDNA elevations despite preserved allograft function at the time of elevation (eGFR ≥60 ml/min per 1.73 m 2 in 42% of intermediate and 33% of high), consistent with subclinical injury. Transitions from low to elevated dd-cfDNA states were strongly associated with subsequent allograft loss (adjusted hazard ratios, 3.70 [95% confidence interval [CI], 1.38 to 9.90] for intermediate; 6.36 [95% CI, 2.80 to 14.42] for high), while mortality did not differ by dd-cfDNA state. CONCLUSIONS: Initial dd-cfDNA elevations exceeding established thresholds were independently associated with higher risks of allograft dysfunction and loss across both elevation categories, whereas patients who remained in the low dd-cfDNA state experienced favorable outcomes.",
+          "keyFindings": "Initial dd-cfDNA elevations exceeding established thresholds were independently associated with higher risks of allograft dysfunction and loss across both elevation categories, whereas patients who remained in the low dd-cfDNA state experienced favorable outcomes.",
           "source": "PubMed",
           "clinicalImpact": {
             "score": 34,
@@ -392,58 +373,6 @@
           "source": "PubMed",
           "clinicalImpact": {
             "score": 38,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        }
-      ]
-    },
-    {
-      "id": "dialisis",
-      "name": "Terapia Renal Sustitutiva",
-      "color": "#0277BD",
-      "articles": [
-        {
-          "id": "dialisis-42634183",
-          "title": "Exploring the association between perceived control, psychological flexibility, and hope among hemodialysis patients: a cross-sectional observational study",
-          "journal": "Journal of Nephrology",
-          "authors": "Zhang Y, Yan Y, Yang S, Wang C, et al.",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag123",
-          "url": "https://doi.org/10.1093/joneph/aajag123",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Psychological resilience is critical for hemodialysis patients, although the associations among perceived control, psychological flexibility, and hope remain insufficiently understood. This study examined the relationships among these variables within a unified analytical framework. METHODS: Data were collected on 417 hemodialysis patients. This study employed a cross-sectional design and was conducted between January 2023 and May 2024 across four hospitals in China. Patients receiving maintenance hemodialysis were purposively sampled. Participants were included if they met the following criteria: (1) were diagnosed with kidney failure in accordance with the Kidney Disease Outcomes Quality Initiative (KDOQI) guidelines; (2) were 18 years of age or older; (3) had been receiving maintenance hemodialysis for at least three months, with regular sessions two to three times per week; (4) were clinically stable, without serious or acute complications; and (5) demonstrated adequate cognitive function and communication skills to understand the study and independently complete the questionnaire. Exclusion criteria included: (1) hemodialysis duration of less than three months; (2) presence of acute infection; (3) acute heart failure; or (4) being in the acute phase of a cerebrovascular event. Hope was assessed using the Herth Hope Index (HHI), developed by Kathryn Herth in 1991 to measure an individuals' positive outlook and sense of hope for the future. Perceived control was measured using selected subscales from the Revised Illness Perception Questionnaire (IPQ-R). Psychological flexibility was evaluated using the Acceptance and Action Questionnaire-II (AAQ-II). Linear regression analyses were conducted to examine associations among variables, and structural equation modeling was used to evaluate model-consistent relationships. RESULTS: Hope was associated with psychological flexibility scores and perceived control scores, indicating that higher levels of hope were related to greater psychological flexibility and perceived control. Psychological flexibility scores were positively associated with perceived control scores. Regression analyses showed that perceived control subdimensions (including consequence awareness, personal control, and treatment control) were associated with hope, with some associations remaining significant after adjustment for psychological flexibility. Structural equation modeling indicated that the observed associations among perceived control, psychological flexibility, and hope were consistent with the proposed model. CONCLUSIONS: The findings demonstrate close associations among perceived control, psychological flexibility, and hope in hemodialysis patients, consistent with the Stress and Coping Theory framework. The results may inform psychological support strategies.",
-          "keyFindings": "The findings demonstrate close associations among perceived control, psychological flexibility, and hope in hemodialysis patients, consistent with the Stress and Coping Theory framework. The results may inform psychological support strategies.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 30,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        }
-      ]
-    },
-    {
-      "id": "nefro-genetica",
-      "name": "Nefropatías Hereditarias y Genéticas",
-      "color": "#37474F",
-      "articles": [
-        {
-          "id": "nefro-genetica-42610367",
-          "title": "Prevalence of Fabry disease GLA variants among patients with parapelvic cysts: a Multicenter Italian Cohort Study",
-          "journal": "Journal of Nephrology",
-          "authors": "Capuano I, Riccio E, Di Risi T, Buonanno P, et al.",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag122",
-          "url": "https://doi.org/10.1093/joneph/aajag122",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Fabry disease is a rare X-linked disorder characterized by the accumulation of sphingolipids in various vital systems, leading to multiple organ damage. As previous data showed the association between Fabry disease and parapelvic cysts, the aim of our work was to evaluate the prevalence of GLA variants in patients with parapelvic cysts. METHODS: From November 2022 to September 2024, we conducted a multicenter cohort study on patients referred to 15 Italian Nephrology Units. The prevalence of GLA variants among patients with parapelvic cysts was compared to the prevalence of Fabry disease in newborns and in chronic kidney disease (CKD )patients. RESULTS: Among 306 enrolled patients with parapelvic cysts, we identified seven different variants in the GLA gene in eight patients (4 females, 4 males) (1.3%, 1.3%, respectively): three patients with two different pathogenic variants (2 males, 1 female) (0.65%, 0.32%, respectively), two patients with variants of uncertain significance (VUS) (2 males) (0.65%) and three with benign variants (3 females) (0.98%). The overall prevalence of GLA variants in our population was 2.6%, which is 11-fold higher than in CKD patients not on dialysis (ND) (0.24%), and this difference resulted statistically significant (P <.0001; 11.07, 95%CI: 4.89; 25.06). Our results showed a prevalence of GLA variants 200 times higher compared to Italian newborn screening programs. CONCLUSION: Our study is the first to analyze the prevalence of GLA variants in patients with parapelvic cysts, showing results that are significantly higher compared to CKD-ND patients and the general population. Parapelvic cyst identification, even before clinical manifestations, is crucial for early Fabry disease diagnosis and treatment.",
-          "keyFindings": "(VUS) (2 males) (0.65%) and three with benign variants (3 females) (0.98%). The overall prevalence of GLA variants in our population was 2.6%, which is 11-fold higher than in CKD patients not on dialysis (ND) (0.24%), and this difference resulted statistically significant (P <.0001; 11.07, 95%CI: 4.89; 25.06). Our results showed a prevalence of GLA variants 200 times higher compared to Italian newborn screening programs.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 30,
             "label": "Baja",
             "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
           }
