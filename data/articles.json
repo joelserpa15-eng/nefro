@@ -1,223 +1,38 @@
 {
-  "week": "2026-W45",
-  "weekLabel": "9 – 15 de noviembre, 2026",
-  "lastUpdated": "2026-11-09T17:17:48Z",
+  "week": "2026-W46",
+  "weekLabel": "16 – 22 de noviembre, 2026",
+  "lastUpdated": "2026-11-16T16:52:17Z",
   "stats": {
-    "total": 18,
-    "metaAnalysis": 2,
-    "systematicReview": 2,
-    "rct": 6
+    "total": 3,
+    "metaAnalysis": 0,
+    "systematicReview": 0,
+    "rct": 2
   },
   "subspecialties": [
-    {
-      "id": "erca",
-      "name": "Enfermedad Renal Crónica",
-      "color": "#1565C0",
-      "articles": [
-        {
-          "id": "erca-42544514",
-          "title": "Association of Helicobacter pylori eradication with proteinuria reduction and kidney outcomes: a systematic review and meta-analysis",
-          "journal": "Journal of Nephrology",
-          "authors": "Cai SY, Shi S, Liu HJ, Zheng JX",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag212",
-          "url": "https://doi.org/10.1093/joneph/aajag212",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "BACKGROUND: Helicobacter pylori infection has been implicated in systemic inflammation, but its role in kidney disease remains uncertain. We aimed to evaluate whether H. pylori eradication is associated with improved renal outcomes. METHODS: We systematically reviewed studies of H. pylori eradication in patients with kidney disease or proteinuria. PubMed, Embase, Web of Science, Cochrane Library, and CNKI were searched up to March 2026. The primary outcome was change in proteinuria/albuminuria; secondary outcomes included incident chronic kidney disease (CKD). Random-effects models calculated standardized mean differences (SMDs), odds ratios (ORs), and hazard ratios (HRs) with 95% confidence intervals (CIs). RESULTS: Sixteen studies were included. Thirteen studies provided 14 datasets for proteinuria/albuminuria (one study contributed two comparisons). H. pylori eradication was associated with a significant reduction in proteinuria/albuminuria (SMD -1.14, 95% CI -1.65 to -0.62; P < .001), with substantial heterogeneity (I2 = 91.5%). A numerically larger effect was seen in randomized trials than in non-randomized studies. Observational data indicated that earlier eradication was associated with a lower risk of incident CKD (HR 0.68, 95% CI 0.52-0.88). CONCLUSION: H. pylori eradication is associated with lower proteinuria and may reduce renal risk. H. pylori infection might represent a modifiable factor in proteinuric kidney disease. However, given the heterogeneity and limitations of the evidence, causality remains unproven, and further well-designed randomized trials are required.",
-          "keyFindings": "H. pylori eradication is associated with lower proteinuria and may reduce renal risk. H. pylori infection might represent a modifiable factor in proteinuric kidney disease. However, given the heterogeneity and limitations of the evidence, causality remains unproven, and further well-designed randomized trials are required.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 75,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Journal of Nephrology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
-          }
-        },
-        {
-          "id": "erca-41894225",
-          "title": "Sexual dimorphism and age effects in CKD and type 2 diabetes in the CONFIDENCE trial",
-          "journal": "Nephrology Dialysis Transplantation",
-          "authors": "Agarwal R, Green JB, Heerspink HJL, Mann JFE, et al.",
-          "year": 2026,
-          "doi": "10.1093/ndt/gfag075",
-          "url": "https://doi.org/10.1093/ndt/gfag075",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "INTRODUCTION: Concurrent initiation of finerenone and empagliflozin can lower albuminuria more than component therapies at Day 180 in participants with chronic kidney disease (CKD) and type 2 diabetes (T2D ). We evaluated baseline clinical characteristics and longitudinal changes in urinary albumin-to-creatinine ratio (UACR) across age and sex cohorts. METHODS: In CONFIDENCE (NCT05254002), participants with T2D, CKD (estimated glomerular filtration rate [eGFR] 30-90 ml/min/1.73 m2), and albuminuria (UACR 100 to <5000 mg/g) on stable doses of renin-angiotensin system inhibitors were randomized 1:1:1 to empagliflozin 10 mg/day, finerenone 10 or 20 mg/day, or both. We stratified participants by age quartiles (≤60 years, 61-68 years, 69-74 years , >74 years) and sex. Outcomes included % change in UACR from baseline over time and incidences of key adverse events. RESULTS: Increasing age was associated with higher baseline prevalence of atherosclerotic cardiovascular disease and lower eGFR. Older age was a significant predictor of UACR reduction, with -10.2% (95% CI: -15.5, -4.6) incremental change per 10-year age increase at Day 180 (P for age effect = 0.001). Women exhibited an 18.6% (95% CI: 6.3, 29.2) greater UACR reduction at Day 180 than men (P for sex effect = 0.008). These effects were independent of treatment; there was no interaction between age (P-interaction = 0.28) or sex (P-interaction = 0.46) on combination therapy treatment effect. Safety outcomes were consistent across all demographics. CONCLUSIONS: The UACR-lowering response of finerenone and empagliflozin scaled linearly with age (10% per decade) and sex (∼20% more among women). The benefit of combination therapy was independent of age and sex.",
-          "keyFindings": "The UACR-lowering response of finerenone and empagliflozin scaled linearly with age (10% per decade) and sex (∼20% more among women). The benefit of combination therapy was independent of age and sex.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 60,
-            "label": "Moderada",
-            "rationale": "RCT en Nephrology Dialysis Transplantation — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "erca-41871344",
-          "title": "Acute declines in kidney function with thiazide plus loop diuretics versus loop diuretics alone in acute decompensated heart failure",
-          "journal": "Nephrology Dialysis Transplantation",
-          "authors": "McCallum W, Tighiouart H, Tuttle M, Oka T, et al.",
-          "year": 2026,
-          "doi": "10.1093/ndt/gfag070",
-          "url": "https://doi.org/10.1093/ndt/gfag070",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND AND HYPOTHESIS: The association between acute declines in estimated glomerular filtration rate (eGFR) among individuals admitted for acute decompensated heart failure (ADHF) and cardiovascular outcomes has been inconsistent. Our objective was to examine whether eGFR decline and the timing of these declines are associated with mortality and a composite outcome of mortality or heart failure (HF) hospitalization. METHODS: We used data from the CLOROTIC trial, which randomized patients admitted for ADHF to thiazide versus placebo. We examined % eGFR change at 2 days (n = 225) and at 4 days (n = 218) after randomization. Multivariable Cox models were used to evaluate the association between % eGFR change and a primary outcome of mortality and secondary outcome of composite of mortality or HF hospitalization. RESULTS: Median % eGFR change was -9.7% (IQR -22.1, 5.4) and -14.4% (-25.1, 7.8) in the thiazide arm at 2 and 4 days, respectively, compared to -0.3% (-7.5, 10.1) and 0% (-10.0, 16.2) in the placebo arm at 2 and 4 days, respectively. Over a median 3-month follow-up, of those with 2-day eGFR change available, 41 (18%) patients died and 98 (44%) met the composite outcome, and of those with 4-day eGFR change available, 38 (17.4%) died and 95 (43.6%) met the composite outcome. The eGFR decline at 2 days was not associated with risk of mortality (hazard ratio [HR] = 0.96 [95% CI 0.47, 1.97] and HR = 0.89 [0.37, 2.10] per 30% eGFR decline in the thiazide and placebo arms, respectively). The eGFR decline at 4 days was not associated with risk of mortality in the thiazide arm (HR = 0.86 [0.48, 1.55] per 30% eGFR decline) nor in the placebo (HR = 1.63 [0.82, 3.26] per 30% eGFR decline). Associations were similar for the composite outcome. CONCLUSIONS: Among patients admitted for ADHF and randomized to thiazide versus placebo, early acute declines in eGFR had no association with increased risk of cardiovascular outcomes. REGISTRATION: Clinicaltrials.gov: NCT01647932; EudraCT Number: 2013-001852-36.",
-          "keyFindings": "Among patients admitted for ADHF and randomized to thiazide versus placebo, early acute declines in eGFR had no association with increased risk of cardiovascular outcomes.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 60,
-            "label": "Moderada",
-            "rationale": "RCT en Nephrology Dialysis Transplantation — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "erca-42669568",
-          "title": "Effects of a telehealth-supported home-based exercise program on functional capacity, sarcopenia risk, and patient-reported outcomes in non-dialysis stage 4-5 chronic kidney disease",
-          "journal": "Journal of Nephrology",
-          "authors": "Yıldırım Uz B, Güneş Gencer GY, Bora F",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag172",
-          "url": "https://doi.org/10.1093/joneph/aajag172",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: Evidence on the effects of 12-week telehealth-supported home-based exercise in advanced non-dialysis chronic kidney disease (CKD) remains limited. This study evaluated its effects on functional capacity, sarcopenia risk, and patient-reported outcomes in patients with stage 4-5 CKD. METHODS: In this prospective, parallel-group randomized controlled trial (October 2024-July 2025), 54 non-dialysis patients aged ≥45 years with stage 4-5 CKD were randomized 1:1 to a 12-week telehealth-supported home-based exercise program plus usual nephrology care or usual care alone. Complete-case analyses included 51 participants (exercise group: n = 25 [stage 4, n = 21; stage 5, n = 4]; control group: n = 26 [stage 4, n = 20; stage 5, n = 6]). The primary outcome was change in 6-minute walk test distance. Secondary outcomes included physical performance, sarcopenia risk, fatigue, mood symptoms, sleep quality, and health-related quality of life. RESULTS: Fifty-one participants completed the study (exercise group, n = 25; control group, n = 26). Compared with controls, the exercise group showed a greater improvement in 6-minute walk test distance (+29.41 ± 35.63 m vs -19.27 ± 33.62 m; P < .001), which remained significant after covariate adjustment. Significant improvements were also observed in sarcopenia risk, fatigue, mood symptoms, sleep quality, physical performance, and quality of life. Among intervention participants, 40% used the web-based platform and 60% received video-based support. CONCLUSIONS: A 12-week telehealth-supported home-based exercise program significantly improved functional capacity and multiple patient-reported outcomes in patients with non-dialysis stage 4-5 CKD.",
-          "keyFindings": "A 12-week telehealth-supported home-based exercise program significantly improved functional capacity and multiple patient-reported outcomes in patients with non-dialysis stage 4-5 CKD.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 60,
-            "label": "Moderada",
-            "rationale": "RCT en Journal of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "erca-42012898",
-          "title": "eGFR Discordance and Its Association with Outcomes After Allogeneic Hematopoietic Stem Cell Transplantation and Adoptive T-Cell Therapies",
-          "journal": "Journal of the American Society of Nephrology",
-          "authors": "Chewcharat A, Anumolu R, Suresh A, Yamada KS, et al.",
-          "year": 2026,
-          "doi": "10.1681/ASN.0000001119",
-          "url": "https://doi.org/10.1681/ASN.0000001119",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "KEY POINTS: eGFR discordance was associated with higher risk of AKI in allogeneic hematopoietic stem cell transplantation and adoptive T-cell therapies. Among hematopoietic stem cell transplantation recipients, eGFR discordance was associated with slower time-to-platelet engraftment. Among adoptive T-cell recipients, eGFR discordance was associated with prolonged cytopenia. BACKGROUND: Discordance between eGFR on the basis of serum creatinine (eGFR cr ) versus cystatin C (eGFR cys ) is associated with adverse outcomes in patients with and without cancer. We hypothesized that eGFR discordance is associated with AKI and death after hematopoietic stem cell transplantation (HSCT) or receipt of adoptive T-cell therapies. METHODS: We conducted a multicenter study of adults receiving allogeneic HSCT and adoptive T-cell therapies who had paired serum creatinine and cystatin C values obtained in the 30 days preceding conditioning or lymphodepleting chemotherapy. The primary exposure was eGFR discordance, defined as eGFR cys ≥30% lower than eGFR cr . The primary outcome was a composite outcome of AKI (≥50% increase in serum creatinine or receipt of KRT) or death within 90 days after HSCT or adoptive T-cell infusion. Secondary outcomes included time-to-platelet engraftment in HSCT and prolonged cytopenia in adoptive T-cell recipients. We used multivariable logistic regression and cause-specific Cox regression with inverse probability weighting to adjust for confounders. RESULTS: Of 274 patients receiving HSCT (median age, 65 years; interquartile range, 52-71; 43% female), 86 (31%) had an eGFR discordance. Among 236 adoptive T-cell recipients (median age, 67 years; interquartile range, 60-74; 59% female), 78 (33%) had a discordance in eGFR. eGFR discordance was associated with higher odds of AKI or death in HSCT (odds ratio, 1.75; 95% confidence interval, 1.03 to 3.02) and adoptive T-cell recipients (odds ratio, 2.37; 95% confidence interval, 1.12 to 4.94). However, adjustment for eGFR cr-cys attenuated these associations in both cohorts. eGFR discordance was also associated with slower time-to-platelet engraftment in HSCT recipients and prolonged cytopenia after adoptive T-cell therapy. CONCLUSIONS: A pretreatment eGFR discordance was associated with AKI or death in HSCT and adoptive T-cell recipients; however, this association was attenuated after adjusting for eGFR cr-cys .",
-          "keyFindings": "A pretreatment eGFR discordance was associated with AKI or death in HSCT and adoptive T-cell recipients; however, this association was attenuated after adjusting for eGFR cr-cys .",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 34,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        },
-        {
-          "id": "erca-42471177",
-          "title": "Lived Experiences of Home-Based Conservative Kidney Management in Older Adults: A Qualitative Study",
-          "journal": "American Journal of Kidney Diseases",
-          "authors": "Samyn MC, Caullet T, Dusautois F, Rolland-Guillard L, et al.",
-          "year": 2026,
-          "doi": "10.1053/j.ajkd.2026.05.012",
-          "url": "https://doi.org/10.1053/j.ajkd.2026.05.012",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "RATIONALE & OBJECTIVE: Despite growing interest in conservative kidney management (CKM) for older adults with advanced chronic kidney disease (CKD), little is known about the lived experiences of those involved in CKM care. This study explored the perceptions and experiences of patients, informal caregivers, nephrologists, and health care professionals participating in a coordinated home-based CKM pathway in France. STUDY DESIGN: Multicenter qualitative study using grounded theory. SETTING & PARTICIPANTS: Participants were recruited from a regional, coordinated home-based CKM pathway involving 20 nephrology centers and a multidisciplinary care network across urban and semirural areas in northern France. ANALYTICAL APPROACH: Semistructured interviews explored experiential themes and the perceived value of CKM in 4 stakeholder groups. Analysis used grounded theory with open, axial, and selective coding. RESULTS: Fifty-three participants were interviewed: 12 patients, 12 informal caregivers, 15 nephrologists, and 14 home-care professionals. Three interrelated themes emerged. First, CKM was perceived as a meaningful and legitimate alternative to dialysis, centered on remaining at home, preserving autonomy, and prioritizing quality of life. The decision not to dialyze was usually described as patient-driven and grounded in a rejection of dependence and hospitalization. Second, communication, decision making, and coordination emerged as central but uneven pillars of the pathway. Introducing conservative care and discussing end-of-life preferences remained difficult, and the coordinating nurse consistently appeared as the key structural link between patients, caregivers, nephrologists, and community professionals. Third, informal caregivers occupied a central yet vulnerable position, combining emotional support, practical coordination, and symptom monitoring; although increasingly involved in organizing care, they frequently experienced substantial burden, anticipatory distress, and mutual protective silences within families. LIMITATIONS: Single-region study; limited generalizability; possible selection bias. CONCLUSIONS: CKM involves complex relational, emotional, and practical dynamics. Incorporating the perspectives of various stakeholders may help optimize coordinated, home-based care pathways tailored to older adults with advanced CKD. PLAIN-LANGUAGE SUMMARY: Some people with advanced kidney disease are too frail or simply do not wish to receive dialysis. For them, an alternative exists: conservative kidney management, which focuses on comfort, quality of life, and avoiding hospitalization. In France, a coordinated team of nurses, doctors, and allied health professionals delivers this care in the home. This study explored how patients, their family caregivers, and the health care professionals experience this care. Using in-depth interviews, we found that effective care relies on the services of a specialized coordinating nurse, that family caregivers carry heavy and often invisible responsibilities, and that honest conversations about the end of life are challenging. These insights can inform better home-based care for older adults facing kidney failure worldwide.",
-          "keyFindings": "CKM involves complex relational, emotional, and practical dynamics. Incorporating the perspectives of various stakeholders may help optimize coordinated, home-based care pathways tailored to older adults with advanced CKD. PLAIN-LANGUAGE",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 34,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        },
-        {
-          "id": "erca-42599085",
-          "title": "Optimizing hyperkalemia management in CKD: real-world nephrologist strategies and impact on patient outcomes",
-          "journal": "Journal of Nephrology",
-          "authors": "Marques M, López-Sánchez P, Morales E, Bajo MA, et al.",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag149",
-          "url": "https://doi.org/10.1093/joneph/aajag149",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: Hyperkalemia is a common complication in chronic kidney disease (CKD), requiring management to maintain cardiovascular benefits of renin-angiotensin-aldosterone system and mineralocorticoid receptors (RAASi/MRA) therapy. This study evaluated hyperkalemia management and recurrence in CKD patients. METHODS: A prospective, multicenter observational study was conducted across 15 hospitals, enrolling 429 patients with serum potassium > 5.5 mmol/L. Patients were managed per usual practice, and data on recurrence, RAASi/MRA changes, cardiovascular events, and renal function were collected over 2 years. RESULTS: Cohort (mean age 71.5 years, 71.3% male, 88.6% hypertension, 55.9% diabetes) presented with mild, moderate (19.1%), and severe (3.7%) hyperkalemia. Post-event, dietary modifications increased by 39.9%, bicarbonate use by 7.9%, resin use by 2.6%, patiromer use by 10.9%, and sodium zirconium cyclosilicate (SZC) use by 24.6%. Modifications on RAA Si/MRA therapy were as follows: angiotensin-converting enzyme inhibitors reduced in 12% and suspended in 6.8%; angiotensin II receptor blockers reduced in 5.49% and suspended in 7.32%; and MRA reduced in 12.73% and suspended in 21.82%. Recurrence occurred in 43.8%, with higher rates in patients with baseline estimated glomerular filtration rate <30 ml/min (49.1% vs 38.8%, P = 0.03). Recurrent hyperkalemia was associated with faster eGFR decline (-2.4 ml/min/year, P < 0.001). Kaplan-Meier analysis showed no differences in overall survival between patients with and without recurrence. The study found no significant difference between patiromer/SZC and resins in efficacy (recurrence rates). CONCLUSION: Integrating potassium binders into CKD therapeutic strategies may improve hyperkalemia management and allow sustained RAASi/MRA use. Recurrence remains significant, impacting renal function, although causality is unclear. The mortality difference requires further study.",
-          "keyFindings": "Integrating potassium binders into CKD therapeutic strategies may improve hyperkalemia management and allow sustained RAASi/MRA use. Recurrence remains significant, impacting renal function, although causality is unclear. The mortality difference requires further study.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 30,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        }
-      ]
-    },
-    {
-      "id": "aki",
-      "name": "Lesión Renal Aguda",
-      "color": "#C62828",
-      "articles": [
-        {
-          "id": "aki-42201768",
-          "title": "Remote Ischemic Preconditioning for Prevention of Contrast-Associated Acute Kidney Injury following Coronary Angiography or Percutaneous Coronary Intervention",
-          "journal": "Journal of the American Society of Nephrology",
-          "authors": "Rao IR, Paramasivam G, Acharya S, Ravindranath S, et al.",
-          "year": 2026,
-          "doi": "10.1681/ASN.0000001145",
-          "url": "https://doi.org/10.1681/ASN.0000001145",
-          "evidenceLevel": "Meta-análisis",
-          "evidenceRank": 1,
-          "abstract": "KEY POINTS: Remote ischemic preconditioning reduced the risk of contrast-associated AKI in patients undergoing coronary angiography or percutaneous coronary intervention. The benefits of remote ischemic preconditioning were consistent across coronary angiography, percutaneous coronary intervention, diabetes, and CKD subgroups. Remote ischemic preconditioning probably reduced in-hospital major adverse cardiovascular events, although there was no significant impact on 30-day kidney and cardiac outcomes. BACKGROUND: Remote ischemic preconditioning may prevent contrast-associated AKI and have cardioprotective effects in patients undergoing coronary angiographic procedures; however, results have been inconsistent. The aim of this systematic review and meta-analysis was to evaluate whether remote ischemic preconditioning lowers the risk of contrast-associated AKI and improves short-term kidney and cardiac outcomes in patients undergoing coronary angiography or percutaneous coronary intervention (PCI). METHODS: We performed a comprehensive literature search using PubMed, Embase, and the Cochrane Central Register of Controlled Trials from inception through December 6, 2025. Randomized controlled trials (RCTs) comparing remote ischemic preconditioning with either sham remote ischemic preconditioning or usual care for kidney and/or cardiac outcomes in patients undergoing coronary angiography or PCI were included. Two independent reviewers screened studies, extracted data, and assessed risk of bias using the Cochrane Risk of Bias 2.0 tool. Outcomes studied were contrast-associated AKI, need for dialysis, in-hospital mortality, in-hospital major adverse cardiovascular events (MACE), 30-day mortality, 30-day MACE, and major adverse kidney events at 30 days. Data were pooled using a random-effects model and expressed as risk ratios (RR) with 95% confidence intervals (CI). Certainty of evidence was assessed using the Grading of Recommendations Assessment, Development, and Evaluation approach. RESULTS: Of the 5532 records identified, 36 RCTs encompassing 10,923 patients were included in this systematic review. Compared with sham remote ischemic preconditioning or usual care, remote ischemic preconditioning significantly reduced contrast-associated AKI (RR, 0.54; 95% CI, 0.45 to 0.65; 30 RCTs, 5078 participants; high-certainty evidence). Remote ischemic preconditioning probably reduced in-hospital MACE (RR, 0.51; 95% CI, 0.26 to 0.98; four RCTs, 1266 participants; moderate-certainty evidence). There were no differences in the need for dialysis, in-hospital mortality, 30-day mortality, and 30-day MACE. CONCLUSIONS: Remote ischemic preconditioning reduced the risk of contrast-associated AKI and in-hospital MACE in patients undergoing coronary angiography or PCI.",
-          "keyFindings": "Remote ischemic preconditioning reduced the risk of contrast-associated AKI and in-hospital MACE in patients undergoing coronary angiography or PCI.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 87,
-            "label": "Alta",
-            "rationale": "Meta-análisis publicado en Journal of the American Society of Nephrology con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
-          }
-        },
-        {
-          "id": "aki-42873070",
-          "title": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury",
-          "journal": "New England Journal of Medicine",
-          "authors": "Gaudry S, Boubaya M, Louis G, Chaïbi K, et al.",
-          "year": 2026,
-          "doi": "10.1056/NEJMoa2608397",
-          "url": "https://doi.org/10.1056/NEJMoa2608397",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "BACKGROUND: The preferred method of renal-replacement therapy for acute kidney injury in critically ill patients remains uncertain. METHODS: In this multicenter, open-label, noninferiority trial, we randomly assigned critically ill adults with acute kidney injury who had indications for renal-replacement therapy to undergo intermittent hemodialysis or continuous renal-replacement therapy as the initial treatment. The primary outcome was a major adverse kidney event - defined as death, dependence on renal-replacement therapy, or a serum creatinine concentration more than 25% above the baseline value - by day 90. RESULTS: The trial was stopped early after sequential interim analyses showed a sustained signal of higher mortality with intermittent hemodialysis than with continuous renal-replacement therapy. A total of 554 patients underwent randomization, with 272 patients assigned to undergo intermittent hemodialysis and 282 to undergo continuous renal-replacement therapy; 535 patients (260 in the intermittent group and 275 in the continuous group) were included in the intention-to-treat population. A major adverse kidney event occurred by day 90 in 203 patients (78.1%) in the intermittent group and in 197 patients (71.6%) in the continuous group (adjusted absolute risk difference, 6.28 percentage points; 95% confidence interval [CI], -1.22 to 13.79). Death by day 90 occurred in 164 patients (63.1%) and in 147 patients (53.5%), respectively. Kaplan-Meier mortality estimates at day 90 were 63.3% and 53.6% (hazard ratio, 1.30; 95% CI, 1.04 to 1.63). The most common complication potentially related to acute kidney injury or renal-replacement therapy was hypotension, which occurred in 179 patients (68.8%) in the intermittent group and in 183 patients (66.5%) in the continuous group. CONCLUSIONS: Among critically ill patients with acute kidney injury who had indications for renal-replacement therapy, intermittent hemodialysis as the initial treatment approach was not shown to be noninferior to continuous renal-replacement therapy with respect to major adverse kidney events by day 90 and was associated with higher mortality. (Funded by the French Ministry of Health; ICRAKI ClinicalTrials.gov number, NCT06032884.).",
-          "keyFindings": "Among critically ill patients with acute kidney injury who had indications for renal-replacement therapy, intermittent hemodialysis as the initial treatment approach was not shown to be noninferior to continuous renal-replacement therapy with respect to major adverse kidney events by day 90 and was associated with higher mortality. (Funded by the French Ministry of Health; ICRAKI ClinicalTrials.gov number, NCT06032884.).",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 75,
-            "label": "Alta",
-            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
-          }
-        },
-        {
-          "id": "aki-42806496",
-          "title": "Permissive Blood Pressure Targets in Pediatric Critical Care: The PRESSURE Randomized Clinical Trial",
-          "journal": "JAMA",
-          "authors": "Inwald DP, Laing E, Broomhall JM, Viola T, et al.",
-          "year": 2026,
-          "doi": "10.1001/jama.2026.19747",
-          "url": "https://doi.org/10.1001/jama.2026.19747",
-          "evidenceLevel": "Ensayo Clínico Aleatorizado",
-          "evidenceRank": 3,
-          "abstract": "IMPORTANCE: Vasoactive drugs are often given to critically ill children to treat hypotension. However, optimal mean arterial pressure (MAP) targets are unknown. OBJECTIVE: To evaluate whether adopting a permissive MAP target, and thereby potentially reducing exposure to vasoactive drugs, improves outcomes in hypotensive critically ill children. DESIGN, SETTING, AND PARTICIPANTS: This multicenter, unblinded, pragmatic randomized clinical trial was conducted in 23 pediatric intensive care units (PICUs) in 3 countries. Critically ill children receiving invasive ventilation and vasoactive drugs for hypotension were enrolled between November 2021 and May 2026. Follow-up to the 30-day outcome was completed in June 2026. INTERVENTIONS: Patients randomized to the intervention (n = 957) were assigned a permissive MAP target greater than the fifth percentile for age. Patients in the control group (n = 943) received usual care with MAP target set by the attending physician. MAIN OUTCOMES AND MEASURES: The primary outcome was a composite of mortality and duration of invasive ventilation at 30 days. Secondary outcomes included mortality at PICU discharge, time to cessation of invasive ventilation, receipt and duration of kidney replacement therapy in PICU at 30 days, and length of PICU and hospital stay. RESULTS: Of 1900 randomized patients, 910 in the permissive MAP target group and 904 in the usual care group were included for analysis of the primary outcome. Participants had a median (IQR) age of 4 (0-10) years and 44.8% were female; baseline characteristics were similar between the groups. Median (IQR) MAP while receiving vasoactive drugs was 58 (51-63) mm Hg in the permissive MAP target group and 61 (54-67) mm Hg in the usual care group. A permissive MAP target led to a 37.5% reduction in median norepinephrine-equivalent total dose compared with the usual care group. There was no significant difference between the groups in the primary outcome (probabilistic index, 0.52 [95% CI, 0.49-0.54]; P = .23). Six of the 7 secondary outcomes were similar between the groups, except median (IQR) PICU length of stay was significantly shorter in survivors in the permissive MAP target vs usual care group (159 [79-286] vs 166 [92-319] hours); probabilistic index, 0.53 [95% CI, 0.50-0.56]). Receipt of kidney replacement therapy and adverse events did not differ between the groups. CONCLUSIONS AND RELEVANCE: Adopting a permissive MAP target resulted in no significant difference in mortality and duration of invasive ventilation at 30 days compared with usual care. TRIAL REGISTRATION: isrctn.org Identifier: ISRCTN20609635; Swiss National Clinical Trial Portal: SNCTP000006590.",
-          "keyFindings": "CONCLUSIONS AND RELEVANCE: Adopting a permissive MAP target resulted in no significant difference in mortality and duration of invasive ventilation at 30 days compared with usual care.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 83,
-            "label": "Alta",
-            "rationale": "RCT publicado en JAMA con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
-          }
-        }
-      ]
-    },
     {
       "id": "glomerulopatias",
       "name": "Glomerulopatías",
       "color": "#6A1B9A",
       "articles": [
+        {
+          "id": "glomerulopatias-42912700",
+          "title": "Ravulizumab in IgA Nephropathy - Interim Analysis of a Phase 3 Trial",
+          "journal": "New England Journal of Medicine",
+          "authors": "Barratt J, Farag YMK, Rice K, Cammett TJ, et al.",
+          "year": 2026,
+          "doi": "10.1056/NEJMoa2607544",
+          "url": "https://doi.org/10.1056/NEJMoa2607544",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: In patients with IgA nephropathy, complement activation drives glomerular inflammation, which leads to hematuria, proteinuria, and nephron loss. Ravulizumab is a terminal complement inhibitor that prevents formation of C5a and C5b-9. METHODS: In this phase 3 trial, we enrolled adults with IgA nephropathy who had an estimated glomerular filtration rate of at least 30 ml per minute per 1.73 m2 of body-surface area and proteinuria (24-hour urinary protein-to-creatinine ratio [with protein and creatinine both measured in grams] of ≥0.75 or total urinary protein excretion of ≥1.0 g per day), despite standard therapy. Patients were randomly assigned in a 1:1 ratio to receive an intravenous infusion of either ravulizumab or placebo every 8 weeks. In the prespecified interim analysis, the primary efficacy end point was the change from baseline in the 24-hour urinary protein-to-creatinine ratio at week 34. Safety was also assessed. RESULTS: In all, 485 patients underwent randomization, with 240 patients assigned to the ravulizumab group and 245 to the placebo group; 352 patients (176 in each group) were included in the interim analysis. In the ravulizumab group, the geometric mean 24-hour urinary protein-to-creatinine ratio at baseline and at week 34 was 1.56 and 0.83, respectively; in the placebo group, it was 1.60 and 1.48, respectively. At week 34, a significant reduction in the geometric mean 24-hour urinary protein-to-creatinine ratio was observed with ravulizumab (-46.6%) as compared with the reduction observed with placebo (-5.6%), corresponding to an adjusted geometric mean 24-hour urinary protein-to-creatinine ratio that was 43.4% (99% confidence interval, 30.1 to 54.2) lower with ravulizumab than with placebo (P<0.001). Adverse events occurred in 69.5% of the patients receiving ravulizumab and in 75.8% of those receiving placebo; serious adverse events occurred in 4.6% and 9.0%, respectively. No meningococcal infections or deaths occurred. CONCLUSIONS: In adults with IgA nephropathy, ravulizumab resulted in a significantly greater reduction in the protein-to-creatinine ratio than placebo at week 34. (Funded by Alexion, AstraZeneca Rare Disease Unit; I CAN ClinicalTrials.gov number, NCT06291376; EU Clinical Trials number, 2023-507851-31-00.).",
+          "keyFindings": "In adults with IgA nephropathy, ravulizumab resulted in a significantly greater reduction in the protein-to-creatinine ratio than placebo at week 34. (Funded by Alexion, AstraZeneca Rare Disease Unit; I CAN ClinicalTrials.gov number, NCT06291376; EU Clinical Trials number, 2023-507851-31-00.).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+          }
+        },
         {
           "id": "glomerulopatias-42912669",
           "title": "Interim Analysis of a Phase 3 Trial of Povetacicept in IgA Nephropathy",
@@ -245,136 +60,22 @@
       "color": "#00695C",
       "articles": [
         {
-          "id": "trasplante-42625257",
-          "title": "Urinary Extracellular Vesicles as a Source of Biomarkers for Kidney Allograft Rejection: A Systematic Review",
-          "journal": "Transplantation",
-          "authors": "Ambarsari CG, David NI, Kim DH, Piccinini AM, et al.",
+          "id": "trasplante-42862588",
+          "title": "Development and Validation of an Adult Medical Urgency Score for US Donor Heart Allocation",
+          "journal": "JAMA",
+          "authors": "Lyden GR, White M, Ahn DJ, Menteer J, et al.",
           "year": 2026,
-          "doi": "10.1097/TP.0000000000005880",
-          "url": "https://doi.org/10.1097/TP.0000000000005880",
-          "evidenceLevel": "Revisión Sistemática",
-          "evidenceRank": 2,
-          "abstract": "BACKGROUND: Kidney transplant rejection remains a leading cause of graft loss, and diagnosis still depends largely on invasive biopsies. Urinary extracellular vesicles (uEVs) offer a potential noninvasive alternative for detecting allograft rejection through molecular profiling of vesicle cargo. METHODS: We conducted a systematic search of major databases for studies published up to November 2025 evaluating uEV biomarkers for kidney transplant rejection. We extracted data on analytical methods and diagnostic performance and assessed clinical applicability. Quality assessment was performed using QUADAS-2. RESULTS: Sixteen studies met the inclusion criteria. Studies employed diverse uEV isolation methods: ultracentrifugation (n = 7), commercial kits (n = 7), size exclusion chromatography (n = 1), and direct-analysis flow cytometry-based approach (n = 1). Analytical platforms included proteomics (n = 9), transcriptomics (n = 6), and genomics (n = 1). Only 1 study examined pediatric recipients. QUADAS-2 assessment revealed generally low risk of bias, though concerns regarding blinding and threshold prespecification were noted in 13 studies. Identified biomarkers predominantly reflected immune activation pathways, including interferon/JAK-STAT signaling, chemokine/CXCR3 axis, antigen presentation, TLR/inflammasome activation, and complement cascade components. Several studies achieved an area under the curve >0.75 in externally validated cohorts, with high negative predictive values (>90%) and positive predictive values of 38%-63%. Key limitations included small sample sizes, cross-sectional designs, nonstandardized protocols, and a lack of normalization. uEVs harbor molecular signatures that could complement current diagnostic approaches for kidney transplant rejection. Biomarkers predominantly reflect coordinated immune activation integrated with metabolic and tissue-specific adaptations. However, clinical translation requires standardized isolation protocols, multicenter validation studies, and expanded pediatric research. TRIAL REGISTRATION: PROSPERO 2025 CRD420251138942. https://www.crd.york.ac.uk/PROSPERO/view/CRD420251138942.",
-          "keyFindings": "https://www.crd.york.ac.uk/PROSPERO/view/CRD420251138942.",
+          "doi": "10.1001/jama.2026.17403",
+          "url": "https://doi.org/10.1001/jama.2026.17403",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "IMPORTANCE: One in 5 heart transplant candidates in the US die or are delisted without transplant. Donor hearts are currently allocated by a 6-status therapy-based system criticized for limited risk stratification and susceptibility to gaming. OBJECTIVE: To develop a new heart allocation policy based on an objective medical urgency score that ranks candidates based on the interaction between physiology and mechanical circulatory support. DESIGN, SETTING, AND PARTICIPANTS: Registry-based observational study using data from the US organ transplant system. All adult (aged ≥18 years) heart transplant candidates from January 2019 to August 2025 were included, split into training (2019-2023), validation (2023-2024), and test (2024-2025) datasets. MAIN OUTCOMES AND MEASURES: A marginal structural model of 6-week mortality without transplant was estimated (the US Candidate Risk Score [US-CRS]). Eight models were compared in held-out data by weighted time-dependent area under the curve (AUC) and calibration by status. Finally, US-CRS was converted into an allocation policy and a match-run simulation of waitlist reordering was performed compared with the current 6-status system. RESULTS: Adult heart transplant candidates were partitioned into consecutive training (n = 21 859), validation (n = 7897), and test (n = 8256) datasets (mean [SD] age, 53 [13] years; 74% male). The chosen US-CRS model included 5 laboratory values and 4 therapeutic devices (durable left ventricular assist device, intra-aortic balloon pump, microaxial flow pump, and advanced mechanical circulatory support). In test-set cross-sections of candidates actively waiting on the same calendar date, US-CRS had similar or significantly higher time-dependent AUC than the current 6-status system (mean AUC, 0.807 vs 0.693, respectively) and acceptable calibration by status, especially for candidates who received their status by exception. In match-run analysis (n = 45 530 donor hearts), a US-CRS-based system led to 67% of transplant recipients moving down in rank order and increased observed 6-week transplant-censored mortality for the first candidate on the match run from 11.2% (95% CI, 10.1%-12.5%) under the current system to 15.7% (95% CI, 13.9%-17.6%) under the US-CRS-based system. CONCLUSIONS AND RELEVANCE: In this registry-based study of US heart transplant candidates, a US-CRS-based allocation system prioritized sicker candidates with higher mortality without transplant compared with the current medical urgency statuses.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: In this registry-based study of US heart transplant candidates, a US-CRS-based allocation system prioritized sicker candidates with higher mortality without transplant compared with the current medical urgency statuses.",
           "source": "PubMed",
           "clinicalImpact": {
-            "score": 55,
+            "score": 45,
             "label": "Moderada",
-            "rationale": "Revisión sistemática en Transplantation — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "trasplante-42839871",
-          "title": "Post-transplant follow-up for kidney transplant recipients: a systematic review of clinical practice guidelines",
-          "journal": "Journal of Nephrology",
-          "authors": "He S, Wei S, Zhou K, Liu J, et al.",
-          "year": 2026,
-          "doi": "10.1093/joneph/aajag145",
-          "url": "https://doi.org/10.1093/joneph/aajag145",
-          "evidenceLevel": "Revisión Sistemática",
-          "evidenceRank": 2,
-          "abstract": "BACKGROUND: Kidney transplantation is the treatment of choice for kidney failure, but long-term allograft survival remains challenging. Post-transplant follow-up is essential for monitoring allograft function and managing complications. Although clinical practice guidelines (CPGs) share broad principles, they differ in surveillance timing, frequency, and content. This review compared CPGs for kidney transplant recipients (KTRs), focusing on methodological quality, evidence base, and recommendations. METHODS: Journal databases, guideline repositories, and professional association websites were searched for CPGs published between January 2009 and October 2025. Methodological quality was assessed using the Appraisal of Guidelines for Research & Evaluation II (AGREE II) instrument. Recommendations on follow-up frequency, monitoring content, and implementation were compared. RESULTS: Seven CPGs were included. All recommended intensive early monitoring followed by progressively less frequent surveillance. Differences were most evident in long-term follow-up intervals, protocol kidney allograft biopsy, immunological monitoring, and implementation tools. Most guidelines scored highly in \"Scope and Purpose\" and \"Clarity of Presentation\" but lower in \"Applicability.\" KDIGO had the highest methodological quality, although its earlier publication may limit incorporation of recent evidence and evolving care models. CONCLUSIONS: Guidelines agree on general principles but differ in operational recommendations because of variations in resources, healthcare systems, methods, and evidence interpretation. Most follow-up frequency recommendations rely on low-quality evidence or expert consensus. Clinicians should follow local guidance, use international guidance such as KDIGO when local guidance is unavailable, and individualize follow-up according to immunological risk, allograft status, comorbidities, adherence, patient preferences, and resources, while future revisions incorporate emerging evidence from pragmatic studies.",
-          "keyFindings": "Guidelines agree on general principles but differ in operational recommendations because of variations in resources, healthcare systems, methods, and evidence interpretation. Most follow-up frequency recommendations rely on low-quality evidence or expert consensus. Clinicians should follow local guidance, use international guidance such as KDIGO when local guidance is unavailable, and individualize follow-up according to immunological risk, allograft status, comorbidities, adherence, patient pre",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 55,
-            "label": "Moderada",
-            "rationale": "Revisión sistemática en Journal of Nephrology — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
-          }
-        },
-        {
-          "id": "trasplante-42492852",
-          "title": "A multicenter registry study of the CD38 antibody daratumumab for the treatment of microvascular inflammation following kidney transplantation",
-          "journal": "Kidney International",
-          "authors": "Drasch T, Mayer KA, Böhmig GA, Akifova A, et al.",
-          "year": 2026,
-          "doi": "10.1016/j.kint.2026.06.033",
-          "url": "https://doi.org/10.1016/j.kint.2026.06.033",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "INTRODUCTION: Microvascular inflammation (MVI) on kidney biopsy is associated with reduced graft survival following kidney transplantation (KT). CD38-targeting regimens, including the monoclonal antibody daratumumab, have recently emerged as a promising therapeutic strategy to counteract MVI and stabilize graft function. METHODS: Here, we retrospectively collected data on eGFR, albuminuria, kidney allograft pathology, donor specific antibodies (DSA) and donor-derived cell-free DNA (dd-cfDNA) levels from 70 KT patients both prior to and after initiation of daratumumab treatment. Safety signals were also documented. RESULTS: The study cohort consisted of 59 patients diagnosed with antibody mediated rejection (AMR) and 11 patients showing DSA- and C4d-negative MVI. Median time between transplantation and diagnosis of MVI was 36 months. Daratumumab treatment was initiated at a median of 1.6 months following diagnosis of MVI. A mixed linear model showed stabilization of eGFR from -1.6 ml/min/1.73m2/month in the year prior to the diagnosis of MVI to +0.3 ml/min/1.73m2/month after starting daratumumab. Six patients lost their graft during follow-up. Median albuminuria and dd-cfDNA levels decreased early during treatment, whereas the effect on DSA was heterogeneous. Both the number of doses and treatment duration had no measurable impact on outcome. CONCLUSIONS: Our preliminary data suggest efficacy of daratumumab in stabilizing kidney function in KT recipients with MVI.",
-          "keyFindings": "Our preliminary data suggest efficacy of daratumumab in stabilizing kidney function in KT recipients with MVI.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 34,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        },
-        {
-          "id": "trasplante-42302101",
-          "title": "Elevations in Donor-Derived Cell-Free DNA and Allograft Outcomes in Kidney Transplantation",
-          "journal": "Journal of the American Society of Nephrology",
-          "authors": "Klein JA, Taber D, Wojciechowski D, Mandelbrot DA, et al.",
-          "year": 2026,
-          "doi": "10.1681/ASN.0000001133",
-          "url": "https://doi.org/10.1681/ASN.0000001133",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "KEY POINTS: We assessed whether an initial donor-derived cell-free DNA elevation during routine surveillance was associated with allograft dysfunction and loss in kidney transplant recipients. Intermediate and high donor-derived cell-free DNA states were independently associated with 3.7-fold and 6.4-fold higher risks of allograft loss, respectively. Persistently low donor-derived cell-free DNA levels were associated with low rates of rejection and allograft loss, identifying a low-risk population. BACKGROUND: Although donor-derived cell-free DNA (dd-cfDNA) correlates with histologic rejection and injury severity, its association with long-term graft outcomes has yet to be well established in kidney transplant recipients. We hypothesize that among patients monitored with dd-cfDNA, an initial elevation may be associated with subsequent allograft dysfunction and loss. METHODS: The Kidney Allograft Outcomes AlloSure Registry is a prospective, multicenter cohort of 1743 adult kidney transplant recipients from 56 US centers; this analysis included 1258 patients who initiated dd-cfDNA surveillance 15-60 days post-transplant with up to 3-year follow-up. A multistate model was applied to characterize transitions from a low dd-cfDNA state (no elevations) to intermediate (0.5%-1.0% with ≥61% relative change value) or high (≥1.0%) dd-cfDNA states, and their unadjusted and covariate-adjusted associations with allograft loss or all-cause death were quantified using hazard regression models. RESULTS: Within 3 years, 36% of patients transitioned to an elevated dd-cfDNA state (intermediate n =216; high n =233). Allograft dysfunction by 36 months occurred significantly more often in patients with dd-cfDNA elevations despite preserved allograft function at the time of elevation (eGFR ≥60 ml/min per 1.73 m 2 in 42% of intermediate and 33% of high), consistent with subclinical injury. Transitions from low to elevated dd-cfDNA states were strongly associated with subsequent allograft loss (adjusted hazard ratios, 3.70 [95% confidence interval [CI], 1.38 to 9.90] for intermediate; 6.36 [95% CI, 2.80 to 14.42] for high), while mortality did not differ by dd-cfDNA state. CONCLUSIONS: Initial dd-cfDNA elevations exceeding established thresholds were independently associated with higher risks of allograft dysfunction and loss across both elevation categories, whereas patients who remained in the low dd-cfDNA state experienced favorable outcomes.",
-          "keyFindings": "Initial dd-cfDNA elevations exceeding established thresholds were independently associated with higher risks of allograft dysfunction and loss across both elevation categories, whereas patients who remained in the low dd-cfDNA state experienced favorable outcomes.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 34,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        },
-        {
-          "id": "trasplante-42637175",
-          "title": "Donor Self-Esteem Before and After Living Kidney Donation",
-          "journal": "American Journal of Kidney Diseases",
-          "authors": "Neumann R, Arnold JB, Boudville N, Cuerden MS, et al.",
-          "year": 2026,
-          "doi": "10.1053/j.ajkd.2026.05.023",
-          "url": "https://doi.org/10.1053/j.ajkd.2026.05.023",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "RATIONALE & OBJECTIVE: Most living kidney donors report normal to high self-esteem before donation. Less is known about the longer-term effects of donation on self-esteem, whether certain predonation characteristics are associated with lower self-esteem after donation, or how changes in self-esteem are associated with changes in symptoms of depression and anxiety. STUDY DESIGN: Prospective cohort study. SETTING & PARTICIPANTS: Living kidney donors (n = 941) were enrolled before donation from 12 Canadian and 5 Australian transplant centers between 2009 and 2014. EXPOSURE: Living kidney donation. OUTCOME: Self-reported self-esteem was measured using the Rosenberg Self-Esteem Scale (RSES) before donation, 3 months after donation, and then annually for 5 years or until the last follow-up visit (possible scores range from 0 to 30, with higher scores indicating higher self-esteem). Donors also completed the Beck Depression and Anxiety Inventories at these time points. ANALYTICAL APPROACH: Linear and modified Poisson regression models were used to examine whether predonation characteristics were associated with lower self-esteem after donation and if changes in self-esteem were associated with changes in symptoms of depression and anxiety. RESULTS: Nearly all donors (98.6%) reported normal to high self-esteem before donating (928 of 941), and only 2% to 4% had low self-esteem in follow-up evaluation (RSES score < 15). On average, the donors had a <1-point decrement in average self-esteem between the predonation and follow-up measurements; although these changes were statistically significant, they were not clinically meaningful (all mean changes < 5). Donors with RSES scores ≤ 20 before donation had an approximate 2-point increase in self-esteem in follow-up (P < 0.001). More symptoms of depression before donation were associated with lower self-esteem scores 3 months after donation (P = 0.006). An increase in self-esteem scores after donation was associated with concurrent reductions in symptoms of depression and anxiety (P < 0.001). LIMITATIONS: We did not examine the association of early recipient allograft failure or death with donor self-esteem. CONCLUSIONS: In this multicenter study of living kidney donors, nearly all donors reported normal to high self-esteem before donation and during 5 years of follow-up evaluation. On average, donors with lower self-esteem before donation had a modest increase in self-esteem after donation. Increases in self-esteem after donation were accompanied by modest reductions in symptoms of depression and anxiety. PLAIN-LANGUAGE SUMMARY: Living kidney donation is considered a safe procedure for carefully selected candidates although donors may experience complex feelings and emotions before and after the donation process. We studied 941 living kidney donors and assessed self-esteem before donation and for 5 years after donation or until the last follow-up visit. Nearly all donors (99%) reported normal to high self-esteem before donating, and fewer than 5% developed low self-esteem after donating. Reassuringly, donors with lower self-esteem before donation had a modest increase in self-esteem on average after donation. An increase in self-esteem after donation was accompanied by reduced symptoms of depression and anxiety.",
-          "keyFindings": "In this multicenter study of living kidney donors, nearly all donors reported normal to high self-esteem before donation and during 5 years of follow-up evaluation. On average, donors with lower self-esteem before donation had a modest increase in self-esteem after donation. Increases in self-esteem after donation were accompanied by modest reductions in symptoms of depression and anxiety. PLAIN-LANGUAGE",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 34,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        },
-        {
-          "id": "trasplante-42487158",
-          "title": "Liver and Kidney Transplantation With Organs From Trypanosoma cruzi -positive Donors: A Valuable Resource That Requires Close Monitoring",
-          "journal": "Transplantation",
-          "authors": "Anders M, Barcán L, Angeramo A, Berisso J, et al.",
-          "year": 2026,
-          "doi": "10.1097/TP.0000000000005843",
-          "url": "https://doi.org/10.1097/TP.0000000000005843",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND: To increase organ availability in areas with low transplant access, the use of deceased donors infected with Trypanosoma cruzi for liver and kidney transplantation has been adopted, balancing the risk of transmission. This Argentinean study aimed to analyze the reactivation rate and safety of this practice. METHODS: This study combined 2 complementary approaches: a cross-sectional analysis of the Argentinean Transplant Registry (2006-2020) and a retrospective multicenter cohort study of solid organ transplant recipients. The cohort study was designed to assess the risk of donor-derived T. cruzi infection in liver and kidney transplant recipients across Argentina. RESULTS: The cross-sectional analysis identified a seroprevalence of 3.52% (528/14 966) among deceased donors. Data were obtained from 129 recipients who received an organ from a T. cruzi -positive donor. With a median follow-up of 3.62 y, and high adherence to surveillance (83%), T. cruzi infection was diagnosed in 22% of recipients, with a median time of 57.5 d posttransplant. Seventy-five percent (n=21/28) of the patients remained asymptomatic. Neither prior T. cruzi seropositivity in the recipient (odds ratio, 0.27; 95% confidence interval, 0.01-4.89; P = 0.200) nor a history of rejection (odds ratio, 0.63; 95% confidence interval, 0.19-2.12; P = 0.452) was significantly associated with Chagas reactivation. Almost all infected patients received benznidazole, and the infection resolved without sequelae in those treated. The treatment was well tolerated. Chagas disease was never identified as the cause of death. CONCLUSIONS: The use of T. cruzi -positive donors for liver and kidney transplantation is safe, but requires careful monitoring, especially during the first year posttransplant.",
-          "keyFindings": "The use of T. cruzi -positive donors for liver and kidney transplantation is safe, but requires careful monitoring, especially during the first year posttransplant.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 30,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
-          }
-        },
-        {
-          "id": "trasplante-41947733",
-          "title": "Torque Teno virus is predictive for malignancies after kidney transplantation",
-          "journal": "Nephrology Dialysis Transplantation",
-          "authors": "Herz CT, Haupenthal F, Herkner F, Doberer K, et al.",
-          "year": 2026,
-          "doi": "10.1093/ndt/gfag078",
-          "url": "https://doi.org/10.1093/ndt/gfag078",
-          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
-          "evidenceRank": 4,
-          "abstract": "BACKGROUND AND HYPOTHESIS: Malignancy, driven by the effects of immunosuppression, is a major complication following kidney transplantation. The widespread and non-pathogenic Torque Teno virus (TTV) has emerged as a surrogate of the immune status of its host, with prior studies linking TTV load to insufficient and excessive immunosuppression and thus indirectly to graft rejection and infection. Its relationship to malignancy in kidney transplant recipients is unknown. METHODS: This prospective observational single center study evaluated 428 patients who underwent kidney transplantation between 2016 and 2019 at the General Hospital of Vienna, Austria. TTV was measured by quantitative polymerase chain reaction in plasma and the primary outcome was the incidence of the first malignancy during years 2-5 post-transplant. RESULTS: In total, 53 patients developed malignancy (53% cutaneous keratinocyte cancer). The mean log10 TTV load during months 4 to 12 post-transplant (logTTVm4-12) was associated with increased malignancy risk with a hazard ratio (HR) of 1.25 [95% confidence interval (CI) 1.02-1.54] in unadjusted analysis and 1.20 (95% CI 0.97-1.48) after adjustment for age, sex, smoking, and body mass index. In a subgroup, the result remained consistent after additional adjustment for tacrolimus and mycophenolate exposure (HR 1.31, 95% CI 1.03-1.67). Patients with logTTVm4-12 >8, a cut-off we previously proposed to indicate infection risk, had an HR of 2.10 (95% CI 1.22-3.60). CONCLUSIONS: These findings suggest that a high TTV load-indicating a state of intense immunosuppression-predicts malignancy after kidney transplantation. Monitoring TTV as a marker of immunosuppression may offer a novel strategy for personalizing immunosuppressive therapy and reducing cancer risk.",
-          "keyFindings": "These findings suggest that a high TTV load-indicating a state of intense immunosuppression-predicts malignancy after kidney transplantation. Monitoring TTV as a marker of immunosuppression may offer a novel strategy for personalizing immunosuppressive therapy and reducing cancer risk.",
-          "source": "PubMed",
-          "clinicalImpact": {
-            "score": 38,
-            "label": "Baja",
-            "rationale": "Estudio de cohorte con evidencia limitada o resultado no concluyente — impacto inmediato en práctica clínica nefrológica reducido."
+            "rationale": "Estudio de cohorte en JAMA — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
           }
         }
       ]

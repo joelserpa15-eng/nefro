@@ -1,0 +1,84 @@
+{
+  "week": "2026-W46",
+  "weekLabel": "16 – 22 de noviembre, 2026",
+  "lastUpdated": "2026-11-16T16:52:17Z",
+  "stats": {
+    "total": 3,
+    "metaAnalysis": 0,
+    "systematicReview": 0,
+    "rct": 2
+  },
+  "subspecialties": [
+    {
+      "id": "glomerulopatias",
+      "name": "Glomerulopatías",
+      "color": "#6A1B9A",
+      "articles": [
+        {
+          "id": "glomerulopatias-42912700",
+          "title": "Ravulizumab in IgA Nephropathy - Interim Analysis of a Phase 3 Trial",
+          "journal": "New England Journal of Medicine",
+          "authors": "Barratt J, Farag YMK, Rice K, Cammett TJ, et al.",
+          "year": 2026,
+          "doi": "10.1056/NEJMoa2607544",
+          "url": "https://doi.org/10.1056/NEJMoa2607544",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: In patients with IgA nephropathy, complement activation drives glomerular inflammation, which leads to hematuria, proteinuria, and nephron loss. Ravulizumab is a terminal complement inhibitor that prevents formation of C5a and C5b-9. METHODS: In this phase 3 trial, we enrolled adults with IgA nephropathy who had an estimated glomerular filtration rate of at least 30 ml per minute per 1.73 m2 of body-surface area and proteinuria (24-hour urinary protein-to-creatinine ratio [with protein and creatinine both measured in grams] of ≥0.75 or total urinary protein excretion of ≥1.0 g per day), despite standard therapy. Patients were randomly assigned in a 1:1 ratio to receive an intravenous infusion of either ravulizumab or placebo every 8 weeks. In the prespecified interim analysis, the primary efficacy end point was the change from baseline in the 24-hour urinary protein-to-creatinine ratio at week 34. Safety was also assessed. RESULTS: In all, 485 patients underwent randomization, with 240 patients assigned to the ravulizumab group and 245 to the placebo group; 352 patients (176 in each group) were included in the interim analysis. In the ravulizumab group, the geometric mean 24-hour urinary protein-to-creatinine ratio at baseline and at week 34 was 1.56 and 0.83, respectively; in the placebo group, it was 1.60 and 1.48, respectively. At week 34, a significant reduction in the geometric mean 24-hour urinary protein-to-creatinine ratio was observed with ravulizumab (-46.6%) as compared with the reduction observed with placebo (-5.6%), corresponding to an adjusted geometric mean 24-hour urinary protein-to-creatinine ratio that was 43.4% (99% confidence interval, 30.1 to 54.2) lower with ravulizumab than with placebo (P<0.001). Adverse events occurred in 69.5% of the patients receiving ravulizumab and in 75.8% of those receiving placebo; serious adverse events occurred in 4.6% and 9.0%, respectively. No meningococcal infections or deaths occurred. CONCLUSIONS: In adults with IgA nephropathy, ravulizumab resulted in a significantly greater reduction in the protein-to-creatinine ratio than placebo at week 34. (Funded by Alexion, AstraZeneca Rare Disease Unit; I CAN ClinicalTrials.gov number, NCT06291376; EU Clinical Trials number, 2023-507851-31-00.).",
+          "keyFindings": "In adults with IgA nephropathy, ravulizumab resulted in a significantly greater reduction in the protein-to-creatinine ratio than placebo at week 34. (Funded by Alexion, AstraZeneca Rare Disease Unit; I CAN ClinicalTrials.gov number, NCT06291376; EU Clinical Trials number, 2023-507851-31-00.).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+          }
+        },
+        {
+          "id": "glomerulopatias-42912669",
+          "title": "Interim Analysis of a Phase 3 Trial of Povetacicept in IgA Nephropathy",
+          "journal": "New England Journal of Medicine",
+          "authors": "Barratt J, Zhang H, Han SH, Suzuki Y, et al.",
+          "year": 2026,
+          "doi": "10.1056/NEJMoa2608682",
+          "url": "https://doi.org/10.1056/NEJMoa2608682",
+          "evidenceLevel": "Ensayo Clínico Aleatorizado",
+          "evidenceRank": 3,
+          "abstract": "BACKGROUND: B-cell activating factor (BAFF) and a proliferation-inducing ligand (APRIL) have distinct roles in IgA-producing B-cell populations and appear to be central to the pathogenesis of IgA nephropathy. Povetacicept, an enhanced, variant transmembrane activator and calcium-modulator and cyclophilin-ligand interactor (TACI)-Fc fragment fusion therapeutic, is engineered for dual inhibition of BAFF and APRIL. METHODS: In this ongoing, phase 3, double-blind, placebo-controlled trial, participants with biopsy-proven IgA nephropathy receiving stable background therapy were randomly assigned in a 2:1 ratio to receive povetacicept at a dose of 80 mg or placebo subcutaneously every 4 weeks. The primary end point of this prespecified interim analysis was the change in the 24-hour urinary protein-to-creatinine ratio at week 36. Secondary end points were the change at week 36 in galactose-deficient IgA1 levels and hematuria resolution at week 36 among participants with baseline hematuria. RESULTS: A total of 557 participants received povetacicept (372 participants) or placebo (185 participants). Efficacy analyses included the first 199 participants who had undergone randomization (131 in the povetacicept group and 68 in the placebo group). The 24-hour urinary protein-to-creatinine ratio decreased by 52.0% with povetacicept and by 4.3% with placebo by week 36 (adjusted difference, -49.8 percentage points; 95% confidence interval [CI], -58.6 to -39.2; P<0.001). Galactose-deficient IgA1 levels decreased by 77.4% with povetacicept and increased by 9.1% with placebo (adjusted difference, -79.3 percentage points; 95% CI, -82.2 to -75.9; P<0.001). Among the participants with baseline hematuria, resolution occurred in 85% with povetacicept and in 23% with placebo (adjusted difference, 62 percentage points; 95% CI, 45 to 78; P<0.001). The incidence of adverse events (75% with povetacicept and 78% with placebo) and serious adverse events (3% and 4%, respectively) were similar in the trial groups. CONCLUSIONS: Povetacicept led to a significantly greater reduction in the 24-hour urinary protein-to-creatinine ratio than placebo by week 36 in participants with IgA nephropathy. (Funded by Vertex Pharmaceuticals; RAINIER AIS-D08 ClinicalTrials.gov number, NCT06564142.).",
+          "keyFindings": "Povetacicept led to a significantly greater reduction in the 24-hour urinary protein-to-creatinine ratio than placebo by week 36 in participants with IgA nephropathy. (Funded by Vertex Pharmaceuticals; RAINIER AIS-D08 ClinicalTrials.gov number, NCT06564142.).",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 83,
+            "label": "Alta",
+            "rationale": "RCT publicado en New England Journal of Medicine con resultado positivo en un escenario clínico común — alta probabilidad de modificar la práctica nefrológica."
+          }
+        }
+      ]
+    },
+    {
+      "id": "trasplante",
+      "name": "Trasplante Renal",
+      "color": "#00695C",
+      "articles": [
+        {
+          "id": "trasplante-42862588",
+          "title": "Development and Validation of an Adult Medical Urgency Score for US Donor Heart Allocation",
+          "journal": "JAMA",
+          "authors": "Lyden GR, White M, Ahn DJ, Menteer J, et al.",
+          "year": 2026,
+          "doi": "10.1001/jama.2026.17403",
+          "url": "https://doi.org/10.1001/jama.2026.17403",
+          "evidenceLevel": "Estudio Multicéntrico / Cohorte",
+          "evidenceRank": 4,
+          "abstract": "IMPORTANCE: One in 5 heart transplant candidates in the US die or are delisted without transplant. Donor hearts are currently allocated by a 6-status therapy-based system criticized for limited risk stratification and susceptibility to gaming. OBJECTIVE: To develop a new heart allocation policy based on an objective medical urgency score that ranks candidates based on the interaction between physiology and mechanical circulatory support. DESIGN, SETTING, AND PARTICIPANTS: Registry-based observational study using data from the US organ transplant system. All adult (aged ≥18 years) heart transplant candidates from January 2019 to August 2025 were included, split into training (2019-2023), validation (2023-2024), and test (2024-2025) datasets. MAIN OUTCOMES AND MEASURES: A marginal structural model of 6-week mortality without transplant was estimated (the US Candidate Risk Score [US-CRS]). Eight models were compared in held-out data by weighted time-dependent area under the curve (AUC) and calibration by status. Finally, US-CRS was converted into an allocation policy and a match-run simulation of waitlist reordering was performed compared with the current 6-status system. RESULTS: Adult heart transplant candidates were partitioned into consecutive training (n = 21 859), validation (n = 7897), and test (n = 8256) datasets (mean [SD] age, 53 [13] years; 74% male). The chosen US-CRS model included 5 laboratory values and 4 therapeutic devices (durable left ventricular assist device, intra-aortic balloon pump, microaxial flow pump, and advanced mechanical circulatory support). In test-set cross-sections of candidates actively waiting on the same calendar date, US-CRS had similar or significantly higher time-dependent AUC than the current 6-status system (mean AUC, 0.807 vs 0.693, respectively) and acceptable calibration by status, especially for candidates who received their status by exception. In match-run analysis (n = 45 530 donor hearts), a US-CRS-based system led to 67% of transplant recipients moving down in rank order and increased observed 6-week transplant-censored mortality for the first candidate on the match run from 11.2% (95% CI, 10.1%-12.5%) under the current system to 15.7% (95% CI, 13.9%-17.6%) under the US-CRS-based system. CONCLUSIONS AND RELEVANCE: In this registry-based study of US heart transplant candidates, a US-CRS-based allocation system prioritized sicker candidates with higher mortality without transplant compared with the current medical urgency statuses.",
+          "keyFindings": "CONCLUSIONS AND RELEVANCE: In this registry-based study of US heart transplant candidates, a US-CRS-based allocation system prioritized sicker candidates with higher mortality without transplant compared with the current medical urgency statuses.",
+          "source": "PubMed",
+          "clinicalImpact": {
+            "score": 45,
+            "label": "Moderada",
+            "rationale": "Estudio de cohorte en JAMA — puede influir en la práctica de centros especializados en nefrología o en actualizaciones de guías a medio plazo."
+          }
+        }
+      ]
+    }
+  ]
+}
